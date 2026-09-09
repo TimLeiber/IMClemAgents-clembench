@@ -48,7 +48,7 @@ Instances of the same models used during benchmarked, but with lowered reasoning
 
 Thus the retained project contains **1180 episode attempts: 1050 original
 episodes + 65 one-shot recoveries + 65 remaining-guesses recoveries**. These are
-not 1,179 distinct locations/tasks or successful games. `SAT Menu` contributes game code and
+not 1180 distinct locations/tasks or successful games. `SAT Menu` contributes game code and
 instances, but no result episodes to these totals.
 
 ## Installation (Python 3.10+)
