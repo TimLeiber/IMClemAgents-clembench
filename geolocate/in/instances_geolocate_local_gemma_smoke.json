@@ -1,0 +1,28 @@
+{
+    "experiments": [
+        {
+            "name": "civic_public",
+            "game_instances": [
+                {
+                    "game_id": 1,
+                    "image_paths": [
+                        "geolocate/resources/images_final/location_003/view_00.jpg",
+                        "geolocate/resources/images_final/location_003/view_01.jpg",
+                        "geolocate/resources/images_final/location_003/view_02.jpg",
+                        "geolocate/resources/images_final/location_003/view_03.jpg"
+                    ],
+                    "target_latitude": 56.965446,
+                    "target_longitude": 23.760673,
+                    "target_country": "Latvia",
+                    "target_country_code": "LV"
+                }
+            ],
+            "lang": "en",
+            "views_per_location": 4,
+            "source": "KartaView",
+            "dataset_id": "final",
+            "experiment_name": "kartaview_evidence_4view",
+            "official_instance_count": 5
+        }
+    ]
+}

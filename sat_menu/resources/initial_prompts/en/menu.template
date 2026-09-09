@@ -1,0 +1,49 @@
+You are repairing a menu for a group of people.
+Your goal is to change the current menu until every participant is satisfied.
+
+Available menu items:
+$MENU_ITEMS$
+
+Each participant is satisfied when at least one listed liked item is ordered or
+at least one listed disliked item is not ordered.
+
+Preferences:
+$PREFERENCES$
+
+Current menu:
+$INITIAL_MENU$
+
+The menu persists between turns. On each turn, add or remove at most
+$MAX_CHANGES_PER_TURN$ menu items in total across both $ADD_LABEL$ and
+$REMOVE_LABEL$. Adding one item counts as one change; removing one item also
+counts as one change. You have $NUM_ATTEMPTS$ turns.
+After an unsuccessful update, you will receive the current menu and a summary
+of which participants are satisfied.
+
+The group grows impatient when the menu is changed repeatedly. When practical,
+settle on a satisfactory menu without unnecessary revisions.
+
+FORMATTING RULES
+Respond with exactly these three labelled lines, replacing the text in angle
+brackets with your update:
+$ADD_LABEL$: <menu items to add, or $NO_CHANGE$>
+$REMOVE_LABEL$: <menu items to remove, or $NO_CHANGE$>
+$EXPLANATION_LABEL$: <one brief sentence explaining why these changes help>
+
+- Keep each label and its value on one line. Do not insert line breaks within
+  any value, including $EXPLANATION_LABEL$.
+- You may change at most $MAX_CHANGES_PER_TURN$ menu items per turn in total.
+- $ADD_LABEL$ and $REMOVE_LABEL$ share this limit; each item listed under
+  either label counts as one change.
+- Therefore, with a limit of 2, you may add two items, remove two items, or
+  add one item and remove one item.
+- You may not add two items and also remove any items, or remove two items
+  and also add any items.
+- $ADD_LABEL$ adds only the listed items to the current menu
+- $REMOVE_LABEL$ removes only the listed items from the current menu
+- List only items to change, not the complete menu
+- Separate multiple items with commas
+- Use $NO_CHANGE$ when no item is added or removed
+- Do not list an item under both $ADD_LABEL$ and $REMOVE_LABEL$
+- The total number of items across $ADD_LABEL$ and $REMOVE_LABEL$ must not
+  exceed $MAX_CHANGES_PER_TURN$

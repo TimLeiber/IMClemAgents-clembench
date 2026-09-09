@@ -1,0 +1,11 @@
+{
+  "game_name": "sat_menu",
+  "description": "Single-player incremental 3-SAT game with direct-CNF and menu-selection renderings.",
+  "main_game": "sat_menu",
+  "players": 1,
+  "image": "none",
+  "languages": ["en"],
+  "benchmark": ["3.0"],
+  "regression": "small",
+  "roles": ["Solver"]
+}

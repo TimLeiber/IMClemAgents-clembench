@@ -1,0 +1,205 @@
+{
+  "dataset_id": "final",
+  "exclusions": [
+    {
+      "photo_id": "490520169",
+      "sequence_id": "1947069",
+      "country": "Netherlands",
+      "scene_category": "roadside_commerce",
+      "kind": "download_or_decode_failure",
+      "reason": "Could not download KartaView image https://storage13.openstreetcam.org/files/photo/2019/8/20/proc/1947069_16_784f7_3.jpg"
+    },
+    {
+      "photo_id": "287550817",
+      "sequence_id": "1267925",
+      "country": "Lithuania",
+      "scene_category": "transport_nodes",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "112206081",
+      "sequence_id": "561093",
+      "country": "Portugal",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "347442395",
+      "sequence_id": "1324381",
+      "country": "Hungary",
+      "scene_category": "transport_nodes",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1358620553",
+      "sequence_id": "3779401",
+      "country": "Italy",
+      "scene_category": "roadside_commerce",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1107663926",
+      "sequence_id": "3078934",
+      "country": "Australia",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1019667638",
+      "sequence_id": "2828778",
+      "country": "Brazil",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "46563223",
+      "sequence_id": "469267",
+      "country": "Sweden",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "221005343",
+      "sequence_id": "1159059",
+      "country": "Kenya",
+      "scene_category": "roadside_commerce",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1248268521",
+      "sequence_id": "3443645",
+      "country": "Japan",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "25887735",
+      "sequence_id": "120276",
+      "country": "Denmark",
+      "scene_category": "transport_nodes",
+      "kind": "manual_review",
+      "reason": "there is a truck with visible signage and a sign in the very first photo. unsure"
+    },
+    {
+      "photo_id": "570684294",
+      "sequence_id": "2066634",
+      "country": "Bulgaria",
+      "scene_category": "transport_nodes",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1039891198",
+      "sequence_id": "2885482",
+      "country": "Norway",
+      "scene_category": "transport_nodes",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "291217303",
+      "sequence_id": "1271331",
+      "country": "Latvia",
+      "scene_category": "roadside_commerce",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "2007428665",
+      "sequence_id": "9147609",
+      "country": "Czechia",
+      "scene_category": "transport_nodes",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1062963090",
+      "sequence_id": "2945714",
+      "country": "Ireland",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1212148489",
+      "sequence_id": "3342757",
+      "country": "Italy",
+      "scene_category": "roadside_commerce",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "2043816169",
+      "sequence_id": "9321689",
+      "country": "Philippines",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "6952339",
+      "sequence_id": "13156",
+      "country": "Austria",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "298678317",
+      "sequence_id": "1277313",
+      "country": "Japan",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1289491997",
+      "sequence_id": "3556317",
+      "country": "Spain",
+      "scene_category": "roadside_commerce",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "421349830",
+      "sequence_id": "1461806",
+      "country": "Australia",
+      "scene_category": "civic_public",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "274195141",
+      "sequence_id": "1258551",
+      "country": "United Kingdom",
+      "scene_category": "transport_nodes",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1289005569",
+      "sequence_id": "3555273",
+      "country": "Spain",
+      "scene_category": "transport_nodes",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    },
+    {
+      "photo_id": "1101701934",
+      "sequence_id": "3062942",
+      "country": "Sweden",
+      "scene_category": "roadside_commerce",
+      "kind": "manual_review",
+      "reason": "Rejected during manual review"
+    }
+  ]
+}

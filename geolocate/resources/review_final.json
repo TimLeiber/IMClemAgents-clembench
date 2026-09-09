@@ -1,0 +1,247 @@
+{
+  "dataset_id": "final",
+  "review_status": "pending",
+  "instructions": "Keep only sequences with useful but non-trivial visual evidence. Reject landmarks, telemetry leakage, unreadable scenes, and clue-free roads.",
+  "locations": [
+    {
+      "location_id": "location_001",
+      "source_photo_id": "290728961",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Portugal"
+    },
+    {
+      "location_id": "location_002",
+      "source_photo_id": "1158744362",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Brazil"
+    },
+    {
+      "location_id": "location_003",
+      "source_photo_id": "1573326937",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Latvia"
+    },
+    {
+      "location_id": "location_004",
+      "source_photo_id": "2578276569",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Philippines"
+    },
+    {
+      "location_id": "location_005",
+      "source_photo_id": "290627357",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Portugal"
+    },
+    {
+      "location_id": "location_006",
+      "source_photo_id": "1957162217",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Sweden"
+    },
+    {
+      "location_id": "location_007",
+      "source_photo_id": "2078692441",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Austria"
+    },
+    {
+      "location_id": "location_008",
+      "source_photo_id": "335615057",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Austria"
+    },
+    {
+      "location_id": "location_009",
+      "source_photo_id": "2468485081",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Austria"
+    },
+    {
+      "location_id": "location_010",
+      "source_photo_id": "2577051769",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Philippines"
+    },
+    {
+      "location_id": "location_011",
+      "source_photo_id": "356249139",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Spain"
+    },
+    {
+      "location_id": "location_012",
+      "source_photo_id": "1463239337",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Ireland"
+    },
+    {
+      "location_id": "location_013",
+      "source_photo_id": "459732125",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Slovenia"
+    },
+    {
+      "location_id": "location_014",
+      "source_photo_id": "1250259785",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Turkey"
+    },
+    {
+      "location_id": "location_015",
+      "source_photo_id": "274346543",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Slovakia"
+    },
+    {
+      "location_id": "location_016",
+      "source_photo_id": "2574250729",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Thailand"
+    },
+    {
+      "location_id": "location_017",
+      "source_photo_id": "2520029097",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Philippines"
+    },
+    {
+      "location_id": "location_018",
+      "source_photo_id": "1580734777",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Spain"
+    },
+    {
+      "location_id": "location_019",
+      "source_photo_id": "47820835",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Mexico"
+    },
+    {
+      "location_id": "location_020",
+      "source_photo_id": "1596431817",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Czechia"
+    },
+    {
+      "location_id": "location_021",
+      "source_photo_id": "1044135318",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Ireland"
+    },
+    {
+      "location_id": "location_022",
+      "source_photo_id": "295441511",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Portugal"
+    },
+    {
+      "location_id": "location_023",
+      "source_photo_id": "1203334269",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "United Kingdom"
+    },
+    {
+      "location_id": "location_024",
+      "source_photo_id": "15869324",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Mexico"
+    },
+    {
+      "location_id": "location_025",
+      "source_photo_id": "1251567117",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Belgium"
+    },
+    {
+      "location_id": "location_026",
+      "source_photo_id": "11208900",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Greece"
+    },
+    {
+      "location_id": "location_027",
+      "source_photo_id": "1021799206",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Peru"
+    },
+    {
+      "location_id": "location_028",
+      "source_photo_id": "2051477337",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "transport_nodes",
+      "country": "Greece"
+    },
+    {
+      "location_id": "location_029",
+      "source_photo_id": "2520041769",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "roadside_commerce",
+      "country": "Philippines"
+    },
+    {
+      "location_id": "location_030",
+      "source_photo_id": "1099437450",
+      "status": "keep",
+      "notes": "",
+      "scene_category": "civic_public",
+      "country": "Sweden"
+    }
+  ]
+}

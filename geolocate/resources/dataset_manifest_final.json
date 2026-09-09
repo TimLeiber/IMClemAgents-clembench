@@ -1,0 +1,1696 @@
+{
+  "dataset_id": "final",
+  "dataset": "KartaView evidence-bearing four-view geolocation benchmark",
+  "difficulty": "evidence_balanced",
+  "experiment_name": "kartaview_evidence_4view",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "source_url": "https://kartaview.org/",
+  "sampling_metadata": {
+    "probe_source": "OpenStreetMap via Overpass API",
+    "probe_license": "ODbL 1.0",
+    "scene_category_counts": {
+      "civic_public": 10,
+      "roadside_commerce": 10,
+      "transport_nodes": 10
+    },
+    "maximum_target_distance_from_feature_km": 0.35,
+    "telemetry_crop_fraction": 0.12,
+    "random_seed": 20260902,
+    "selection_exclusions": [
+      {
+        "photo_id": "490520169",
+        "sequence_id": "1947069",
+        "country": "Netherlands",
+        "scene_category": "roadside_commerce",
+        "kind": "download_or_decode_failure",
+        "reason": "Could not download KartaView image https://storage13.openstreetcam.org/files/photo/2019/8/20/proc/1947069_16_784f7_3.jpg"
+      },
+      {
+        "photo_id": "287550817",
+        "sequence_id": "1267925",
+        "country": "Lithuania",
+        "scene_category": "transport_nodes",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "112206081",
+        "sequence_id": "561093",
+        "country": "Portugal",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "347442395",
+        "sequence_id": "1324381",
+        "country": "Hungary",
+        "scene_category": "transport_nodes",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1358620553",
+        "sequence_id": "3779401",
+        "country": "Italy",
+        "scene_category": "roadside_commerce",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1107663926",
+        "sequence_id": "3078934",
+        "country": "Australia",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1019667638",
+        "sequence_id": "2828778",
+        "country": "Brazil",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "46563223",
+        "sequence_id": "469267",
+        "country": "Sweden",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "221005343",
+        "sequence_id": "1159059",
+        "country": "Kenya",
+        "scene_category": "roadside_commerce",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1248268521",
+        "sequence_id": "3443645",
+        "country": "Japan",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "25887735",
+        "sequence_id": "120276",
+        "country": "Denmark",
+        "scene_category": "transport_nodes",
+        "kind": "manual_review",
+        "reason": "there is a truck with visible signage and a sign in the very first photo. unsure"
+      },
+      {
+        "photo_id": "570684294",
+        "sequence_id": "2066634",
+        "country": "Bulgaria",
+        "scene_category": "transport_nodes",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1039891198",
+        "sequence_id": "2885482",
+        "country": "Norway",
+        "scene_category": "transport_nodes",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "291217303",
+        "sequence_id": "1271331",
+        "country": "Latvia",
+        "scene_category": "roadside_commerce",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "2007428665",
+        "sequence_id": "9147609",
+        "country": "Czechia",
+        "scene_category": "transport_nodes",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1062963090",
+        "sequence_id": "2945714",
+        "country": "Ireland",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1212148489",
+        "sequence_id": "3342757",
+        "country": "Italy",
+        "scene_category": "roadside_commerce",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "2043816169",
+        "sequence_id": "9321689",
+        "country": "Philippines",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "6952339",
+        "sequence_id": "13156",
+        "country": "Austria",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "298678317",
+        "sequence_id": "1277313",
+        "country": "Japan",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1289491997",
+        "sequence_id": "3556317",
+        "country": "Spain",
+        "scene_category": "roadside_commerce",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "421349830",
+        "sequence_id": "1461806",
+        "country": "Australia",
+        "scene_category": "civic_public",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "274195141",
+        "sequence_id": "1258551",
+        "country": "United Kingdom",
+        "scene_category": "transport_nodes",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1289005569",
+        "sequence_id": "3555273",
+        "country": "Spain",
+        "scene_category": "transport_nodes",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      },
+      {
+        "photo_id": "1101701934",
+        "sequence_id": "3062942",
+        "country": "Sweden",
+        "scene_category": "roadside_commerce",
+        "kind": "manual_review",
+        "reason": "Rejected during manual review"
+      }
+    ],
+    "manual_review_required": true
+  },
+  "locations": [
+    {
+      "location_id": "location_001",
+      "image_paths": [
+        "geolocate/resources/images_final/location_001/view_00.jpg",
+        "geolocate/resources/images_final/location_001/view_01.jpg",
+        "geolocate/resources/images_final/location_001/view_02.jpg",
+        "geolocate/resources/images_final/location_001/view_03.jpg"
+      ],
+      "latitude": 38.69831,
+      "longitude": -9.428411,
+      "country": "Portugal",
+      "country_code": "PT",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "290728961",
+      "source_sequence_id": "1270841",
+      "shot_date": "2018-07-25 14:53:45.000",
+      "distance_from_feature_km": 0.02744854079975753,
+      "frame_span_km": 0.02941613901680235,
+      "image_metrics": [
+        {
+          "brightness": 104.657,
+          "contrast": 49.764,
+          "gradient": 12.824,
+          "edge_density": 0.2246,
+          "vegetation_fraction": 0.498
+        },
+        {
+          "brightness": 91.23,
+          "contrast": 49.386,
+          "gradient": 13.078,
+          "edge_density": 0.2427,
+          "vegetation_fraction": 0.4607
+        },
+        {
+          "brightness": 105.0,
+          "contrast": 45.287,
+          "gradient": 13.992,
+          "edge_density": 0.2558,
+          "vegetation_fraction": 0.4598
+        },
+        {
+          "brightness": 109.586,
+          "contrast": 50.666,
+          "gradient": 14.184,
+          "edge_density": 0.258,
+          "vegetation_fraction": 0.4342
+        }
+      ]
+    },
+    {
+      "location_id": "location_002",
+      "image_paths": [
+        "geolocate/resources/images_final/location_002/view_00.jpg",
+        "geolocate/resources/images_final/location_002/view_01.jpg",
+        "geolocate/resources/images_final/location_002/view_02.jpg",
+        "geolocate/resources/images_final/location_002/view_03.jpg"
+      ],
+      "latitude": -23.524287,
+      "longitude": -46.414479,
+      "country": "Brazil",
+      "country_code": "BR",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "1158744362",
+      "source_sequence_id": "3209826",
+      "shot_date": "2020-10-29 18:51:53.000",
+      "distance_from_feature_km": 0.3377027538947716,
+      "frame_span_km": 0.01003703583648688,
+      "image_metrics": [
+        {
+          "brightness": 124.198,
+          "contrast": 54.781,
+          "gradient": 5.908,
+          "edge_density": 0.0886,
+          "vegetation_fraction": 0.0019
+        },
+        {
+          "brightness": 124.429,
+          "contrast": 53.59,
+          "gradient": 6.151,
+          "edge_density": 0.0904,
+          "vegetation_fraction": 0.0021
+        },
+        {
+          "brightness": 123.117,
+          "contrast": 53.637,
+          "gradient": 6.4,
+          "edge_density": 0.0953,
+          "vegetation_fraction": 0.0
+        },
+        {
+          "brightness": 126.252,
+          "contrast": 57.053,
+          "gradient": 6.231,
+          "edge_density": 0.0906,
+          "vegetation_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "location_id": "location_003",
+      "image_paths": [
+        "geolocate/resources/images_final/location_003/view_00.jpg",
+        "geolocate/resources/images_final/location_003/view_01.jpg",
+        "geolocate/resources/images_final/location_003/view_02.jpg",
+        "geolocate/resources/images_final/location_003/view_03.jpg"
+      ],
+      "latitude": 56.965446,
+      "longitude": 23.760673,
+      "country": "Latvia",
+      "country_code": "LV",
+      "scene_category": "civic_public",
+      "source_photo_id": "1573326937",
+      "source_sequence_id": "5897769",
+      "shot_date": "2022-08-01 09:30:03.000",
+      "distance_from_feature_km": 0.2549221266167696,
+      "frame_span_km": 0.02659293977376653,
+      "image_metrics": [
+        {
+          "brightness": 102.502,
+          "contrast": 53.403,
+          "gradient": 10.085,
+          "edge_density": 0.1629,
+          "vegetation_fraction": 0.4799
+        },
+        {
+          "brightness": 106.946,
+          "contrast": 54.763,
+          "gradient": 11.001,
+          "edge_density": 0.1845,
+          "vegetation_fraction": 0.5004
+        },
+        {
+          "brightness": 125.071,
+          "contrast": 54.997,
+          "gradient": 8.745,
+          "edge_density": 0.1384,
+          "vegetation_fraction": 0.5253
+        },
+        {
+          "brightness": 120.509,
+          "contrast": 52.444,
+          "gradient": 8.589,
+          "edge_density": 0.1313,
+          "vegetation_fraction": 0.5842
+        }
+      ]
+    },
+    {
+      "location_id": "location_004",
+      "image_paths": [
+        "geolocate/resources/images_final/location_004/view_00.jpg",
+        "geolocate/resources/images_final/location_004/view_01.jpg",
+        "geolocate/resources/images_final/location_004/view_02.jpg",
+        "geolocate/resources/images_final/location_004/view_03.jpg"
+      ],
+      "latitude": 14.548236,
+      "longitude": 121.190105,
+      "country": "Philippines",
+      "country_code": "PH",
+      "scene_category": "civic_public",
+      "source_photo_id": "2578276569",
+      "source_sequence_id": "11398217",
+      "shot_date": "2025-06-13 08:26:18.000",
+      "distance_from_feature_km": 0.34267457091484765,
+      "frame_span_km": 0.015846700666724906,
+      "image_metrics": [
+        {
+          "brightness": 112.242,
+          "contrast": 72.597,
+          "gradient": 11.32,
+          "edge_density": 0.2057,
+          "vegetation_fraction": 0.0357
+        },
+        {
+          "brightness": 127.89,
+          "contrast": 77.716,
+          "gradient": 10.033,
+          "edge_density": 0.1813,
+          "vegetation_fraction": 0.0673
+        },
+        {
+          "brightness": 143.425,
+          "contrast": 86.45,
+          "gradient": 8.77,
+          "edge_density": 0.1555,
+          "vegetation_fraction": 0.0515
+        },
+        {
+          "brightness": 137.258,
+          "contrast": 78.826,
+          "gradient": 10.624,
+          "edge_density": 0.1933,
+          "vegetation_fraction": 0.1052
+        }
+      ]
+    },
+    {
+      "location_id": "location_005",
+      "image_paths": [
+        "geolocate/resources/images_final/location_005/view_00.jpg",
+        "geolocate/resources/images_final/location_005/view_01.jpg",
+        "geolocate/resources/images_final/location_005/view_02.jpg",
+        "geolocate/resources/images_final/location_005/view_03.jpg"
+      ],
+      "latitude": 38.701259,
+      "longitude": -9.424095,
+      "country": "Portugal",
+      "country_code": "PT",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "290627357",
+      "source_sequence_id": "1270773",
+      "shot_date": "2018-07-25 09:31:04.000",
+      "distance_from_feature_km": 0.23745662257105327,
+      "frame_span_km": 0.03449546938427754,
+      "image_metrics": [
+        {
+          "brightness": 99.441,
+          "contrast": 51.977,
+          "gradient": 15.157,
+          "edge_density": 0.2781,
+          "vegetation_fraction": 0.2265
+        },
+        {
+          "brightness": 83.385,
+          "contrast": 57.759,
+          "gradient": 12.588,
+          "edge_density": 0.2148,
+          "vegetation_fraction": 0.2421
+        },
+        {
+          "brightness": 85.021,
+          "contrast": 67.137,
+          "gradient": 9.536,
+          "edge_density": 0.1566,
+          "vegetation_fraction": 0.0897
+        },
+        {
+          "brightness": 115.136,
+          "contrast": 43.886,
+          "gradient": 11.073,
+          "edge_density": 0.1958,
+          "vegetation_fraction": 0.1549
+        }
+      ]
+    },
+    {
+      "location_id": "location_006",
+      "image_paths": [
+        "geolocate/resources/images_final/location_006/view_00.jpg",
+        "geolocate/resources/images_final/location_006/view_01.jpg",
+        "geolocate/resources/images_final/location_006/view_02.jpg",
+        "geolocate/resources/images_final/location_006/view_03.jpg"
+      ],
+      "latitude": 59.189528,
+      "longitude": 17.649857,
+      "country": "Sweden",
+      "country_code": "SE",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "1957162217",
+      "source_sequence_id": "8977881",
+      "shot_date": "2024-05-18 10:39:13.000",
+      "distance_from_feature_km": 0.2693723301654673,
+      "frame_span_km": 0.07731451659582313,
+      "image_metrics": [
+        {
+          "brightness": 130.018,
+          "contrast": 53.388,
+          "gradient": 6.465,
+          "edge_density": 0.0985,
+          "vegetation_fraction": 0.2414
+        },
+        {
+          "brightness": 137.221,
+          "contrast": 49.852,
+          "gradient": 7.064,
+          "edge_density": 0.1163,
+          "vegetation_fraction": 0.1656
+        },
+        {
+          "brightness": 135.285,
+          "contrast": 49.392,
+          "gradient": 6.767,
+          "edge_density": 0.105,
+          "vegetation_fraction": 0.1773
+        },
+        {
+          "brightness": 129.682,
+          "contrast": 51.637,
+          "gradient": 7.252,
+          "edge_density": 0.1184,
+          "vegetation_fraction": 0.1729
+        }
+      ]
+    },
+    {
+      "location_id": "location_007",
+      "image_paths": [
+        "geolocate/resources/images_final/location_007/view_00.jpg",
+        "geolocate/resources/images_final/location_007/view_01.jpg",
+        "geolocate/resources/images_final/location_007/view_02.jpg",
+        "geolocate/resources/images_final/location_007/view_03.jpg"
+      ],
+      "latitude": 48.013695,
+      "longitude": 16.294896,
+      "country": "Austria",
+      "country_code": "AT",
+      "scene_category": "civic_public",
+      "source_photo_id": "2078692441",
+      "source_sequence_id": "9440281",
+      "shot_date": "2024-08-01 15:34:07.000",
+      "distance_from_feature_km": 0.06249310595987259,
+      "frame_span_km": 0.0006847974604418994,
+      "image_metrics": [
+        {
+          "brightness": 81.573,
+          "contrast": 61.057,
+          "gradient": 5.327,
+          "edge_density": 0.0678,
+          "vegetation_fraction": 0.0008
+        },
+        {
+          "brightness": 80.952,
+          "contrast": 60.874,
+          "gradient": 5.365,
+          "edge_density": 0.0677,
+          "vegetation_fraction": 0.0008
+        },
+        {
+          "brightness": 80.168,
+          "contrast": 60.606,
+          "gradient": 5.391,
+          "edge_density": 0.0685,
+          "vegetation_fraction": 0.0009
+        },
+        {
+          "brightness": 80.359,
+          "contrast": 60.421,
+          "gradient": 5.44,
+          "edge_density": 0.0708,
+          "vegetation_fraction": 0.0008
+        }
+      ]
+    },
+    {
+      "location_id": "location_008",
+      "image_paths": [
+        "geolocate/resources/images_final/location_008/view_00.jpg",
+        "geolocate/resources/images_final/location_008/view_01.jpg",
+        "geolocate/resources/images_final/location_008/view_02.jpg",
+        "geolocate/resources/images_final/location_008/view_03.jpg"
+      ],
+      "latitude": 48.119369,
+      "longitude": 16.613685,
+      "country": "Austria",
+      "country_code": "AT",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "335615057",
+      "source_sequence_id": "1312723",
+      "shot_date": "2018-12-08 10:32:48.000",
+      "distance_from_feature_km": 0.02881389578350088,
+      "frame_span_km": 0.017345583773839816,
+      "image_metrics": [
+        {
+          "brightness": 130.673,
+          "contrast": 57.702,
+          "gradient": 6.305,
+          "edge_density": 0.0994,
+          "vegetation_fraction": 0.0513
+        },
+        {
+          "brightness": 124.885,
+          "contrast": 57.664,
+          "gradient": 6.799,
+          "edge_density": 0.1132,
+          "vegetation_fraction": 0.0914
+        },
+        {
+          "brightness": 132.11,
+          "contrast": 58.365,
+          "gradient": 7.566,
+          "edge_density": 0.1264,
+          "vegetation_fraction": 0.0384
+        },
+        {
+          "brightness": 137.738,
+          "contrast": 57.722,
+          "gradient": 6.964,
+          "edge_density": 0.1104,
+          "vegetation_fraction": 0.0041
+        }
+      ]
+    },
+    {
+      "location_id": "location_009",
+      "image_paths": [
+        "geolocate/resources/images_final/location_009/view_00.jpg",
+        "geolocate/resources/images_final/location_009/view_01.jpg",
+        "geolocate/resources/images_final/location_009/view_02.jpg",
+        "geolocate/resources/images_final/location_009/view_03.jpg"
+      ],
+      "latitude": 48.000577,
+      "longitude": 16.26909,
+      "country": "Austria",
+      "country_code": "AT",
+      "scene_category": "civic_public",
+      "source_photo_id": "2468485081",
+      "source_sequence_id": "10043017",
+      "shot_date": "2024-08-05 18:42:20.000",
+      "distance_from_feature_km": 0.029865577843120144,
+      "frame_span_km": 0.0007783655863177037,
+      "image_metrics": [
+        {
+          "brightness": 113.9,
+          "contrast": 70.856,
+          "gradient": 6.484,
+          "edge_density": 0.1025,
+          "vegetation_fraction": 0.0197
+        },
+        {
+          "brightness": 114.023,
+          "contrast": 70.929,
+          "gradient": 6.487,
+          "edge_density": 0.103,
+          "vegetation_fraction": 0.0182
+        },
+        {
+          "brightness": 114.356,
+          "contrast": 70.837,
+          "gradient": 6.493,
+          "edge_density": 0.1044,
+          "vegetation_fraction": 0.0152
+        },
+        {
+          "brightness": 114.349,
+          "contrast": 70.953,
+          "gradient": 6.45,
+          "edge_density": 0.1034,
+          "vegetation_fraction": 0.0168
+        }
+      ]
+    },
+    {
+      "location_id": "location_010",
+      "image_paths": [
+        "geolocate/resources/images_final/location_010/view_00.jpg",
+        "geolocate/resources/images_final/location_010/view_01.jpg",
+        "geolocate/resources/images_final/location_010/view_02.jpg",
+        "geolocate/resources/images_final/location_010/view_03.jpg"
+      ],
+      "latitude": 14.481432,
+      "longitude": 121.226861,
+      "country": "Philippines",
+      "country_code": "PH",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "2577051769",
+      "source_sequence_id": "11382233",
+      "shot_date": "2025-06-12 00:53:09.000",
+      "distance_from_feature_km": 0.015483037531788837,
+      "frame_span_km": 0.02747902004987401,
+      "image_metrics": [
+        {
+          "brightness": 129.29,
+          "contrast": 51.211,
+          "gradient": 7.778,
+          "edge_density": 0.1402,
+          "vegetation_fraction": 0.0249
+        },
+        {
+          "brightness": 136.886,
+          "contrast": 55.809,
+          "gradient": 8.225,
+          "edge_density": 0.1441,
+          "vegetation_fraction": 0.0209
+        },
+        {
+          "brightness": 141.102,
+          "contrast": 55.77,
+          "gradient": 8.043,
+          "edge_density": 0.1394,
+          "vegetation_fraction": 0.0164
+        },
+        {
+          "brightness": 136.878,
+          "contrast": 56.091,
+          "gradient": 8.913,
+          "edge_density": 0.1563,
+          "vegetation_fraction": 0.0322
+        }
+      ]
+    },
+    {
+      "location_id": "location_011",
+      "image_paths": [
+        "geolocate/resources/images_final/location_011/view_00.jpg",
+        "geolocate/resources/images_final/location_011/view_01.jpg",
+        "geolocate/resources/images_final/location_011/view_02.jpg",
+        "geolocate/resources/images_final/location_011/view_03.jpg"
+      ],
+      "latitude": 40.613159,
+      "longitude": -3.704473,
+      "country": "Spain",
+      "country_code": "ES",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "356249139",
+      "source_sequence_id": "1336179",
+      "shot_date": "2019-02-02 16:15:21.000",
+      "distance_from_feature_km": 0.18037126785497815,
+      "frame_span_km": 0.03453685168717872,
+      "image_metrics": [
+        {
+          "brightness": 123.599,
+          "contrast": 51.712,
+          "gradient": 5.286,
+          "edge_density": 0.0846,
+          "vegetation_fraction": 0.0304
+        },
+        {
+          "brightness": 129.412,
+          "contrast": 37.997,
+          "gradient": 5.225,
+          "edge_density": 0.0695,
+          "vegetation_fraction": 0.0831
+        },
+        {
+          "brightness": 143.722,
+          "contrast": 65.636,
+          "gradient": 7.335,
+          "edge_density": 0.1219,
+          "vegetation_fraction": 0.0006
+        },
+        {
+          "brightness": 173.353,
+          "contrast": 40.947,
+          "gradient": 3.679,
+          "edge_density": 0.0414,
+          "vegetation_fraction": 0.0131
+        }
+      ]
+    },
+    {
+      "location_id": "location_012",
+      "image_paths": [
+        "geolocate/resources/images_final/location_012/view_00.jpg",
+        "geolocate/resources/images_final/location_012/view_01.jpg",
+        "geolocate/resources/images_final/location_012/view_02.jpg",
+        "geolocate/resources/images_final/location_012/view_03.jpg"
+      ],
+      "latitude": 53.611749,
+      "longitude": -6.186761,
+      "country": "Ireland",
+      "country_code": "IE",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "1463239337",
+      "source_sequence_id": "5017049",
+      "shot_date": "2022-04-06 14:52:18.000",
+      "distance_from_feature_km": 0.009642294593264548,
+      "frame_span_km": 0.013774112423815566,
+      "image_metrics": [
+        {
+          "brightness": 81.587,
+          "contrast": 84.608,
+          "gradient": 7.49,
+          "edge_density": 0.114,
+          "vegetation_fraction": 0.0018
+        },
+        {
+          "brightness": 74.232,
+          "contrast": 83.934,
+          "gradient": 8.541,
+          "edge_density": 0.1396,
+          "vegetation_fraction": 0.0086
+        },
+        {
+          "brightness": 74.296,
+          "contrast": 85.685,
+          "gradient": 7.66,
+          "edge_density": 0.1225,
+          "vegetation_fraction": 0.0027
+        },
+        {
+          "brightness": 86.449,
+          "contrast": 88.315,
+          "gradient": 7.662,
+          "edge_density": 0.1227,
+          "vegetation_fraction": 0.0054
+        }
+      ]
+    },
+    {
+      "location_id": "location_013",
+      "image_paths": [
+        "geolocate/resources/images_final/location_013/view_00.jpg",
+        "geolocate/resources/images_final/location_013/view_01.jpg",
+        "geolocate/resources/images_final/location_013/view_02.jpg",
+        "geolocate/resources/images_final/location_013/view_03.jpg"
+      ],
+      "latitude": 45.911096,
+      "longitude": 14.204717,
+      "country": "Slovenia",
+      "country_code": "SI",
+      "scene_category": "civic_public",
+      "source_photo_id": "459732125",
+      "source_sequence_id": "1585349",
+      "shot_date": "2019-07-14 14:50:55.000",
+      "distance_from_feature_km": 0.1369865432520022,
+      "frame_span_km": 0.036153854168902134,
+      "image_metrics": [
+        {
+          "brightness": 118.164,
+          "contrast": 67.169,
+          "gradient": 11.076,
+          "edge_density": 0.1854,
+          "vegetation_fraction": 0.1972
+        },
+        {
+          "brightness": 97.602,
+          "contrast": 70.201,
+          "gradient": 11.387,
+          "edge_density": 0.1999,
+          "vegetation_fraction": 0.2345
+        },
+        {
+          "brightness": 112.179,
+          "contrast": 65.211,
+          "gradient": 10.967,
+          "edge_density": 0.1855,
+          "vegetation_fraction": 0.1424
+        },
+        {
+          "brightness": 126.398,
+          "contrast": 54.884,
+          "gradient": 13.16,
+          "edge_density": 0.2268,
+          "vegetation_fraction": 0.0863
+        }
+      ]
+    },
+    {
+      "location_id": "location_014",
+      "image_paths": [
+        "geolocate/resources/images_final/location_014/view_00.jpg",
+        "geolocate/resources/images_final/location_014/view_01.jpg",
+        "geolocate/resources/images_final/location_014/view_02.jpg",
+        "geolocate/resources/images_final/location_014/view_03.jpg"
+      ],
+      "latitude": 40.888136,
+      "longitude": 29.189209,
+      "country": "Turkey",
+      "country_code": "TR",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "1250259785",
+      "source_sequence_id": "3449897",
+      "shot_date": "2018-10-27 12:24:53.000",
+      "distance_from_feature_km": 0.21981414051705445,
+      "frame_span_km": 0.011837984526417811,
+      "image_metrics": [
+        {
+          "brightness": 112.034,
+          "contrast": 50.986,
+          "gradient": 12.352,
+          "edge_density": 0.2274,
+          "vegetation_fraction": 0.0114
+        },
+        {
+          "brightness": 115.716,
+          "contrast": 54.411,
+          "gradient": 11.078,
+          "edge_density": 0.1976,
+          "vegetation_fraction": 0.0084
+        },
+        {
+          "brightness": 98.706,
+          "contrast": 54.281,
+          "gradient": 10.586,
+          "edge_density": 0.1882,
+          "vegetation_fraction": 0.0144
+        },
+        {
+          "brightness": 89.986,
+          "contrast": 50.087,
+          "gradient": 9.637,
+          "edge_density": 0.166,
+          "vegetation_fraction": 0.0136
+        }
+      ]
+    },
+    {
+      "location_id": "location_015",
+      "image_paths": [
+        "geolocate/resources/images_final/location_015/view_00.jpg",
+        "geolocate/resources/images_final/location_015/view_01.jpg",
+        "geolocate/resources/images_final/location_015/view_02.jpg",
+        "geolocate/resources/images_final/location_015/view_03.jpg"
+      ],
+      "latitude": 48.020592,
+      "longitude": 17.330966,
+      "country": "Slovakia",
+      "country_code": "SK",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "274346543",
+      "source_sequence_id": "1258665",
+      "shot_date": "2018-06-30 09:11:33.000",
+      "distance_from_feature_km": 0.009223029169309435,
+      "frame_span_km": 0.05317017788232355,
+      "image_metrics": [
+        {
+          "brightness": 165.185,
+          "contrast": 78.458,
+          "gradient": 4.808,
+          "edge_density": 0.0724,
+          "vegetation_fraction": 0.0031
+        },
+        {
+          "brightness": 169.904,
+          "contrast": 81.641,
+          "gradient": 3.138,
+          "edge_density": 0.0303,
+          "vegetation_fraction": 0.0142
+        },
+        {
+          "brightness": 164.09,
+          "contrast": 84.495,
+          "gradient": 3.481,
+          "edge_density": 0.0385,
+          "vegetation_fraction": 0.0271
+        },
+        {
+          "brightness": 167.7,
+          "contrast": 84.669,
+          "gradient": 3.143,
+          "edge_density": 0.0347,
+          "vegetation_fraction": 0.0165
+        }
+      ]
+    },
+    {
+      "location_id": "location_016",
+      "image_paths": [
+        "geolocate/resources/images_final/location_016/view_00.jpg",
+        "geolocate/resources/images_final/location_016/view_01.jpg",
+        "geolocate/resources/images_final/location_016/view_02.jpg",
+        "geolocate/resources/images_final/location_016/view_03.jpg"
+      ],
+      "latitude": 13.650448,
+      "longitude": 100.681915,
+      "country": "Thailand",
+      "country_code": "TH",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "2574250729",
+      "source_sequence_id": "11359001",
+      "shot_date": "2025-06-07 12:06:58.000",
+      "distance_from_feature_km": 0.006791460228297045,
+      "frame_span_km": 0.03420613674274845,
+      "image_metrics": [
+        {
+          "brightness": 52.963,
+          "contrast": 34.493,
+          "gradient": 5.156,
+          "edge_density": 0.0725,
+          "vegetation_fraction": 0.0044
+        },
+        {
+          "brightness": 44.858,
+          "contrast": 39.059,
+          "gradient": 5.834,
+          "edge_density": 0.0846,
+          "vegetation_fraction": 0.015
+        },
+        {
+          "brightness": 50.727,
+          "contrast": 47.633,
+          "gradient": 6.899,
+          "edge_density": 0.1074,
+          "vegetation_fraction": 0.0248
+        },
+        {
+          "brightness": 45.544,
+          "contrast": 36.638,
+          "gradient": 5.721,
+          "edge_density": 0.0754,
+          "vegetation_fraction": 0.0695
+        }
+      ]
+    },
+    {
+      "location_id": "location_017",
+      "image_paths": [
+        "geolocate/resources/images_final/location_017/view_00.jpg",
+        "geolocate/resources/images_final/location_017/view_01.jpg",
+        "geolocate/resources/images_final/location_017/view_02.jpg",
+        "geolocate/resources/images_final/location_017/view_03.jpg"
+      ],
+      "latitude": 14.428744,
+      "longitude": 120.894172,
+      "country": "Philippines",
+      "country_code": "PH",
+      "scene_category": "civic_public",
+      "source_photo_id": "2520029097",
+      "source_sequence_id": "10295049",
+      "shot_date": "2024-11-29 22:41:55.000",
+      "distance_from_feature_km": 0.039569401439135635,
+      "frame_span_km": 0.04255714104942936,
+      "image_metrics": [
+        {
+          "brightness": 141.182,
+          "contrast": 53.461,
+          "gradient": 6.814,
+          "edge_density": 0.1157,
+          "vegetation_fraction": 0.0241
+        },
+        {
+          "brightness": 132.869,
+          "contrast": 56.301,
+          "gradient": 7.046,
+          "edge_density": 0.115,
+          "vegetation_fraction": 0.0274
+        },
+        {
+          "brightness": 133.391,
+          "contrast": 65.782,
+          "gradient": 7.512,
+          "edge_density": 0.1252,
+          "vegetation_fraction": 0.0287
+        },
+        {
+          "brightness": 132.953,
+          "contrast": 56.903,
+          "gradient": 7.936,
+          "edge_density": 0.1308,
+          "vegetation_fraction": 0.0472
+        }
+      ]
+    },
+    {
+      "location_id": "location_018",
+      "image_paths": [
+        "geolocate/resources/images_final/location_018/view_00.jpg",
+        "geolocate/resources/images_final/location_018/view_01.jpg",
+        "geolocate/resources/images_final/location_018/view_02.jpg",
+        "geolocate/resources/images_final/location_018/view_03.jpg"
+      ],
+      "latitude": 40.540648,
+      "longitude": -3.89207,
+      "country": "Spain",
+      "country_code": "ES",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "1580734777",
+      "source_sequence_id": "5959097",
+      "shot_date": "2022-08-14 10:12:21.000",
+      "distance_from_feature_km": 0.0029900933354179396,
+      "frame_span_km": 0.0581547294872903,
+      "image_metrics": [
+        {
+          "brightness": 173.73,
+          "contrast": 37.523,
+          "gradient": 6.098,
+          "edge_density": 0.1022,
+          "vegetation_fraction": 0.0319
+        },
+        {
+          "brightness": 170.255,
+          "contrast": 37.73,
+          "gradient": 5.152,
+          "edge_density": 0.0848,
+          "vegetation_fraction": 0.0399
+        },
+        {
+          "brightness": 173.649,
+          "contrast": 37.63,
+          "gradient": 5.971,
+          "edge_density": 0.104,
+          "vegetation_fraction": 0.0526
+        },
+        {
+          "brightness": 175.533,
+          "contrast": 35.851,
+          "gradient": 5.924,
+          "edge_density": 0.1023,
+          "vegetation_fraction": 0.0367
+        }
+      ]
+    },
+    {
+      "location_id": "location_019",
+      "image_paths": [
+        "geolocate/resources/images_final/location_019/view_00.jpg",
+        "geolocate/resources/images_final/location_019/view_01.jpg",
+        "geolocate/resources/images_final/location_019/view_02.jpg",
+        "geolocate/resources/images_final/location_019/view_03.jpg"
+      ],
+      "latitude": 19.24086,
+      "longitude": -99.1475,
+      "country": "Mexico",
+      "country_code": "MX",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "47820835",
+      "source_sequence_id": "470701",
+      "shot_date": "2017-06-17 16:25:08.000",
+      "distance_from_feature_km": 0.02105956920022829,
+      "frame_span_km": 0.042323068249427484,
+      "image_metrics": [
+        {
+          "brightness": 145.646,
+          "contrast": 50.114,
+          "gradient": 8.576,
+          "edge_density": 0.1479,
+          "vegetation_fraction": 0.109
+        },
+        {
+          "brightness": 141.82,
+          "contrast": 51.472,
+          "gradient": 8.193,
+          "edge_density": 0.141,
+          "vegetation_fraction": 0.0855
+        },
+        {
+          "brightness": 141.453,
+          "contrast": 51.447,
+          "gradient": 8.389,
+          "edge_density": 0.1451,
+          "vegetation_fraction": 0.0864
+        },
+        {
+          "brightness": 140.955,
+          "contrast": 51.631,
+          "gradient": 8.107,
+          "edge_density": 0.1388,
+          "vegetation_fraction": 0.0972
+        }
+      ]
+    },
+    {
+      "location_id": "location_020",
+      "image_paths": [
+        "geolocate/resources/images_final/location_020/view_00.jpg",
+        "geolocate/resources/images_final/location_020/view_01.jpg",
+        "geolocate/resources/images_final/location_020/view_02.jpg",
+        "geolocate/resources/images_final/location_020/view_03.jpg"
+      ],
+      "latitude": 50.195861,
+      "longitude": 14.675601,
+      "country": "Czechia",
+      "country_code": "CZ",
+      "scene_category": "civic_public",
+      "source_photo_id": "1596431817",
+      "source_sequence_id": "6019369",
+      "shot_date": "2022-09-01 07:57:43.000",
+      "distance_from_feature_km": 0.039266365589706004,
+      "frame_span_km": 0.043429943940705144,
+      "image_metrics": [
+        {
+          "brightness": 134.506,
+          "contrast": 58.876,
+          "gradient": 8.921,
+          "edge_density": 0.1546,
+          "vegetation_fraction": 0.2595
+        },
+        {
+          "brightness": 135.293,
+          "contrast": 48.349,
+          "gradient": 9.862,
+          "edge_density": 0.1606,
+          "vegetation_fraction": 0.4294
+        },
+        {
+          "brightness": 132.771,
+          "contrast": 58.957,
+          "gradient": 8.42,
+          "edge_density": 0.1336,
+          "vegetation_fraction": 0.1479
+        },
+        {
+          "brightness": 123.622,
+          "contrast": 70.021,
+          "gradient": 8.376,
+          "edge_density": 0.1352,
+          "vegetation_fraction": 0.0294
+        }
+      ]
+    },
+    {
+      "location_id": "location_021",
+      "image_paths": [
+        "geolocate/resources/images_final/location_021/view_00.jpg",
+        "geolocate/resources/images_final/location_021/view_01.jpg",
+        "geolocate/resources/images_final/location_021/view_02.jpg",
+        "geolocate/resources/images_final/location_021/view_03.jpg"
+      ],
+      "latitude": 53.406263,
+      "longitude": -6.684694,
+      "country": "Ireland",
+      "country_code": "IE",
+      "scene_category": "civic_public",
+      "source_photo_id": "1044135318",
+      "source_sequence_id": "2895798",
+      "shot_date": "2015-04-26 08:54:26.000",
+      "distance_from_feature_km": 0.06713668237372097,
+      "frame_span_km": 0.06082118909046715,
+      "image_metrics": [
+        {
+          "brightness": 88.542,
+          "contrast": 72.968,
+          "gradient": 5.636,
+          "edge_density": 0.07,
+          "vegetation_fraction": 0.0125
+        },
+        {
+          "brightness": 78.552,
+          "contrast": 90.797,
+          "gradient": 5.078,
+          "edge_density": 0.0655,
+          "vegetation_fraction": 0.012
+        },
+        {
+          "brightness": 101.558,
+          "contrast": 94.581,
+          "gradient": 5.816,
+          "edge_density": 0.0795,
+          "vegetation_fraction": 0.0194
+        },
+        {
+          "brightness": 123.219,
+          "contrast": 71.163,
+          "gradient": 5.217,
+          "edge_density": 0.0559,
+          "vegetation_fraction": 0.0511
+        }
+      ]
+    },
+    {
+      "location_id": "location_022",
+      "image_paths": [
+        "geolocate/resources/images_final/location_022/view_00.jpg",
+        "geolocate/resources/images_final/location_022/view_01.jpg",
+        "geolocate/resources/images_final/location_022/view_02.jpg",
+        "geolocate/resources/images_final/location_022/view_03.jpg"
+      ],
+      "latitude": 38.953619,
+      "longitude": -8.98972,
+      "country": "Portugal",
+      "country_code": "PT",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "295441511",
+      "source_sequence_id": "1274493",
+      "shot_date": "2018-08-03 18:08:35.000",
+      "distance_from_feature_km": 0.0044797835228093524,
+      "frame_span_km": 0.01339821430398718,
+      "image_metrics": [
+        {
+          "brightness": 117.18,
+          "contrast": 72.701,
+          "gradient": 7.491,
+          "edge_density": 0.1279,
+          "vegetation_fraction": 0.0458
+        },
+        {
+          "brightness": 116.773,
+          "contrast": 70.482,
+          "gradient": 8.392,
+          "edge_density": 0.1489,
+          "vegetation_fraction": 0.0303
+        },
+        {
+          "brightness": 119.798,
+          "contrast": 64.22,
+          "gradient": 8.881,
+          "edge_density": 0.1568,
+          "vegetation_fraction": 0.0611
+        },
+        {
+          "brightness": 121.092,
+          "contrast": 62.863,
+          "gradient": 9.463,
+          "edge_density": 0.1681,
+          "vegetation_fraction": 0.1209
+        }
+      ]
+    },
+    {
+      "location_id": "location_023",
+      "image_paths": [
+        "geolocate/resources/images_final/location_023/view_00.jpg",
+        "geolocate/resources/images_final/location_023/view_01.jpg",
+        "geolocate/resources/images_final/location_023/view_02.jpg",
+        "geolocate/resources/images_final/location_023/view_03.jpg"
+      ],
+      "latitude": 51.442743,
+      "longitude": 0.215509,
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "1203334269",
+      "source_sequence_id": "3323525",
+      "shot_date": "2020-11-08 11:04:00.000",
+      "distance_from_feature_km": 0.13030638572048517,
+      "frame_span_km": 0.026451406974847186,
+      "image_metrics": [
+        {
+          "brightness": 94.27,
+          "contrast": 60.526,
+          "gradient": 5.836,
+          "edge_density": 0.0813,
+          "vegetation_fraction": 0.0525
+        },
+        {
+          "brightness": 98.415,
+          "contrast": 65.981,
+          "gradient": 6.26,
+          "edge_density": 0.1075,
+          "vegetation_fraction": 0.008
+        },
+        {
+          "brightness": 117.139,
+          "contrast": 71.001,
+          "gradient": 7.373,
+          "edge_density": 0.1354,
+          "vegetation_fraction": 0.0057
+        },
+        {
+          "brightness": 146.28,
+          "contrast": 62.565,
+          "gradient": 7.653,
+          "edge_density": 0.1291,
+          "vegetation_fraction": 0.0059
+        }
+      ]
+    },
+    {
+      "location_id": "location_024",
+      "image_paths": [
+        "geolocate/resources/images_final/location_024/view_00.jpg",
+        "geolocate/resources/images_final/location_024/view_01.jpg",
+        "geolocate/resources/images_final/location_024/view_02.jpg",
+        "geolocate/resources/images_final/location_024/view_03.jpg"
+      ],
+      "latitude": 19.592989,
+      "longitude": -99.031156,
+      "country": "Mexico",
+      "country_code": "MX",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "15869324",
+      "source_sequence_id": "47054",
+      "shot_date": "2017-01-21 21:46:05.000",
+      "distance_from_feature_km": 0.1967412555817538,
+      "frame_span_km": 0.09786288844323722,
+      "image_metrics": [
+        {
+          "brightness": 121.867,
+          "contrast": 28.674,
+          "gradient": 2.624,
+          "edge_density": 0.041,
+          "vegetation_fraction": 0.0281
+        },
+        {
+          "brightness": 119.758,
+          "contrast": 26.107,
+          "gradient": 2.208,
+          "edge_density": 0.0327,
+          "vegetation_fraction": 0.0411
+        },
+        {
+          "brightness": 119.862,
+          "contrast": 26.682,
+          "gradient": 2.127,
+          "edge_density": 0.0317,
+          "vegetation_fraction": 0.0255
+        },
+        {
+          "brightness": 118.128,
+          "contrast": 27.252,
+          "gradient": 2.556,
+          "edge_density": 0.0408,
+          "vegetation_fraction": 0.0543
+        }
+      ]
+    },
+    {
+      "location_id": "location_025",
+      "image_paths": [
+        "geolocate/resources/images_final/location_025/view_00.jpg",
+        "geolocate/resources/images_final/location_025/view_01.jpg",
+        "geolocate/resources/images_final/location_025/view_02.jpg",
+        "geolocate/resources/images_final/location_025/view_03.jpg"
+      ],
+      "latitude": 50.879383,
+      "longitude": 4.700734,
+      "country": "Belgium",
+      "country_code": "BE",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "1251567117",
+      "source_sequence_id": "3452785",
+      "shot_date": "2015-03-13 09:32:06.000",
+      "distance_from_feature_km": 0.16191830554723385,
+      "frame_span_km": 0.0003408832910703367,
+      "image_metrics": [
+        {
+          "brightness": 122.1,
+          "contrast": 53.414,
+          "gradient": 9.767,
+          "edge_density": 0.1681,
+          "vegetation_fraction": 0.0011
+        },
+        {
+          "brightness": 124.226,
+          "contrast": 54.014,
+          "gradient": 11.724,
+          "edge_density": 0.2133,
+          "vegetation_fraction": 0.0008
+        },
+        {
+          "brightness": 113.577,
+          "contrast": 57.26,
+          "gradient": 12.21,
+          "edge_density": 0.2217,
+          "vegetation_fraction": 0.0001
+        },
+        {
+          "brightness": 111.651,
+          "contrast": 54.647,
+          "gradient": 13.179,
+          "edge_density": 0.2393,
+          "vegetation_fraction": 0.0008
+        }
+      ]
+    },
+    {
+      "location_id": "location_026",
+      "image_paths": [
+        "geolocate/resources/images_final/location_026/view_00.jpg",
+        "geolocate/resources/images_final/location_026/view_01.jpg",
+        "geolocate/resources/images_final/location_026/view_02.jpg",
+        "geolocate/resources/images_final/location_026/view_03.jpg"
+      ],
+      "latitude": 37.791807,
+      "longitude": 23.879665,
+      "country": "Greece",
+      "country_code": "GR",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "11208900",
+      "source_sequence_id": "26893",
+      "shot_date": "2016-10-20 11:08:20.000",
+      "distance_from_feature_km": 0.019593591365531956,
+      "frame_span_km": 0.06320221091526068,
+      "image_metrics": [
+        {
+          "brightness": 147.218,
+          "contrast": 48.056,
+          "gradient": 5.54,
+          "edge_density": 0.0561,
+          "vegetation_fraction": 0.0381
+        },
+        {
+          "brightness": 146.459,
+          "contrast": 50.402,
+          "gradient": 6.29,
+          "edge_density": 0.0717,
+          "vegetation_fraction": 0.0417
+        },
+        {
+          "brightness": 146.719,
+          "contrast": 52.038,
+          "gradient": 5.94,
+          "edge_density": 0.0639,
+          "vegetation_fraction": 0.0617
+        },
+        {
+          "brightness": 145.895,
+          "contrast": 49.206,
+          "gradient": 6.322,
+          "edge_density": 0.0718,
+          "vegetation_fraction": 0.0214
+        }
+      ]
+    },
+    {
+      "location_id": "location_027",
+      "image_paths": [
+        "geolocate/resources/images_final/location_027/view_00.jpg",
+        "geolocate/resources/images_final/location_027/view_01.jpg",
+        "geolocate/resources/images_final/location_027/view_02.jpg",
+        "geolocate/resources/images_final/location_027/view_03.jpg"
+      ],
+      "latitude": -12.225937,
+      "longitude": -76.971349,
+      "country": "Peru",
+      "country_code": "PE",
+      "scene_category": "civic_public",
+      "source_photo_id": "1021799206",
+      "source_sequence_id": "2835646",
+      "shot_date": "2018-08-03 08:00:11.000",
+      "distance_from_feature_km": 0.23379827091982558,
+      "frame_span_km": 0.017905327972160028,
+      "image_metrics": [
+        {
+          "brightness": 161.044,
+          "contrast": 54.833,
+          "gradient": 3.049,
+          "edge_density": 0.0481,
+          "vegetation_fraction": 0.1575
+        },
+        {
+          "brightness": 169.369,
+          "contrast": 56.269,
+          "gradient": 3.156,
+          "edge_density": 0.0508,
+          "vegetation_fraction": 0.1586
+        },
+        {
+          "brightness": 157.935,
+          "contrast": 55.088,
+          "gradient": 3.303,
+          "edge_density": 0.0528,
+          "vegetation_fraction": 0.1545
+        },
+        {
+          "brightness": 159.341,
+          "contrast": 54.589,
+          "gradient": 3.183,
+          "edge_density": 0.0507,
+          "vegetation_fraction": 0.1498
+        }
+      ]
+    },
+    {
+      "location_id": "location_028",
+      "image_paths": [
+        "geolocate/resources/images_final/location_028/view_00.jpg",
+        "geolocate/resources/images_final/location_028/view_01.jpg",
+        "geolocate/resources/images_final/location_028/view_02.jpg",
+        "geolocate/resources/images_final/location_028/view_03.jpg"
+      ],
+      "latitude": 38.009475,
+      "longitude": 23.972305,
+      "country": "Greece",
+      "country_code": "GR",
+      "scene_category": "transport_nodes",
+      "source_photo_id": "2051477337",
+      "source_sequence_id": "9344329",
+      "shot_date": "2024-08-23 16:10:38.000",
+      "distance_from_feature_km": 0.27893702812456406,
+      "frame_span_km": 0.04518826852160856,
+      "image_metrics": [
+        {
+          "brightness": 127.98,
+          "contrast": 56.942,
+          "gradient": 6.147,
+          "edge_density": 0.1012,
+          "vegetation_fraction": 0.0407
+        },
+        {
+          "brightness": 124.929,
+          "contrast": 57.225,
+          "gradient": 7.133,
+          "edge_density": 0.1202,
+          "vegetation_fraction": 0.0397
+        },
+        {
+          "brightness": 120.299,
+          "contrast": 69.175,
+          "gradient": 5.508,
+          "edge_density": 0.0785,
+          "vegetation_fraction": 0.0872
+        },
+        {
+          "brightness": 109.973,
+          "contrast": 71.441,
+          "gradient": 7.441,
+          "edge_density": 0.1175,
+          "vegetation_fraction": 0.1666
+        }
+      ]
+    },
+    {
+      "location_id": "location_029",
+      "image_paths": [
+        "geolocate/resources/images_final/location_029/view_00.jpg",
+        "geolocate/resources/images_final/location_029/view_01.jpg",
+        "geolocate/resources/images_final/location_029/view_02.jpg",
+        "geolocate/resources/images_final/location_029/view_03.jpg"
+      ],
+      "latitude": 14.428722,
+      "longitude": 120.894355,
+      "country": "Philippines",
+      "country_code": "PH",
+      "scene_category": "roadside_commerce",
+      "source_photo_id": "2520041769",
+      "source_sequence_id": "10295065",
+      "shot_date": "2024-11-30 07:15:07.000",
+      "distance_from_feature_km": 0.030830808161692046,
+      "frame_span_km": 0.04340564737684697,
+      "image_metrics": [
+        {
+          "brightness": 141.078,
+          "contrast": 50.471,
+          "gradient": 8.306,
+          "edge_density": 0.1441,
+          "vegetation_fraction": 0.0234
+        },
+        {
+          "brightness": 137.778,
+          "contrast": 51.656,
+          "gradient": 8.802,
+          "edge_density": 0.1496,
+          "vegetation_fraction": 0.0312
+        },
+        {
+          "brightness": 137.481,
+          "contrast": 57.623,
+          "gradient": 8.834,
+          "edge_density": 0.1486,
+          "vegetation_fraction": 0.021
+        },
+        {
+          "brightness": 138.963,
+          "contrast": 51.939,
+          "gradient": 8.169,
+          "edge_density": 0.1374,
+          "vegetation_fraction": 0.0411
+        }
+      ]
+    },
+    {
+      "location_id": "location_030",
+      "image_paths": [
+        "geolocate/resources/images_final/location_030/view_00.jpg",
+        "geolocate/resources/images_final/location_030/view_01.jpg",
+        "geolocate/resources/images_final/location_030/view_02.jpg",
+        "geolocate/resources/images_final/location_030/view_03.jpg"
+      ],
+      "latitude": 59.106313,
+      "longitude": 18.041637,
+      "country": "Sweden",
+      "country_code": "SE",
+      "scene_category": "civic_public",
+      "source_photo_id": "1099437450",
+      "source_sequence_id": "3055970",
+      "shot_date": "2020-09-20 14:45:08.000",
+      "distance_from_feature_km": 0.17120810589244992,
+      "frame_span_km": 0.0364367268222565,
+      "image_metrics": [
+        {
+          "brightness": 132.106,
+          "contrast": 101.238,
+          "gradient": 5.786,
+          "edge_density": 0.0858,
+          "vegetation_fraction": 0.0016
+        },
+        {
+          "brightness": 144.406,
+          "contrast": 91.005,
+          "gradient": 5.727,
+          "edge_density": 0.0773,
+          "vegetation_fraction": 0.0007
+        },
+        {
+          "brightness": 136.704,
+          "contrast": 96.079,
+          "gradient": 6.637,
+          "edge_density": 0.0961,
+          "vegetation_fraction": 0.0019
+        },
+        {
+          "brightness": 143.558,
+          "contrast": 92.691,
+          "gradient": 7.274,
+          "edge_density": 0.11,
+          "vegetation_fraction": 0.0014
+        }
+      ]
+    }
+  ]
+}

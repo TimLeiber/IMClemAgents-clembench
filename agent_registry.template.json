@@ -1,0 +1,41 @@
+[
+  {
+    "agent_name": "codex-with-example-model",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "example-model",
+      "sandbox": "full_access",
+      "reasoning_effort": "high"
+    }
+  },
+  {
+    "agent_name": "claude-code-with-example-model",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "example-model",
+      "permission_mode": "bypassPermissions",
+      "reasoning_effort": "high"
+    }
+  },
+  {
+    "agent_name": "hermes-with-example-model",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "example-model",
+      "provider": "openrouter",
+      "max_turns": 1000,
+      "yolo": true,
+      "reasoning_effort": "high"
+    }
+  },
+  {
+    "agent_name": "openclaw-with-example-model",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "example-model",
+      "reasoning_effort": "high",
+      "debug": true,
+      "verbose": true
+    }
+  }
+]

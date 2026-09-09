@@ -1,0 +1,17 @@
+{
+  "initial_prompt": "resources/initial_prompts/{lang}/geolocate",
+  "feedback_prompt": "resources/feedback_prompts/{lang}/geolocate",
+  "max_rounds": 3,
+  "early_stop_distance_km": 1.0,
+  "earth_radius_km": 6371.009,
+  "inverse_distance_half_score_km": 100.0,
+  "exponential_distance_half_score_km": 100.0,
+  "close_range_half_score_km": 5.0,
+  "distance_feedback_bands": [
+    {"upper_bound_km": 25.0, "label": "under 25 km"},
+    {"upper_bound_km": 100.0, "label": "25-100 km"},
+    {"upper_bound_km": 500.0, "label": "100-500 km"},
+    {"upper_bound_km": 2000.0, "label": "500-2,000 km"},
+    {"upper_bound_km": null, "label": "over 2,000 km"}
+  ]
+}

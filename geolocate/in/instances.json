@@ -1,0 +1,427 @@
+{
+  "experiments": [
+    {
+      "name": "civic_public",
+      "game_instances": [
+        {
+          "game_id": 1,
+          "image_paths": [
+            "geolocate/resources/images_final/location_003/view_00.jpg",
+            "geolocate/resources/images_final/location_003/view_01.jpg",
+            "geolocate/resources/images_final/location_003/view_02.jpg",
+            "geolocate/resources/images_final/location_003/view_03.jpg"
+          ],
+          "target_latitude": 56.965446,
+          "target_longitude": 23.760673,
+          "target_country": "Latvia",
+          "target_country_code": "LV"
+        },
+        {
+          "game_id": 2,
+          "image_paths": [
+            "geolocate/resources/images_final/location_004/view_00.jpg",
+            "geolocate/resources/images_final/location_004/view_01.jpg",
+            "geolocate/resources/images_final/location_004/view_02.jpg",
+            "geolocate/resources/images_final/location_004/view_03.jpg"
+          ],
+          "target_latitude": 14.548236,
+          "target_longitude": 121.190105,
+          "target_country": "Philippines",
+          "target_country_code": "PH"
+        },
+        {
+          "game_id": 3,
+          "image_paths": [
+            "geolocate/resources/images_final/location_007/view_00.jpg",
+            "geolocate/resources/images_final/location_007/view_01.jpg",
+            "geolocate/resources/images_final/location_007/view_02.jpg",
+            "geolocate/resources/images_final/location_007/view_03.jpg"
+          ],
+          "target_latitude": 48.013695,
+          "target_longitude": 16.294896,
+          "target_country": "Austria",
+          "target_country_code": "AT"
+        },
+        {
+          "game_id": 4,
+          "image_paths": [
+            "geolocate/resources/images_final/location_009/view_00.jpg",
+            "geolocate/resources/images_final/location_009/view_01.jpg",
+            "geolocate/resources/images_final/location_009/view_02.jpg",
+            "geolocate/resources/images_final/location_009/view_03.jpg"
+          ],
+          "target_latitude": 48.000577,
+          "target_longitude": 16.26909,
+          "target_country": "Austria",
+          "target_country_code": "AT"
+        },
+        {
+          "game_id": 5,
+          "image_paths": [
+            "geolocate/resources/images_final/location_013/view_00.jpg",
+            "geolocate/resources/images_final/location_013/view_01.jpg",
+            "geolocate/resources/images_final/location_013/view_02.jpg",
+            "geolocate/resources/images_final/location_013/view_03.jpg"
+          ],
+          "target_latitude": 45.911096,
+          "target_longitude": 14.204717,
+          "target_country": "Slovenia",
+          "target_country_code": "SI"
+        },
+        {
+          "game_id": 6,
+          "image_paths": [
+            "geolocate/resources/images_final/location_017/view_00.jpg",
+            "geolocate/resources/images_final/location_017/view_01.jpg",
+            "geolocate/resources/images_final/location_017/view_02.jpg",
+            "geolocate/resources/images_final/location_017/view_03.jpg"
+          ],
+          "target_latitude": 14.428744,
+          "target_longitude": 120.894172,
+          "target_country": "Philippines",
+          "target_country_code": "PH"
+        },
+        {
+          "game_id": 7,
+          "image_paths": [
+            "geolocate/resources/images_final/location_020/view_00.jpg",
+            "geolocate/resources/images_final/location_020/view_01.jpg",
+            "geolocate/resources/images_final/location_020/view_02.jpg",
+            "geolocate/resources/images_final/location_020/view_03.jpg"
+          ],
+          "target_latitude": 50.195861,
+          "target_longitude": 14.675601,
+          "target_country": "Czechia",
+          "target_country_code": "CZ"
+        },
+        {
+          "game_id": 8,
+          "image_paths": [
+            "geolocate/resources/images_final/location_021/view_00.jpg",
+            "geolocate/resources/images_final/location_021/view_01.jpg",
+            "geolocate/resources/images_final/location_021/view_02.jpg",
+            "geolocate/resources/images_final/location_021/view_03.jpg"
+          ],
+          "target_latitude": 53.406263,
+          "target_longitude": -6.684694,
+          "target_country": "Ireland",
+          "target_country_code": "IE"
+        },
+        {
+          "game_id": 9,
+          "image_paths": [
+            "geolocate/resources/images_final/location_027/view_00.jpg",
+            "geolocate/resources/images_final/location_027/view_01.jpg",
+            "geolocate/resources/images_final/location_027/view_02.jpg",
+            "geolocate/resources/images_final/location_027/view_03.jpg"
+          ],
+          "target_latitude": -12.225937,
+          "target_longitude": -76.971349,
+          "target_country": "Peru",
+          "target_country_code": "PE"
+        },
+        {
+          "game_id": 10,
+          "image_paths": [
+            "geolocate/resources/images_final/location_030/view_00.jpg",
+            "geolocate/resources/images_final/location_030/view_01.jpg",
+            "geolocate/resources/images_final/location_030/view_02.jpg",
+            "geolocate/resources/images_final/location_030/view_03.jpg"
+          ],
+          "target_latitude": 59.106313,
+          "target_longitude": 18.041637,
+          "target_country": "Sweden",
+          "target_country_code": "SE"
+        }
+      ],
+      "lang": "en",
+      "views_per_location": 4,
+      "source": "KartaView",
+      "dataset_id": "final",
+      "experiment_name": "kartaview_evidence_4view",
+      "official_instance_count": 5
+    },
+    {
+      "name": "roadside_commerce",
+      "game_instances": [
+        {
+          "game_id": 1,
+          "image_paths": [
+            "geolocate/resources/images_final/location_001/view_00.jpg",
+            "geolocate/resources/images_final/location_001/view_01.jpg",
+            "geolocate/resources/images_final/location_001/view_02.jpg",
+            "geolocate/resources/images_final/location_001/view_03.jpg"
+          ],
+          "target_latitude": 38.69831,
+          "target_longitude": -9.428411,
+          "target_country": "Portugal",
+          "target_country_code": "PT"
+        },
+        {
+          "game_id": 2,
+          "image_paths": [
+            "geolocate/resources/images_final/location_006/view_00.jpg",
+            "geolocate/resources/images_final/location_006/view_01.jpg",
+            "geolocate/resources/images_final/location_006/view_02.jpg",
+            "geolocate/resources/images_final/location_006/view_03.jpg"
+          ],
+          "target_latitude": 59.189528,
+          "target_longitude": 17.649857,
+          "target_country": "Sweden",
+          "target_country_code": "SE"
+        },
+        {
+          "game_id": 3,
+          "image_paths": [
+            "geolocate/resources/images_final/location_008/view_00.jpg",
+            "geolocate/resources/images_final/location_008/view_01.jpg",
+            "geolocate/resources/images_final/location_008/view_02.jpg",
+            "geolocate/resources/images_final/location_008/view_03.jpg"
+          ],
+          "target_latitude": 48.119369,
+          "target_longitude": 16.613685,
+          "target_country": "Austria",
+          "target_country_code": "AT"
+        },
+        {
+          "game_id": 4,
+          "image_paths": [
+            "geolocate/resources/images_final/location_010/view_00.jpg",
+            "geolocate/resources/images_final/location_010/view_01.jpg",
+            "geolocate/resources/images_final/location_010/view_02.jpg",
+            "geolocate/resources/images_final/location_010/view_03.jpg"
+          ],
+          "target_latitude": 14.481432,
+          "target_longitude": 121.226861,
+          "target_country": "Philippines",
+          "target_country_code": "PH"
+        },
+        {
+          "game_id": 5,
+          "image_paths": [
+            "geolocate/resources/images_final/location_011/view_00.jpg",
+            "geolocate/resources/images_final/location_011/view_01.jpg",
+            "geolocate/resources/images_final/location_011/view_02.jpg",
+            "geolocate/resources/images_final/location_011/view_03.jpg"
+          ],
+          "target_latitude": 40.613159,
+          "target_longitude": -3.704473,
+          "target_country": "Spain",
+          "target_country_code": "ES"
+        },
+        {
+          "game_id": 6,
+          "image_paths": [
+            "geolocate/resources/images_final/location_012/view_00.jpg",
+            "geolocate/resources/images_final/location_012/view_01.jpg",
+            "geolocate/resources/images_final/location_012/view_02.jpg",
+            "geolocate/resources/images_final/location_012/view_03.jpg"
+          ],
+          "target_latitude": 53.611749,
+          "target_longitude": -6.186761,
+          "target_country": "Ireland",
+          "target_country_code": "IE"
+        },
+        {
+          "game_id": 7,
+          "image_paths": [
+            "geolocate/resources/images_final/location_014/view_00.jpg",
+            "geolocate/resources/images_final/location_014/view_01.jpg",
+            "geolocate/resources/images_final/location_014/view_02.jpg",
+            "geolocate/resources/images_final/location_014/view_03.jpg"
+          ],
+          "target_latitude": 40.888136,
+          "target_longitude": 29.189209,
+          "target_country": "Turkey",
+          "target_country_code": "TR"
+        },
+        {
+          "game_id": 8,
+          "image_paths": [
+            "geolocate/resources/images_final/location_023/view_00.jpg",
+            "geolocate/resources/images_final/location_023/view_01.jpg",
+            "geolocate/resources/images_final/location_023/view_02.jpg",
+            "geolocate/resources/images_final/location_023/view_03.jpg"
+          ],
+          "target_latitude": 51.442743,
+          "target_longitude": 0.215509,
+          "target_country": "United Kingdom",
+          "target_country_code": "GB"
+        },
+        {
+          "game_id": 9,
+          "image_paths": [
+            "geolocate/resources/images_final/location_025/view_00.jpg",
+            "geolocate/resources/images_final/location_025/view_01.jpg",
+            "geolocate/resources/images_final/location_025/view_02.jpg",
+            "geolocate/resources/images_final/location_025/view_03.jpg"
+          ],
+          "target_latitude": 50.879383,
+          "target_longitude": 4.700734,
+          "target_country": "Belgium",
+          "target_country_code": "BE"
+        },
+        {
+          "game_id": 10,
+          "image_paths": [
+            "geolocate/resources/images_final/location_029/view_00.jpg",
+            "geolocate/resources/images_final/location_029/view_01.jpg",
+            "geolocate/resources/images_final/location_029/view_02.jpg",
+            "geolocate/resources/images_final/location_029/view_03.jpg"
+          ],
+          "target_latitude": 14.428722,
+          "target_longitude": 120.894355,
+          "target_country": "Philippines",
+          "target_country_code": "PH"
+        }
+      ],
+      "lang": "en",
+      "views_per_location": 4,
+      "source": "KartaView",
+      "dataset_id": "final",
+      "experiment_name": "kartaview_evidence_4view",
+      "official_instance_count": 5
+    },
+    {
+      "name": "transport_nodes",
+      "game_instances": [
+        {
+          "game_id": 1,
+          "image_paths": [
+            "geolocate/resources/images_final/location_002/view_00.jpg",
+            "geolocate/resources/images_final/location_002/view_01.jpg",
+            "geolocate/resources/images_final/location_002/view_02.jpg",
+            "geolocate/resources/images_final/location_002/view_03.jpg"
+          ],
+          "target_latitude": -23.524287,
+          "target_longitude": -46.414479,
+          "target_country": "Brazil",
+          "target_country_code": "BR"
+        },
+        {
+          "game_id": 2,
+          "image_paths": [
+            "geolocate/resources/images_final/location_005/view_00.jpg",
+            "geolocate/resources/images_final/location_005/view_01.jpg",
+            "geolocate/resources/images_final/location_005/view_02.jpg",
+            "geolocate/resources/images_final/location_005/view_03.jpg"
+          ],
+          "target_latitude": 38.701259,
+          "target_longitude": -9.424095,
+          "target_country": "Portugal",
+          "target_country_code": "PT"
+        },
+        {
+          "game_id": 3,
+          "image_paths": [
+            "geolocate/resources/images_final/location_015/view_00.jpg",
+            "geolocate/resources/images_final/location_015/view_01.jpg",
+            "geolocate/resources/images_final/location_015/view_02.jpg",
+            "geolocate/resources/images_final/location_015/view_03.jpg"
+          ],
+          "target_latitude": 48.020592,
+          "target_longitude": 17.330966,
+          "target_country": "Slovakia",
+          "target_country_code": "SK"
+        },
+        {
+          "game_id": 4,
+          "image_paths": [
+            "geolocate/resources/images_final/location_016/view_00.jpg",
+            "geolocate/resources/images_final/location_016/view_01.jpg",
+            "geolocate/resources/images_final/location_016/view_02.jpg",
+            "geolocate/resources/images_final/location_016/view_03.jpg"
+          ],
+          "target_latitude": 13.650448,
+          "target_longitude": 100.681915,
+          "target_country": "Thailand",
+          "target_country_code": "TH"
+        },
+        {
+          "game_id": 5,
+          "image_paths": [
+            "geolocate/resources/images_final/location_018/view_00.jpg",
+            "geolocate/resources/images_final/location_018/view_01.jpg",
+            "geolocate/resources/images_final/location_018/view_02.jpg",
+            "geolocate/resources/images_final/location_018/view_03.jpg"
+          ],
+          "target_latitude": 40.540648,
+          "target_longitude": -3.89207,
+          "target_country": "Spain",
+          "target_country_code": "ES"
+        },
+        {
+          "game_id": 6,
+          "image_paths": [
+            "geolocate/resources/images_final/location_019/view_00.jpg",
+            "geolocate/resources/images_final/location_019/view_01.jpg",
+            "geolocate/resources/images_final/location_019/view_02.jpg",
+            "geolocate/resources/images_final/location_019/view_03.jpg"
+          ],
+          "target_latitude": 19.24086,
+          "target_longitude": -99.1475,
+          "target_country": "Mexico",
+          "target_country_code": "MX"
+        },
+        {
+          "game_id": 7,
+          "image_paths": [
+            "geolocate/resources/images_final/location_022/view_00.jpg",
+            "geolocate/resources/images_final/location_022/view_01.jpg",
+            "geolocate/resources/images_final/location_022/view_02.jpg",
+            "geolocate/resources/images_final/location_022/view_03.jpg"
+          ],
+          "target_latitude": 38.953619,
+          "target_longitude": -8.98972,
+          "target_country": "Portugal",
+          "target_country_code": "PT"
+        },
+        {
+          "game_id": 8,
+          "image_paths": [
+            "geolocate/resources/images_final/location_024/view_00.jpg",
+            "geolocate/resources/images_final/location_024/view_01.jpg",
+            "geolocate/resources/images_final/location_024/view_02.jpg",
+            "geolocate/resources/images_final/location_024/view_03.jpg"
+          ],
+          "target_latitude": 19.592989,
+          "target_longitude": -99.031156,
+          "target_country": "Mexico",
+          "target_country_code": "MX"
+        },
+        {
+          "game_id": 9,
+          "image_paths": [
+            "geolocate/resources/images_final/location_026/view_00.jpg",
+            "geolocate/resources/images_final/location_026/view_01.jpg",
+            "geolocate/resources/images_final/location_026/view_02.jpg",
+            "geolocate/resources/images_final/location_026/view_03.jpg"
+          ],
+          "target_latitude": 37.791807,
+          "target_longitude": 23.879665,
+          "target_country": "Greece",
+          "target_country_code": "GR"
+        },
+        {
+          "game_id": 10,
+          "image_paths": [
+            "geolocate/resources/images_final/location_028/view_00.jpg",
+            "geolocate/resources/images_final/location_028/view_01.jpg",
+            "geolocate/resources/images_final/location_028/view_02.jpg",
+            "geolocate/resources/images_final/location_028/view_03.jpg"
+          ],
+          "target_latitude": 38.009475,
+          "target_longitude": 23.972305,
+          "target_country": "Greece",
+          "target_country_code": "GR"
+        }
+      ],
+      "lang": "en",
+      "views_per_location": 4,
+      "source": "KartaView",
+      "dataset_id": "final",
+      "experiment_name": "kartaview_evidence_4view",
+      "official_instance_count": 5
+    }
+  ]
+}

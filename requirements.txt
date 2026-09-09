@@ -1,0 +1,10 @@
+# extraction baseline; the current local clemcore checkout is still required
+clemcore==3.7.2
+numpy
+Pillow
+requests
+pandas
+matplotlib
+kaggle
+spacy>=3.7.4,<4.0.0
+nltk>=3.9.2,<4.0.0

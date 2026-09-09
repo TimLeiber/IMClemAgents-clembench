@@ -1,0 +1,1085 @@
+{
+  "dataset_id": "final",
+  "images": [
+    {
+      "derived_image": "geolocate/resources/images_final/location_001/view_00.jpg",
+      "source_photo_id": "290728959",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/7/25/proc/1270841_1_4f9a7_47.jpg",
+      "contributor_user_id": "11579",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_001/view_01.jpg",
+      "source_photo_id": "290728961",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/7/25/proc/1270841_1_4f9a7_48.jpg",
+      "contributor_user_id": "11579",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_001/view_02.jpg",
+      "source_photo_id": "290728963",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/7/25/proc/1270841_1_4f9a7_49.jpg",
+      "contributor_user_id": "11579",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_001/view_03.jpg",
+      "source_photo_id": "290728965",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/7/25/proc/1270841_1_4f9a7_50.jpg",
+      "contributor_user_id": "11579",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_002/view_00.jpg",
+      "source_photo_id": "1158744358",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/11/2/proc/3209826_8883ece47d027cdfc43eceb7c8c1b821.jpg",
+      "contributor_user_id": "13979",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_002/view_01.jpg",
+      "source_photo_id": "1158744362",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/11/2/proc/3209826_c83b0ee3246eab8470ae6318cc1ffb02.jpg",
+      "contributor_user_id": "13979",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_002/view_02.jpg",
+      "source_photo_id": "1158744366",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/11/2/proc/3209826_e110a395b91fe8fdcb0d0f64e717254b.jpg",
+      "contributor_user_id": "13979",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_002/view_03.jpg",
+      "source_photo_id": "1158744370",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/11/2/proc/3209826_c909206d1fc3849b9ebbb440dab2fc5c.jpg",
+      "contributor_user_id": "13979",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_003/view_00.jpg",
+      "source_photo_id": "1573326953",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/8/16/proc/5897769_57d28_62faf03b6da71.jpg",
+      "contributor_user_id": "16153",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_003/view_01.jpg",
+      "source_photo_id": "1573326937",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/8/16/proc/5897769_daeb5_62faf03b65023.jpg",
+      "contributor_user_id": "16153",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_003/view_02.jpg",
+      "source_photo_id": "1573326857",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/8/16/proc/5897769_971f5_62faf03a91de3.jpg",
+      "contributor_user_id": "16153",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_003/view_03.jpg",
+      "source_photo_id": "1573326889",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/8/16/proc/5897769_a7e0a_62faf03ad9a5d.jpg",
+      "contributor_user_id": "16153",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_004/view_00.jpg",
+      "source_photo_id": "2578276553",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/13/proc/11398217_68fc3_684c13e016a7d.jpg",
+      "contributor_user_id": "320409",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_004/view_01.jpg",
+      "source_photo_id": "2578276569",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/13/proc/11398217_7b6c1_684c13dfb5daf.jpg",
+      "contributor_user_id": "320409",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_004/view_02.jpg",
+      "source_photo_id": "2578276585",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/13/proc/11398217_fefd3_684c13e0246d1.jpg",
+      "contributor_user_id": "320409",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_004/view_03.jpg",
+      "source_photo_id": "2578276601",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/13/proc/11398217_d26b2_684c13e0bb47e.jpg",
+      "contributor_user_id": "320409",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_005/view_00.jpg",
+      "source_photo_id": "290627355",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/7/25/proc/1270773_1_5b2ab_37.jpg",
+      "contributor_user_id": "11579",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_005/view_01.jpg",
+      "source_photo_id": "290627357",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/7/25/proc/1270773_1_5b2ab_38.jpg",
+      "contributor_user_id": "11579",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_005/view_02.jpg",
+      "source_photo_id": "290627359",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/7/25/proc/1270773_1_5b2ab_39.jpg",
+      "contributor_user_id": "11579",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_005/view_03.jpg",
+      "source_photo_id": "290627361",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/7/25/proc/1270773_1_5b2ab_40.jpg",
+      "contributor_user_id": "11579",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_006/view_00.jpg",
+      "source_photo_id": "1957162201",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/5/18/proc/8977881_98318_664936d769b8e.jpg",
+      "contributor_user_id": "107545",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_006/view_01.jpg",
+      "source_photo_id": "1957162217",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/5/18/proc/8977881_be277_664936d7abccb.jpg",
+      "contributor_user_id": "107545",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_006/view_02.jpg",
+      "source_photo_id": "1957162233",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/5/18/proc/8977881_8e463_664936d84cbfb.jpg",
+      "contributor_user_id": "107545",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_006/view_03.jpg",
+      "source_photo_id": "1957162249",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/5/18/proc/8977881_d25e1_664936d9cea12.jpg",
+      "contributor_user_id": "107545",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_007/view_00.jpg",
+      "source_photo_id": "2078692409",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/9/3/proc/9440281_281d3_66d7879029316.jpg",
+      "contributor_user_id": "222665",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_007/view_01.jpg",
+      "source_photo_id": "2078692441",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/9/3/proc/9440281_30268_66d787902fb3b.jpg",
+      "contributor_user_id": "222665",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_007/view_02.jpg",
+      "source_photo_id": "2078692457",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/9/3/proc/9440281_5e156_66d7879064f5c.jpg",
+      "contributor_user_id": "222665",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_007/view_03.jpg",
+      "source_photo_id": "2078692473",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/9/3/proc/9440281_48a14_66d7879092353.jpg",
+      "contributor_user_id": "222665",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_008/view_00.jpg",
+      "source_photo_id": "335615055",
+      "source_image_url": "https://storage9.openstreetcam.org/files/photo/2018/12/9/proc/1312723_38_3069a_51.jpg",
+      "contributor_user_id": "1614",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_008/view_01.jpg",
+      "source_photo_id": "335615057",
+      "source_image_url": "https://storage9.openstreetcam.org/files/photo/2018/12/9/proc/1312723_38_3069a_52.jpg",
+      "contributor_user_id": "1614",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_008/view_02.jpg",
+      "source_photo_id": "335615059",
+      "source_image_url": "https://storage9.openstreetcam.org/files/photo/2018/12/9/proc/1312723_38_3069a_53.jpg",
+      "contributor_user_id": "1614",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_008/view_03.jpg",
+      "source_photo_id": "335615061",
+      "source_image_url": "https://storage9.openstreetcam.org/files/photo/2018/12/9/proc/1312723_38_3069a_54.jpg",
+      "contributor_user_id": "1614",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_009/view_00.jpg",
+      "source_photo_id": "2468485097",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/10/18/proc/10043017_3d594_6712c24eaabe6.jpg",
+      "contributor_user_id": "222665",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_009/view_01.jpg",
+      "source_photo_id": "2468485081",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/10/18/proc/10043017_2511b_6712c24eb7f2c.jpg",
+      "contributor_user_id": "222665",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_009/view_02.jpg",
+      "source_photo_id": "2468485145",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/10/18/proc/10043017_4289f_6712c24fa9853.jpg",
+      "contributor_user_id": "222665",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_009/view_03.jpg",
+      "source_photo_id": "2468485161",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/10/18/proc/10043017_b3688_6712c25128984.jpg",
+      "contributor_user_id": "222665",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_010/view_00.jpg",
+      "source_photo_id": "2577051753",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/12/proc/11382233_e8ff7_684a3e8840a7a.jpg",
+      "contributor_user_id": "320409",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_010/view_01.jpg",
+      "source_photo_id": "2577051769",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/12/proc/11382233_0d7b4_684a3e88500d7.jpg",
+      "contributor_user_id": "320409",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_010/view_02.jpg",
+      "source_photo_id": "2577051785",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/12/proc/11382233_7f324_684a3e88bc0b0.jpg",
+      "contributor_user_id": "320409",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_010/view_03.jpg",
+      "source_photo_id": "2577051801",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/12/proc/11382233_6ebee_684a3e894383f.jpg",
+      "contributor_user_id": "320409",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_011/view_00.jpg",
+      "source_photo_id": "356249137",
+      "source_image_url": "https://storage11.openstreetcam.org/files/photo/2019/2/2/proc/1336179_32_5a8a0_33.jpg",
+      "contributor_user_id": "17657",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_011/view_01.jpg",
+      "source_photo_id": "356249139",
+      "source_image_url": "https://storage11.openstreetcam.org/files/photo/2019/2/2/proc/1336179_32_5a8a0_34.jpg",
+      "contributor_user_id": "17657",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_011/view_02.jpg",
+      "source_photo_id": "356249141",
+      "source_image_url": "https://storage11.openstreetcam.org/files/photo/2019/2/2/proc/1336179_32_5a8a0_35.jpg",
+      "contributor_user_id": "17657",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_011/view_03.jpg",
+      "source_photo_id": "356249143",
+      "source_image_url": "https://storage11.openstreetcam.org/files/photo/2019/2/2/proc/1336179_32_5a8a0_36.jpg",
+      "contributor_user_id": "17657",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_012/view_00.jpg",
+      "source_photo_id": "1463239321",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/4/6/proc/5017049_5b2fcc7265fde8a831f5243d5ce47952.jpg",
+      "contributor_user_id": "74393",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_012/view_01.jpg",
+      "source_photo_id": "1463239337",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/4/6/proc/5017049_44841f93b34323b1d6aed75b65348332.jpg",
+      "contributor_user_id": "74393",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_012/view_02.jpg",
+      "source_photo_id": "1463239353",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/4/6/proc/5017049_089343c04253cf5e98dd84b83c7082d6.jpg",
+      "contributor_user_id": "74393",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_012/view_03.jpg",
+      "source_photo_id": "1463239369",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/4/6/proc/5017049_ab76c7e3156361b9ed7e65bf62c75fb3.jpg",
+      "contributor_user_id": "74393",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_013/view_00.jpg",
+      "source_photo_id": "459732121",
+      "source_image_url": "https://storage12.openstreetcam.org/files/photo/2019/7/14/proc/1585349_46_114ad_40.jpg",
+      "contributor_user_id": "16315",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_013/view_01.jpg",
+      "source_photo_id": "459732125",
+      "source_image_url": "https://storage12.openstreetcam.org/files/photo/2019/7/14/proc/1585349_46_114ad_41.jpg",
+      "contributor_user_id": "16315",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_013/view_02.jpg",
+      "source_photo_id": "459732129",
+      "source_image_url": "https://storage12.openstreetcam.org/files/photo/2019/7/14/proc/1585349_46_114ad_42.jpg",
+      "contributor_user_id": "16315",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_013/view_03.jpg",
+      "source_photo_id": "459732133",
+      "source_image_url": "https://storage12.openstreetcam.org/files/photo/2019/7/14/proc/1585349_46_114ad_43.jpg",
+      "contributor_user_id": "16315",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_014/view_00.jpg",
+      "source_photo_id": "1250259761",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2021/3/8/proc/3449897_7a9f5_60456ae4c1027.jpg",
+      "contributor_user_id": "10054",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_014/view_01.jpg",
+      "source_photo_id": "1250259785",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2021/3/8/proc/3449897_3a093_60456ae645b15.jpg",
+      "contributor_user_id": "10054",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_014/view_02.jpg",
+      "source_photo_id": "1250259801",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2021/3/8/proc/3449897_a3016_60456ae7aa19a.jpg",
+      "contributor_user_id": "10054",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_014/view_03.jpg",
+      "source_photo_id": "1250259813",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2021/3/8/proc/3449897_9e652_60456ae913713.jpg",
+      "contributor_user_id": "10054",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_015/view_00.jpg",
+      "source_photo_id": "274346541",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/6/30/proc/1258665_20_0b01f_46.jpg",
+      "contributor_user_id": "13413",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_015/view_01.jpg",
+      "source_photo_id": "274346543",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/6/30/proc/1258665_20_0b01f_47.jpg",
+      "contributor_user_id": "13413",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_015/view_02.jpg",
+      "source_photo_id": "274346545",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/6/30/proc/1258665_20_0b01f_48.jpg",
+      "contributor_user_id": "13413",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_015/view_03.jpg",
+      "source_photo_id": "274346547",
+      "source_image_url": "https://storage8.openstreetcam.org/files/photo/2018/6/30/proc/1258665_20_0b01f_49.jpg",
+      "contributor_user_id": "13413",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_016/view_00.jpg",
+      "source_photo_id": "2574250713",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/7/proc/11359001_0cff36ad3d6f83975e95c0647c5d75b5.jpg",
+      "contributor_user_id": "221721",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_016/view_01.jpg",
+      "source_photo_id": "2574250729",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/7/proc/11359001_2b490237e90d19afd28fd057122b923f.jpg",
+      "contributor_user_id": "221721",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_016/view_02.jpg",
+      "source_photo_id": "2574250745",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/7/proc/11359001_8ee956eb5e2267b6fb2350266de6a91e.jpg",
+      "contributor_user_id": "221721",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_016/view_03.jpg",
+      "source_photo_id": "2574250761",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2025/6/7/proc/11359001_79b8d89e3432de61f724c63d2bfac216.jpg",
+      "contributor_user_id": "221721",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_017/view_00.jpg",
+      "source_photo_id": "2520029081",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/11/30/proc/10295049_8de80_674ad92808e4e.jpg",
+      "contributor_user_id": "236985",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_017/view_01.jpg",
+      "source_photo_id": "2520029097",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/11/30/proc/10295049_e0fec_674ad928492bf.jpg",
+      "contributor_user_id": "236985",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_017/view_02.jpg",
+      "source_photo_id": "2520029113",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/11/30/proc/10295049_cacb9_674ad9292c8b7.jpg",
+      "contributor_user_id": "236985",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_017/view_03.jpg",
+      "source_photo_id": "2520029129",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/11/30/proc/10295049_15c71_674ad9293d08d.jpg",
+      "contributor_user_id": "236985",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_018/view_00.jpg",
+      "source_photo_id": "1580734761",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/8/22/proc/5959097_a4b5f1346e0103f32fbacb117033be10.jpg",
+      "contributor_user_id": "1609",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_018/view_01.jpg",
+      "source_photo_id": "1580734777",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/8/22/proc/5959097_bb36c2c25b7b41962e4f1b18cbb02064.jpg",
+      "contributor_user_id": "1609",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_018/view_02.jpg",
+      "source_photo_id": "1580734793",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/8/22/proc/5959097_04fdf28d7ed97cc3f6f6e731dd50afd8.jpg",
+      "contributor_user_id": "1609",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_018/view_03.jpg",
+      "source_photo_id": "1580734809",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/8/22/proc/5959097_a85c533a925d19d5df92d4e7292ddc60.jpg",
+      "contributor_user_id": "1609",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_019/view_00.jpg",
+      "source_photo_id": "47820833",
+      "source_image_url": "https://storage4.openstreetcam.org/files/photo/2017/6/19/proc/470701_eaffc_43.jpg",
+      "contributor_user_id": "46",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_019/view_01.jpg",
+      "source_photo_id": "47820835",
+      "source_image_url": "https://storage4.openstreetcam.org/files/photo/2017/6/19/proc/470701_eaffc_44.jpg",
+      "contributor_user_id": "46",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_019/view_02.jpg",
+      "source_photo_id": "47820837",
+      "source_image_url": "https://storage4.openstreetcam.org/files/photo/2017/6/19/proc/470701_eaffc_45.jpg",
+      "contributor_user_id": "46",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_019/view_03.jpg",
+      "source_photo_id": "47820839",
+      "source_image_url": "https://storage4.openstreetcam.org/files/photo/2017/6/19/proc/470701_eaffc_46.jpg",
+      "contributor_user_id": "46",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_020/view_00.jpg",
+      "source_photo_id": "1596431801",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/9/2/proc/6019369_132d8_63127a598a9c8.jpg",
+      "contributor_user_id": "15497",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_020/view_01.jpg",
+      "source_photo_id": "1596431817",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/9/2/proc/6019369_7a930_63127a9120fec.jpg",
+      "contributor_user_id": "15497",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_020/view_02.jpg",
+      "source_photo_id": "1596431833",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/9/2/proc/6019369_110c0_63127a959a5b9.jpg",
+      "contributor_user_id": "15497",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_020/view_03.jpg",
+      "source_photo_id": "1596431849",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2022/9/2/proc/6019369_468f6_63127aa2ee5b0.jpg",
+      "contributor_user_id": "15497",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_021/view_00.jpg",
+      "source_photo_id": "1044135194",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/8/10/proc/2895798_ce61a_5f3189369a327.jpg",
+      "contributor_user_id": "11241",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_021/view_01.jpg",
+      "source_photo_id": "1044135318",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/8/10/proc/2895798_c46b3_5f31893f25587.jpg",
+      "contributor_user_id": "11241",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_021/view_02.jpg",
+      "source_photo_id": "1044135510",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/8/10/proc/2895798_242b2_5f31894714ec3.jpg",
+      "contributor_user_id": "11241",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_021/view_03.jpg",
+      "source_photo_id": "1044135682",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/8/10/proc/2895798_f9ad0_5f318952dbf09.jpg",
+      "contributor_user_id": "11241",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_022/view_00.jpg",
+      "source_photo_id": "295441509",
+      "source_image_url": "https://storage9.openstreetcam.org/files/photo/2018/8/5/proc/1274493_14_690a2_49.jpg",
+      "contributor_user_id": "14313",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_022/view_01.jpg",
+      "source_photo_id": "295441511",
+      "source_image_url": "https://storage9.openstreetcam.org/files/photo/2018/8/5/proc/1274493_14_690a2_50.jpg",
+      "contributor_user_id": "14313",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_022/view_02.jpg",
+      "source_photo_id": "295441513",
+      "source_image_url": "https://storage9.openstreetcam.org/files/photo/2018/8/5/proc/1274493_15_e3e9f_1.jpg",
+      "contributor_user_id": "14313",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_022/view_03.jpg",
+      "source_photo_id": "295441515",
+      "source_image_url": "https://storage9.openstreetcam.org/files/photo/2018/8/5/proc/1274493_15_e3e9f_2.jpg",
+      "contributor_user_id": "14313",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_023/view_00.jpg",
+      "source_photo_id": "1203334177",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/12/9/proc/3323525_20389_5fd123857e769.jpg",
+      "contributor_user_id": "35326",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_023/view_01.jpg",
+      "source_photo_id": "1203334269",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/12/9/proc/3323525_cd933_5fd12389213bd.jpg",
+      "contributor_user_id": "35326",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_023/view_02.jpg",
+      "source_photo_id": "1203334357",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/12/9/proc/3323525_6f15a_5fd1238c61a49.jpg",
+      "contributor_user_id": "35326",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_023/view_03.jpg",
+      "source_photo_id": "1203334441",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/12/9/proc/3323525_1bb75_5fd1238fc7c54.jpg",
+      "contributor_user_id": "35326",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_024/view_00.jpg",
+      "source_photo_id": "15869323",
+      "source_image_url": "https://storage2.openstreetcam.org/files/photo/2017/1/31/proc/47054_506b4_588fd7e14acd2.jpg",
+      "contributor_user_id": "380",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_024/view_01.jpg",
+      "source_photo_id": "15869324",
+      "source_image_url": "https://storage2.openstreetcam.org/files/photo/2017/1/31/proc/47054_f3ad4_588fd7e209203.jpg",
+      "contributor_user_id": "380",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_024/view_02.jpg",
+      "source_photo_id": "15869325",
+      "source_image_url": "https://storage2.openstreetcam.org/files/photo/2017/1/31/proc/47054_b32c8_588fd7e29e42c.jpg",
+      "contributor_user_id": "380",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_024/view_03.jpg",
+      "source_photo_id": "15869326",
+      "source_image_url": "https://storage2.openstreetcam.org/files/photo/2017/1/31/proc/47054_35eee_588fd7e34242c.jpg",
+      "contributor_user_id": "380",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_025/view_00.jpg",
+      "source_photo_id": "1251567109",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2021/3/10/proc/3452785_8e6a4_604879c2e00cc.jpg",
+      "contributor_user_id": "1581",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_025/view_01.jpg",
+      "source_photo_id": "1251567117",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2021/3/10/proc/3452785_55a47_604879c3e7271.jpg",
+      "contributor_user_id": "1581",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_025/view_02.jpg",
+      "source_photo_id": "1251567129",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2021/3/10/proc/3452785_822d4_604879c4f1560.jpg",
+      "contributor_user_id": "1581",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_025/view_03.jpg",
+      "source_photo_id": "1251567133",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2021/3/10/proc/3452785_0fbc4_604879c5ee211.jpg",
+      "contributor_user_id": "1581",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_026/view_00.jpg",
+      "source_photo_id": "11208899",
+      "source_image_url": "https://storage2.openstreetcam.org/files/photo/2016/11/8/proc/26893_ba53c_5821c1db21697.jpg",
+      "contributor_user_id": "53",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_026/view_01.jpg",
+      "source_photo_id": "11208900",
+      "source_image_url": "https://storage2.openstreetcam.org/files/photo/2016/11/8/proc/26893_94bd6_5821c1dea6765.jpg",
+      "contributor_user_id": "53",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_026/view_02.jpg",
+      "source_photo_id": "11208901",
+      "source_image_url": "https://storage2.openstreetcam.org/files/photo/2016/11/8/proc/26893_e0a45_5821c1e2362a3.jpg",
+      "contributor_user_id": "53",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_026/view_03.jpg",
+      "source_photo_id": "11208902",
+      "source_image_url": "https://storage2.openstreetcam.org/files/photo/2016/11/8/proc/26893_ff07a_5821c1e5ba2af.jpg",
+      "contributor_user_id": "53",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_027/view_00.jpg",
+      "source_photo_id": "1021798962",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/7/30/proc/2835646_de611_5f2281d56249f.jpg",
+      "contributor_user_id": "8168",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_027/view_01.jpg",
+      "source_photo_id": "1021799206",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/7/30/proc/2835646_3494e_5f2281f5b8601.jpg",
+      "contributor_user_id": "8168",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_027/view_02.jpg",
+      "source_photo_id": "1021799438",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/7/30/proc/2835646_c3ad1_5f22820d5bced.jpg",
+      "contributor_user_id": "8168",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_027/view_03.jpg",
+      "source_photo_id": "1021799666",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/7/30/proc/2835646_52e53_5f22822523e98.jpg",
+      "contributor_user_id": "8168",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_028/view_00.jpg",
+      "source_photo_id": "2051477321",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/8/23/proc/9344329_77600_66c8f41fb70d1.jpg",
+      "contributor_user_id": "223417",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_028/view_01.jpg",
+      "source_photo_id": "2051477337",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/8/23/proc/9344329_39251_66c8f425b812d.jpg",
+      "contributor_user_id": "223417",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_028/view_02.jpg",
+      "source_photo_id": "2051477353",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/8/23/proc/9344329_bbd35_66c8f42323422.jpg",
+      "contributor_user_id": "223417",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_028/view_03.jpg",
+      "source_photo_id": "2051477369",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/8/23/proc/9344329_bd291_66c8f41fc55dd.jpg",
+      "contributor_user_id": "223417",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_029/view_00.jpg",
+      "source_photo_id": "2520041753",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/11/30/proc/10295065_5d773_674ada5387e3f.jpg",
+      "contributor_user_id": "236985",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_029/view_01.jpg",
+      "source_photo_id": "2520041769",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/11/30/proc/10295065_32e91_674ada53e836e.jpg",
+      "contributor_user_id": "236985",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_029/view_02.jpg",
+      "source_photo_id": "2520041785",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/11/30/proc/10295065_d1b77_674ada542e4d7.jpg",
+      "contributor_user_id": "236985",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_029/view_03.jpg",
+      "source_photo_id": "2520041801",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2024/11/30/proc/10295065_7c9c5_674ada5504a28.jpg",
+      "contributor_user_id": "236985",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_030/view_00.jpg",
+      "source_photo_id": "1099437446",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/9/20/proc/3055970_2c031d73af8186a2f265a89b4006b67c.jpg",
+      "contributor_user_id": "39590",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_030/view_01.jpg",
+      "source_photo_id": "1099437450",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/9/20/proc/3055970_dc25340f117efeb60af24abad2985b5b.jpg",
+      "contributor_user_id": "39590",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_030/view_02.jpg",
+      "source_photo_id": "1099437454",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/9/20/proc/3055970_0c90dbe8f177d09bb0eb38d52db5b59c.jpg",
+      "contributor_user_id": "39590",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    },
+    {
+      "derived_image": "geolocate/resources/images_final/location_030/view_03.jpg",
+      "source_photo_id": "1099437458",
+      "source_image_url": "https://storage13.openstreetcam.org/files/photo/2020/9/20/proc/3055970_59b4d530fe107ce68336fc76e11c5ea1.jpg",
+      "contributor_user_id": "39590",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "transformation": "bottom 12% cropped, resized to fit within 1280x1280, and JPEG re-encoded"
+    }
+  ]
+}

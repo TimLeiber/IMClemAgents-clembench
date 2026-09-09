@@ -1,0 +1,37 @@
+[
+  {
+    "game_name": "wordle",
+    "description": "Wordle 5-letter word guessing game.",
+    "main_game": "wordle",
+    "players": 1,
+    "image": "none",
+    "languages": ["en"],
+    "benchmark": ["2.0", "3.0"],
+    "regression": "small",
+    "roles": ["Guesser"]
+  },
+  {
+    "game_name": "wordle_withclue",
+    "description": "Wordle 5-letter word guessing game with clue giver.",
+    "main_game": "wordle",
+    "instances": "instances_withclue",
+    "players": 2,
+    "image": "none",
+    "languages": ["en"],
+    "benchmark": ["2.0", "3.0"],
+    "regression": "large",
+    "roles": ["Guesser", "Clue Giver"]
+  },
+  {
+    "game_name": "wordle_withcritic",
+    "description": "Wordle 5-letter word guessing game with critic.",
+    "main_game": "wordle",
+    "instances": "instances_withcritic",
+    "players": 2,
+    "image": "none",
+    "languages": ["en"],
+    "benchmark": ["2.0", "3.0"],
+    "regression": "large",
+    "roles": ["Guesser", "Clue Giver"]
+  }
+]

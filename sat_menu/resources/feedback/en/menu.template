@@ -1,0 +1,32 @@
+Your updated menu does not satisfy every participant.
+
+Current menu:
+$CURRENT_MENU$
+
+Current person satisfaction:
+$PARTICIPANT_SATISFACTION$
+
+You have $REMAINING_ATTEMPTS$ turns remaining. Submit another update that
+adds or removes at most $MAX_CHANGES_PER_TURN$ menu items in total across
+both $ADD_LABEL$ and $REMOVE_LABEL$.
+
+Respond with exactly these three labelled lines, replacing the text in angle
+brackets with your update:
+$ADD_LABEL$: <menu items to add, or $NO_CHANGE$>
+$REMOVE_LABEL$: <menu items to remove, or $NO_CHANGE$>
+$EXPLANATION_LABEL$: <one brief sentence explaining why these changes help>
+
+- Keep each label and its value on one line. Do not insert line breaks within
+  any value, including $EXPLANATION_LABEL$.
+- You may change at most $MAX_CHANGES_PER_TURN$ menu items per turn in total.
+- $ADD_LABEL$ and $REMOVE_LABEL$ share this limit; each item listed under
+  either label counts as one change.
+- Therefore, with a limit of 2, you may add two items, remove two items, or
+  add one item and remove one item.
+- You may not add two items and also remove any items, or remove two items
+  and also add any items.
+- $ADD_LABEL$ adds only the listed items to the current menu
+- $REMOVE_LABEL$ removes only the listed items from the current menu
+Use $NO_CHANGE$ when no item is added or removed.
+The total number of items across $ADD_LABEL$ and $REMOVE_LABEL$ must not
+exceed $MAX_CHANGES_PER_TURN$.

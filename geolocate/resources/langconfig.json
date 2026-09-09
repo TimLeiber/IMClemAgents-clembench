@@ -1,0 +1,10 @@
+{
+  "en": {
+    "response_format": {
+      "explanation_label": "EXPLANATION",
+      "latitude_label": "LATITUDE",
+      "longitude_label": "LONGITUDE",
+      "country_label": "COUNTRY"
+    }
+  }
+}

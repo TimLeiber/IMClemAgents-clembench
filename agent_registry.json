@@ -1,0 +1,232 @@
+[
+  {
+    "agent_name": "codex-with-glm-5.3-flash",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "glm-5.3-flash",
+      "sandbox": "full_access",
+      "reasoning_effort": "max"
+    }
+  },
+  {
+    "agent_name": "claude-code-with-glm-5.3-flash",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "glm-5.3-flash",
+      "permission_mode": "bypassPermissions",
+      "reasoning_effort": "max"
+    }
+  },
+  {
+    "agent_name": "hermes-with-glm-5.3-flash",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "glm-5.3-flash",
+      "provider": "openrouter",
+      "max_turns": 1000,
+      "yolo": true,
+      "reasoning_effort": "max"
+    }
+  },
+  {
+    "agent_name": "openclaw-with-glm-5.3-flash",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "glm-5.3-flash",
+      "reasoning_effort": "high",
+      "debug": true,
+      "verbose": true
+    }
+  },
+  {
+    "agent_name": "codex-with-gemma4-e4b-mlx",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "gemma4-e4b-mlx",
+      "sandbox": "full_access",
+      "reasoning_effort": "high"
+    }
+  },
+  {
+    "agent_name": "claude-code-with-gemma4-e4b-mlx",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "gemma4-e4b-mlx",
+      "permission_mode": "bypassPermissions",
+      "reasoning_effort": "high"
+    }
+  },
+  {
+    "agent_name": "hermes-with-gemma4-e4b-mlx",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "gemma4-e4b-mlx",
+      "provider": "openai-api",
+      "max_turns": 1000,
+      "yolo": true,
+      "reasoning_effort": "high"
+    }
+  },
+  {
+    "agent_name": "openclaw-with-gemma4-e4b-mlx",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "gemma4-e4b-mlx",
+      "reasoning_effort": "high",
+      "debug": true,
+      "verbose": true
+    }
+  },
+  {
+    "agent_name": "codex-with-qwen3.8-2.4t-a95b",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "qwen3.8-2.4t-a95b",
+      "sandbox": "full_access",
+      "reasoning_effort": "high"
+    }
+  },
+  {
+    "agent_name": "claude-code-with-qwen3.8-2.4t-a95b",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "qwen3.8-2.4t-a95b",
+      "permission_mode": "bypassPermissions",
+      "reasoning_effort": "xhigh"
+    }
+  },
+  {
+    "agent_name": "hermes-with-qwen3.8-2.4t-a95b",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "qwen3.8-2.4t-a95b",
+      "provider": "openrouter",
+      "max_turns": 1000,
+      "yolo": true,
+      "reasoning_effort": "xhigh"
+    }
+  },
+  {
+    "agent_name": "openclaw-with-qwen3.8-2.4t-a95b",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "qwen3.8-2.4t-a95b",
+      "reasoning_effort": "high",
+      "debug": true,
+      "verbose": true
+    }
+  },
+  {
+    "agent_name": "codex-with-qwen3.8-27b-reasoning",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "qwen3.8-27b-reasoning",
+      "sandbox": "full_access",
+      "reasoning_effort": "xhigh"
+    }
+  },
+  {
+    "agent_name": "claude-code-with-qwen3.8-27b-reasoning",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "qwen3.8-27b-reasoning",
+      "permission_mode": "bypassPermissions",
+      "reasoning_effort": "xhigh"
+    }
+  },
+  {
+    "agent_name": "hermes-with-qwen3.8-27b-reasoning",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "qwen3.8-27b-reasoning",
+      "provider": "openrouter",
+      "max_turns": 1000,
+      "yolo": true,
+      "reasoning_effort": "xhigh"
+    }
+  },
+  {
+    "agent_name": "openclaw-with-qwen3.8-27b-reasoning",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "qwen3.8-27b-reasoning",
+      "reasoning_effort": "high",
+      "debug": true,
+      "verbose": true
+    }
+  },
+  {
+    "agent_name": "codex-with-nemotron-3.5-30B-A3-reasoning",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "nemotron-3.5-30B-A3-reasoning",
+      "sandbox": "full_access"
+    }
+  },
+  {
+    "agent_name": "claude-code-with-nemotron-3.5-30B-A3-reasoning",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "nemotron-3.5-30B-A3-reasoning",
+      "permission_mode": "bypassPermissions"
+    }
+  },
+  {
+    "agent_name": "hermes-with-nemotron-3.5-30B-A3-reasoning",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "nemotron-3.5-30B-A3-reasoning",
+      "provider": "openrouter",
+      "max_turns": 1000,
+      "yolo": true
+    }
+  },
+  {
+    "agent_name": "openclaw-with-nemotron-3.5-30B-A3-reasoning",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "nemotron-3.5-30B-A3-reasoning",
+      "debug": true,
+      "verbose": true
+    }
+  },
+  {
+    "agent_name": "codex-with-gpt-oss-120b",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "gpt-oss-120b",
+      "sandbox": "full_access",
+      "reasoning_effort": "medium"
+    }
+  },
+  {
+    "agent_name": "claude-code-with-gpt-oss-120b",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "gpt-oss-120b",
+      "permission_mode": "bypassPermissions",
+      "reasoning_effort": "medium"
+    }
+  },
+  {
+    "agent_name": "hermes-with-gpt-oss-120b",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "gpt-oss-120b",
+      "provider": "openrouter",
+      "max_turns": 1000,
+      "yolo": true,
+      "reasoning_effort": "medium"
+    }
+  },
+  {
+    "agent_name": "openclaw-with-gpt-oss-120b",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "gpt-oss-120b",
+      "reasoning_effort": "medium",
+      "debug": true,
+      "verbose": true
+    }
+  }
+]

@@ -1,0 +1,12 @@
+DISTANCE_FEEDBACK: $DISTANCE_FEEDBACK$
+COUNTRY_FEEDBACK: $COUNTRY_FEEDBACK$
+PROGRESS_FEEDBACK: $PROGRESS_FEEDBACK$
+PREDICTIONS_REMAINING: $PREDICTIONS_REMAINING$
+
+Use this feedback to refine your next prediction.
+
+Make another prediction using exactly four one-line fields:
+$EXPLANATION_LABEL$: <concise one-line explanation>
+$LATITUDE_LABEL$: <decimal latitude from -90.0 to 90.0>
+$LONGITUDE_LABEL$: <decimal longitude from -180.0 to 180.0>
+$COUNTRY_LABEL$: <country name>

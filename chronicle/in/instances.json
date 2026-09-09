@@ -1,0 +1,1217 @@
+{
+  "experiments": [
+    {
+      "name": "battles_easy",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "target_event": "Russo-Persian War (1722–1723)",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "The Russo-Persian War of 1722–1723, known in Russian historiography as the Persian campaign of Peter the Great, was a war between the Russian Empire and Safavid Iran, triggered by the tsar's attempt to expand Russian influence in the Caspian and Caucasus regions and to prevent its rival, the Ottoman Empire, from territorial gains in the region at the expense of declining Safavid Iran.",
+          "forbidden_keywords": [
+            "iran",
+            "persian",
+            "russian",
+            "russo",
+            "safavid"
+          ],
+          "acceptable_answers": [
+            "first russo-persian war",
+            "persian campaign of 1722-1723",
+            "persian campaign of peter i",
+            "persian campaign of peter the great",
+            "persian campaign, 1722-1723",
+            "persian expedition of 1722",
+            "persian expedition of peter the great",
+            "persian war of 1722-1723",
+            "russo-persian war (1722-1723)",
+            "russo-persian war (1722-23)",
+            "russo-persian war (1722–1723)",
+            "russo-persian war (1722–23)",
+            "russo-persian war of 1722-1723",
+            "russo-persian war of 1722–1723",
+            "russo-persian war, 1722-1723",
+            "russo-persian war, 1722–1723",
+            "russo–persian war (1722–1723)",
+            "the russo-persian war (1722–1723)"
+          ]
+        },
+        {
+          "game_id": 1,
+          "target_event": "Münster rebellion",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "The Münster rebellion was an attempt by radical Anabaptists to establish a communal sectarian government in the German city of Münster – then under the large Prince-Bishopric of Münster in the Holy Roman Empire.",
+          "forbidden_keywords": [
+            "münster",
+            "rebellion"
+          ],
+          "acceptable_answers": [
+            "anabaptist revolt",
+            "kingdom of muenster",
+            "kingdom of münster",
+            "muenster rebellion",
+            "munster rebellion",
+            "münster rebellion",
+            "siege of munster",
+            "siege of münster",
+            "the münster rebellion"
+          ]
+        },
+        {
+          "game_id": 2,
+          "target_event": "Battle of Vella Lavella (naval)",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "The Battle of Vella Lavella  was a naval battle of the Pacific campaign of World War II fought on the night of 6 October 1943, near the island of Vella Lavella in the Solomon Islands. It marked the end of a three-month fight to capture the central Solomon Islands, as part of the Solomon Islands campaign.",
+          "forbidden_keywords": [
+            "lavella",
+            "naval",
+            "solomon islands",
+            "vella"
+          ],
+          "acceptable_answers": [
+            "battle of vella lavella (naval)",
+            "naval battle of vella lavella",
+            "the battle of vella lavella (naval)",
+            "vella lavella (naval)"
+          ]
+        },
+        {
+          "game_id": 3,
+          "target_event": "War of the Oranges",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "The War of the Oranges was a brief conflict in 1801 in which Spanish forces, instigated by the government of France, and ultimately supported by the French military, invaded Portugal. The war resulted in the Treaty of Badajoz, the loss of Portuguese territory, in particular losing Olivenza to Spain. Six years later, Napoleon would invade both Portugal and Spain in the Peninsular War.",
+          "forbidden_keywords": [
+            "oranges",
+            "portugal",
+            "spain"
+          ],
+          "acceptable_answers": [
+            "orange war",
+            "spain declares war on portugal",
+            "the war of the oranges",
+            "war of oranges",
+            "war of the oranges"
+          ]
+        },
+        {
+          "game_id": 4,
+          "target_event": "Chapan rebellion",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "The Chapan rebellion was one of the largest peasant uprisings against the Bolsheviks during the Russian Civil War from March to April 1919. Peasants in the Simbirsk Governorate and Samara Governorate formed Green armies that rebelled against the Bolsheviks due to forced requisitions and conscription. Rebels led by Aleksey Dolinin captured the city of Stavropol, killed Bolshevik officials, and gained control of most of the Stavropol-Syzran area. The main rebellion was defeated by the Red Army a week later and remnants were defeated by April.",
+          "forbidden_keywords": [
+            "bolsheviks",
+            "chapan",
+            "rebellion",
+            "stavropol"
+          ],
+          "acceptable_answers": [
+            "chapan rebellion",
+            "chapan war",
+            "the chapan rebellion"
+          ]
+        },
+        {
+          "game_id": 5,
+          "target_event": "Battle of San Lorenzo",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "The Battle of San Lorenzo was fought on 3 February 1813 in San Lorenzo, Argentina, then part of the United Provinces of the Río de la Plata. The royalist troops were composed of militiamen recruited in Montevideo under the command of militia captain Antonio Zabala, who were defeated by the Regiment of Mounted Grenadiers under the command of José de San Martín. This battle was the baptism by fire for this military unit, as well as for San Martín in the Spanish American wars of independence.",
+          "forbidden_keywords": [
+            "lorenzo",
+            "san"
+          ],
+          "acceptable_answers": [
+            "battle of san lorenzo",
+            "san lorenzo",
+            "the battle of san lorenzo"
+          ]
+        },
+        {
+          "game_id": 6,
+          "target_event": "Dutch Revolt",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "The Eighty Years' War or Dutch Revolt was an armed conflict in the Habsburg Netherlands between disparate groups of rebels and the Spanish government. The causes of the war included the Reformation, centralisation, excessive taxation, and the rights and privileges of the Dutch nobility and cities.",
+          "forbidden_keywords": [
+            "dutch",
+            "revolt"
+          ],
+          "acceptable_answers": [
+            "dutch revolt",
+            "the dutch revolt"
+          ]
+        },
+        {
+          "game_id": 7,
+          "target_event": "Battle of Izium (2022)",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "On the eastern front of the Russian invasion of Ukraine, a military engagement began in March 2022 between Russian and Ukrainian forces took place for control over the city of Izium, an important transportation node. The Russian military wanted to capture Izium so its forces in Kharkiv Oblast could link up with their troops in the Donbas region.",
+          "forbidden_keywords": [
+            "izium",
+            "russian"
+          ],
+          "acceptable_answers": [
+            "battle of izium",
+            "battle of izium (2022)",
+            "izium (2022)",
+            "the battle of izium (2022)"
+          ]
+        },
+        {
+          "game_id": 8,
+          "target_event": "Battle of Tuyutí",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "The Battle of Tuyutí was a Paraguayan offensive in the Paraguayan War targeting the Triple Alliance encampment of Tuyutí. It is considered to be the bloodiest battle ever in South America. The result of the battle was an Allied victory, which added to the Paraguayan troubles after the loss of its fleet in the Battle of Riachuelo.",
+          "forbidden_keywords": [
+            "paraguayan"
+          ],
+          "acceptable_answers": [
+            "battle of tuiutí",
+            "battle of tuyuti",
+            "battle of tuyuty",
+            "battle of tuyutí",
+            "first battle of tuyuti",
+            "first battle of tuyutí",
+            "the battle of tuyutí",
+            "tuyutí"
+          ]
+        },
+        {
+          "game_id": 9,
+          "target_event": "Operation Rock Avalanche",
+          "event_category": "battles",
+          "difficulty": "easy",
+          "event_summary": "Operation Rock Avalanche was a six-day, US-led offensive from 19 to 25 October 2007, with the purpose of hunting Taliban fighters in the Korengal Valley of Afghanistan. The mission also aimed to establish a peace with the local populace so that a road could be safely built through the area by the Afghan government. Over the course of the operation, a series of running battles occurred with members of the Taliban, as well as with local tribesmen. U.S. Army Paratrooper Salvatore Giunta would be awarded the Medal of Honor for his actions during combat between U.S. forces and local Afghans.",
+          "forbidden_keywords": [
+            "avalanche",
+            "operation",
+            "rock",
+            "taliban"
+          ],
+          "acceptable_answers": [
+            "operation rock avalanche",
+            "the operation rock avalanche"
+          ]
+        }
+      ],
+      "max_turns": 10,
+      "max_detective_words": 100,
+      "narrator_initial_prompt": "You are playing a historical deduction game as the NARRATOR.\n\nYou have been given the name of a historical event, discovery, or milestone. Your goal is to help the DETECTIVE figure out which event you are describing — but you must describe it indirectly, without ever naming it.\n\nRules:\n1. Each round, write exactly ONE sentence describing the event. Add NEW information each round — do not repeat what you wrote before.\n2. You must NEVER use any of the following forbidden keywords (these would make the event too easy to identify): $FORBIDDEN_KEYWORDS$\n3. You must NEVER state the event name directly or any close variant of it.\n4. You may freely describe causes, consequences, the broader context, the sequence of events, and the significance — but only using general, non-identifying language.\n\nFormat your response EXACTLY as follows (required):\nPARAGRAPH: <exactly one sentence describing the event without forbidden keywords>\n\nThe event you must describe (without naming it) is: $TARGET_EVENT$\n",
+      "detective_initial_prompt": "You are playing a historical deduction game as the DETECTIVE.\n\nA Narrator will describe a historical event, discovery, or milestone to you over several rounds. Each round you receive a new sentence of description that builds on what came before. Your job is to figure out which specific event is being described.\n\nAfter EACH new sentence, respond briefly. Keep your entire response under $MAX_DETECTIVE_WORDS$ words. Use this exact format (both sections are required):\n\nANALYSIS: <2–3 short sentences: what does the growing description suggest? What type of event is this? What are the key features you are noticing?>\n\nGUESS: <your best guess for the name of the event being described — be specific, e.g. \"The French Revolution\" not just \"a revolution\">\n\nRules:\n- You may refine your GUESS each round as more information arrives.\n- Your GUESS should name the specific event, not just a broad category.\n- You have up to 10 rounds total.\n- Be concise — quality of reasoning matters more than length.\n\nThe first sentence from the Narrator is coming now.\n"
+    },
+    {
+      "name": "battles_hard",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "target_event": "2012–2013 escalation of the Syrian civil war",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The 2012–2013 escalation of the Syrian civil war refers to the third phase of the Syrian civil war, which gradually escalated from a UN-mediated cease fire attempt during April–May 2012 and deteriorated into radical violence, escalating the conflict level to a full-fledged civil war.",
+          "forbidden_keywords": [
+            "civil",
+            "escalation",
+            "syrian"
+          ],
+          "acceptable_answers": [
+            "2012–2013 escalation of the syrian civil war",
+            "the 2012–2013 escalation of the syrian civil war"
+          ]
+        },
+        {
+          "game_id": 1,
+          "target_event": "Battle of Bulanbuli",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "Between April 24 and 25, 2014, Nigerian forces ambushed Boko Haram militants near Bulanbuli, killing over 40 militants.",
+          "forbidden_keywords": [
+            "bulanbuli"
+          ],
+          "acceptable_answers": [
+            "battle of bulanbuli",
+            "bulanbuli",
+            "the battle of bulanbuli"
+          ]
+        },
+        {
+          "game_id": 2,
+          "target_event": "Siege of Perth (1339)",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The siege of Perth was conducted from June to August 1339 as part of the Second War of Scottish Independence. The siege was conducted by forces loyal to David II of Scotland and commanded by Robert Stewart, the Guardian of Scotland. The defending forces were acting on behalf of Edward Balliol and were commanded by Thomas Ughtred.",
+          "forbidden_keywords": [
+            "perth",
+            "scotland"
+          ],
+          "acceptable_answers": [
+            "perth (1339)",
+            "siege of perth",
+            "siege of perth (1339)",
+            "the siege of perth (1339)",
+            "user:csjj104/sandbox/siege of perth"
+          ]
+        },
+        {
+          "game_id": 3,
+          "target_event": "Battle of Madana",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The Battle of Madana was a military confrontation that took place in June 1887 between the army of the Ethiopian Empire led by Tekle Haymanot of Gojjam and the Mahdist army led by Mohammad Wad Arbab. The Ethiopians were victorious and Wad Arbab was killed on the battlefield. The Ethiopians then followed up on their victory by capturing and sacking the town of Gallabat.",
+          "forbidden_keywords": [
+            "ethiopians",
+            "madana"
+          ],
+          "acceptable_answers": [
+            "battle of madana",
+            "draft:battle of madana",
+            "madana",
+            "the battle of madana"
+          ]
+        },
+        {
+          "game_id": 4,
+          "target_event": "Battle of Bint Jbeil (2026)",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The Battle of Bint Jbeil is a battle in the 2026 Lebanon war, within the context of the wider 2026 Iran war. The battle began on 9 April 2026, coinciding with the second day of the Iran war ceasefire, as part of a broader Israeli offensive against Hezbollah that included the 8 April 2026 Lebanon attacks and other operations across southern Lebanon. The timing of the offensive was disputed. Iran, Pakistan, and Hezbollah stated that the ceasefire extended to Lebanon and characterized Israeli operations as violations of the agreement. In contrast, Israel and the United States maintained that the ceasefire did not apply to the Lebanese front, and therefore considered continued military operations against Hezbollah to be legitimate.",
+          "forbidden_keywords": [
+            "bint",
+            "hezbollah",
+            "iran",
+            "israeli",
+            "jbeil",
+            "lebanon"
+          ],
+          "acceptable_answers": [
+            "battle of bint jbeil",
+            "battle of bint jbeil (2026)",
+            "bint jbeil (2026)",
+            "the battle of bint jbeil (2026)"
+          ]
+        },
+        {
+          "game_id": 5,
+          "target_event": "Battle of Guadalupe Island (1595)",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The Battle of Guadalupe Island, also known as the Battle of Guadalupe, was a naval action that took place off Guadalupe Island, Caribbean Sea, on 8 November 1595, between a Spanish force of five frigates commanded by Don Pedro Tello de Guzmán and Don Gonzalo Méndez de Cancio, and an English squadron of nine ships, during the unsuccessful English military expedition of 1595 against Spain and their possessions, led by Sir Francis Drake himself, Sir John Hawkins and Sir Thomas Baskerville, as the context of the Anglo-Spanish War (1585–1604). The result was a Spanish victory.",
+          "forbidden_keywords": [
+            "guadalupe",
+            "island",
+            "spanish"
+          ],
+          "acceptable_answers": [
+            "battle of guadalupe island",
+            "battle of guadalupe island (1595)",
+            "guadalupe island (1595)",
+            "the battle of guadalupe island (1595)"
+          ]
+        },
+        {
+          "game_id": 6,
+          "target_event": "Battle of Xiangguo (312)",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The Battle of Xiangguo was fought between forces of the Han-Zhao general, Shi Le and the Western Jin governor, Wang Jun in December 312. The battle concluded in a decisive victory for Shi Le and resulted in the collapse of Wang Jun's long-standing alliance with the Duan-Xianbei tribe of Liaoxi.",
+          "forbidden_keywords": [
+            "shi le",
+            "xiangguo"
+          ],
+          "acceptable_answers": [
+            "battle of xiangguo",
+            "battle of xiangguo (312)",
+            "the battle of xiangguo (312)",
+            "xiangguo (312)"
+          ]
+        },
+        {
+          "game_id": 7,
+          "target_event": "Battle of Astarabad (1759)",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The Battle of Astarabad was fought outside the city of Astarabad on 14 February 1759, between the forces of Karim Khan Zand, commanded by Shaykh Ali Khan Zand, and Mohammad Hasan Khan Qajar. The battle resulted in a total Qajar defeat and caused the death of Mohammad Hasan Khan Qajar, ending the Qajar threat to the Zand dynasty until the conquests of Agha Mohammad Khan Qajar.",
+          "forbidden_keywords": [
+            "astarabad",
+            "mohammad hasan khan qajar",
+            "qajar"
+          ],
+          "acceptable_answers": [
+            "astarabad (1759)",
+            "battle of astarabad",
+            "battle of astarabad (1759)",
+            "the battle of astarabad (1759)"
+          ]
+        },
+        {
+          "game_id": 8,
+          "target_event": "Battle of Paderborn",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The Battle of Paderborn occurred during the Western Allied invasion of Germany. Most notably the commander of the 3rd Armored Division Major General Maurice Rose was killed in an ambush outside of Paderborn on March 30. He was the highest ranking US General to be killed in action on the Western Front of World War II.",
+          "forbidden_keywords": [
+            "paderborn"
+          ],
+          "acceptable_answers": [
+            "battle of paderborn",
+            "paderborn",
+            "the battle of paderborn"
+          ]
+        },
+        {
+          "game_id": 9,
+          "target_event": "Jaragua massacre",
+          "event_category": "battles",
+          "difficulty": "hard",
+          "event_summary": "The Jaragua massacre of July 1503, was the killing of Indigenous people from the town of Xaragua on the island of Hispaniola. It was ordered by the Spanish governor of Santo Domingo, Nicolás de Ovando, during a Native celebration that was held in the village of Guava near present-day Léogane in the territory of Jaragua of the Cacica Anacaona.",
+          "forbidden_keywords": [
+            "jaragua",
+            "massacre"
+          ],
+          "acceptable_answers": [
+            "jaragua massacre",
+            "the jaragua massacre"
+          ]
+        }
+      ],
+      "max_turns": 10,
+      "max_detective_words": 100,
+      "narrator_initial_prompt": "You are playing a historical deduction game as the NARRATOR.\n\nYou have been given the name of a historical event, discovery, or milestone. Your goal is to help the DETECTIVE figure out which event you are describing — but you must describe it indirectly, without ever naming it.\n\nRules:\n1. Each round, write exactly ONE sentence describing the event. Add NEW information each round — do not repeat what you wrote before.\n2. You must NEVER use any of the following forbidden keywords (these would make the event too easy to identify): $FORBIDDEN_KEYWORDS$\n3. You must NEVER state the event name directly or any close variant of it.\n4. You may freely describe causes, consequences, the broader context, the sequence of events, and the significance — but only using general, non-identifying language.\n\nFormat your response EXACTLY as follows (required):\nPARAGRAPH: <exactly one sentence describing the event without forbidden keywords>\n\nThe event you must describe (without naming it) is: $TARGET_EVENT$\n",
+      "detective_initial_prompt": "You are playing a historical deduction game as the DETECTIVE.\n\nA Narrator will describe a historical event, discovery, or milestone to you over several rounds. Each round you receive a new sentence of description that builds on what came before. Your job is to figure out which specific event is being described.\n\nAfter EACH new sentence, respond briefly. Keep your entire response under $MAX_DETECTIVE_WORDS$ words. Use this exact format (both sections are required):\n\nANALYSIS: <2–3 short sentences: what does the growing description suggest? What type of event is this? What are the key features you are noticing?>\n\nGUESS: <your best guess for the name of the event being described — be specific, e.g. \"The French Revolution\" not just \"a revolution\">\n\nRules:\n- You may refine your GUESS each round as more information arrives.\n- Your GUESS should name the specific event, not just a broad category.\n- You have up to 10 rounds total.\n- Be concise — quality of reasoning matters more than length.\n\nThe first sentence from the Narrator is coming now.\n"
+    },
+    {
+      "name": "discoveries_easy",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "target_event": "Siloam inscription",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The Siloam inscription, Silwan inscription or Shiloah inscription, known as KAI 189, is a Hebrew inscription found in the Siloam tunnel which brings water from the Gihon Spring to the Pool of Siloam, located in the City of David in East Jerusalem neighborhood of Silwan. The inscription records the construction of the tunnel, which has been dated to the 8th century BC on the basis of the writing style. It is the only known ancient inscription from ancient Israel and Judah which commemorates a public construction work, despite such inscriptions being commonplace in Egyptian and Mesopotamian archaeology.",
+          "forbidden_keywords": [
+            "inscription",
+            "siloam",
+            "silwan"
+          ],
+          "acceptable_answers": [
+            "shiloah inscription",
+            "siloam inscription",
+            "silwan inscription",
+            "the siloam inscription"
+          ]
+        },
+        {
+          "game_id": 1,
+          "target_event": "Loaísa expedition",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The Loaísa expedition was an early 16th-century Spanish voyage of discovery to the Pacific Ocean, commanded by García Jofre de Loaísa and ordered by King Charles I of Spain to colonize the Spice Islands in the East Indies. The seven-ship fleet sailed from La Coruña, Spain in July 1525 and became the second naval expedition in history to cross the Pacific Ocean, after the Magellan-Elcano circumnavigation. The expedition resulted in the discovery of the Sea of Hoces south of Cape Horn, and the Marshall Islands in the Pacific. One ship ultimately arrived in the Spice Islands in September 1526.",
+          "forbidden_keywords": [
+            "expedition",
+            "spain",
+            "the pacific ocean",
+            "the spice islands"
+          ],
+          "acceptable_answers": [
+            "garcia jofre de loaisa",
+            "garcía jofre de loaísa",
+            "loaisa expedition",
+            "loaysa expedition",
+            "loaísa expedition",
+            "the loaísa expedition"
+          ]
+        },
+        {
+          "game_id": 2,
+          "target_event": "Essex lorry deaths",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "On 23 October 2019, the bodies of 39 people — 31 men and eight women, all Vietnamese nationals — were found in the trailer of an articulated refrigerator lorry in Grays, Essex, United Kingdom. The trailer had been shipped from the port of Zeebrugge, Belgium, to Purfleet, Essex, UK, and the lorry cab and its driver are believed to have originated from Northern Ireland. Investigations involving the national authorities of the UK, Belgium, Ireland and Vietnam have been led by Essex Police.",
+          "forbidden_keywords": [
+            "belgium",
+            "deaths",
+            "essex",
+            "lorry"
+          ],
+          "acceptable_answers": [
+            "essex lorry deaths",
+            "the essex lorry deaths"
+          ]
+        },
+        {
+          "game_id": 3,
+          "target_event": "Rosetta Stone decree",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The Rosetta Stone decree, or the Decree of Memphis, is a Ptolemaic decree most notable for its bilingual and tri-scriptual nature, which enabled the decipherment of Egyptian hieroglyphs. Issued by a council of priests confirming the royal cult of Ptolemy V in 196 BC at Memphis, it was written in Egyptian hieroglyphs, Egyptian Demotic and Ancient Greek. It mentions the Egyptian rebellion against the Greek rulers, otherwise known only through Greek sources and remains of graffiti.",
+          "forbidden_keywords": [
+            "decree",
+            "egyptian",
+            "greek",
+            "rosetta",
+            "stone"
+          ],
+          "acceptable_answers": [
+            "great theban revolt",
+            "rosetta decree",
+            "rosetta stone decree",
+            "rosetta stone decree-list of ptolemy v accomplishments and rewards honored",
+            "the rosetta stone decree"
+          ]
+        },
+        {
+          "game_id": 4,
+          "target_event": "Houston–Mount Everest flight expedition",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The first flight over Mount Everest was undertaken in April 1933 by two Westland aircraft. They were piloted by Lord Clydesdale and David McIntyre, with Stewart Blacker and Sidney Bonnett in the observer seats. The expedition was financed by Lucy, Lady Houston and led by Peregrine Fellowes.",
+          "forbidden_keywords": [
+            "everest",
+            "expedition",
+            "flight",
+            "houston",
+            "mount"
+          ],
+          "acceptable_answers": [
+            "draft:houston-mount everest flight expedition",
+            "draft:houston–mount everest flight expedition",
+            "houston-mount everest flight expedition",
+            "houston–mount everest flight expedition",
+            "the houston–mount everest flight expedition"
+          ]
+        },
+        {
+          "game_id": 5,
+          "target_event": "Decipherment of ancient Egyptian scripts",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The writing systems used in ancient Egypt were deciphered in the early nineteenth century through the work of several European scholars, especially Jean-François Champollion and Thomas Young. Ancient Egyptian forms of writing, which included the hieroglyphic, hieratic and demotic scripts, ceased to be understood in the fourth and fifth centuries AD, as the Coptic alphabet was increasingly used in their place. Later generations' knowledge of the older scripts was based on the work of Greek and Roman authors whose understanding was faulty. It was thus widely believed that Egyptian scripts were exclusively ideographic, representing ideas rather than sounds. Some attempts at decipherment by Islamic and European scholars in the Middle Ages and early modern times acknowledged the script might have a phonetic component, but perception of hieroglyphs as purely ideographic hampered efforts to understand them as late as the eighteenth century.",
+          "forbidden_keywords": [
+            "ancient",
+            "decipherment",
+            "egyptian",
+            "european",
+            "scripts"
+          ],
+          "acceptable_answers": [
+            "decipherment hieroglyphic writing",
+            "decipherment of ancient egyptian scripts",
+            "decipherment of egyptian hieroglyphs",
+            "decipherment of hieroglyphic writing",
+            "decipherment of hieroglyphics",
+            "decipherment of hieroglyphs",
+            "the decipherment of ancient egyptian scripts"
+          ]
+        },
+        {
+          "game_id": 6,
+          "target_event": "Dead Sea Scrolls",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The Dead Sea Scrolls (DSS), in the narrow sense identical with the Qumran Caves Scrolls, are a set of ancient Jewish manuscripts from the Second Temple period. They were discovered over a period of ten years, between 1946 and 1956, at the Qumran Caves near Ein Feshkha in the West Bank, on the northern shore of the Dead Sea. Dating from the 3rd century BCE to the 1st century CE, the Dead Sea Scrolls include the oldest surviving manuscripts of entire books later included in the various Jewish and Christian biblical canons, including deuterocanonical manuscripts from late Second Temple Judaism, as well as extrabiblical books. As such, they cast new light on the emergence of Rabbinic Judaism and of Christianity, and their relationship with Jewish religious traditions. In the wider sense, the Dead Sea Scrolls also include similar findings from elsewhere in the Judaean Desert, and are sometimes called Judaean Desert scrolls. Some of the scrolls found outside Qumran are from later centuries. Almost all of the 15,000 scrolls and scroll fragments are held in the Shrine of the Book at the Israel Museum in Jerusalem.",
+          "forbidden_keywords": [
+            "dead",
+            "jewish",
+            "scrolls",
+            "sea",
+            "the dead sea scrolls"
+          ],
+          "acceptable_answers": [
+            "dead sea scrolls",
+            "the dead sea scrolls"
+          ]
+        },
+        {
+          "game_id": 7,
+          "target_event": "Pancho Villa Expedition",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The Pancho Villa Expedition, now known officially in the United States as the Mexican Expedition but originally referred to as the \"Punitive Expedition, US Army,\" was a military operation conducted by the United States Army against the paramilitary forces of Mexican revolutionary Francisco \"Pancho\" Villa from March 14, 1916, to February 7, 1917, during the Mexican Revolution of 1910–1920.",
+          "forbidden_keywords": [
+            "expedition",
+            "pancho",
+            "villa"
+          ],
+          "acceptable_answers": [
+            "1916 punitive expedition",
+            "hunt for poncho villa",
+            "mexican border campaign",
+            "mexican expedition",
+            "mexican punitive expedition",
+            "pancho villa expedition",
+            "pancho villa punitive expedition",
+            "punitive expedition (united states)",
+            "punitive expedition of 1916",
+            "punitive expeditionary force",
+            "the hunt for pancho villa",
+            "the pancho villa expedition",
+            "villa expedition",
+            "villa punitive expedition"
+          ]
+        },
+        {
+          "game_id": 8,
+          "target_event": "Forbes Expedition",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The Forbes Expedition was a British military campaign to capture Fort Duquesne, led by Brigadier-General John Forbes in 1758, during the French and Indian War. While advancing to the fort, the expedition built the Forbes Road. The Treaty of Easton served to cause a loss of Native American support for the French, resulting in the French destroying the fort before the expedition could arrive on November 24.",
+          "forbidden_keywords": [
+            "expedition",
+            "forbes",
+            "french"
+          ],
+          "acceptable_answers": [
+            "forbes expedition",
+            "the forbes expedition"
+          ]
+        },
+        {
+          "game_id": 9,
+          "target_event": "Narváez expedition",
+          "event_category": "discoveries",
+          "difficulty": "easy",
+          "event_summary": "The Narváez expedition was a Spanish expedition started in 1527 that was intended to explore Florida and establish colonial settlements. The expedition was initially led by Pánfilo de Narváez, who died in 1528. Many more people died as the expedition traveled west along the unexplored Gulf Coast of the present-day United States and into the American southwest. Only four of the expedition's original members survived, reaching Mexico City in 1536. These survivors were the first known non-Native Americans to see the Mississippi River, and to cross the Gulf of Mexico and Texas.",
+          "forbidden_keywords": [
+            "expedition"
+          ],
+          "acceptable_answers": [
+            "narvaez expedition",
+            "narváez expedition",
+            "spanish expedition of florida",
+            "the narváez expedition"
+          ]
+        }
+      ],
+      "max_turns": 10,
+      "max_detective_words": 100,
+      "narrator_initial_prompt": "You are playing a historical deduction game as the NARRATOR.\n\nYou have been given the name of a historical event, discovery, or milestone. Your goal is to help the DETECTIVE figure out which event you are describing — but you must describe it indirectly, without ever naming it.\n\nRules:\n1. Each round, write exactly ONE sentence describing the event. Add NEW information each round — do not repeat what you wrote before.\n2. You must NEVER use any of the following forbidden keywords (these would make the event too easy to identify): $FORBIDDEN_KEYWORDS$\n3. You must NEVER state the event name directly or any close variant of it.\n4. You may freely describe causes, consequences, the broader context, the sequence of events, and the significance — but only using general, non-identifying language.\n\nFormat your response EXACTLY as follows (required):\nPARAGRAPH: <exactly one sentence describing the event without forbidden keywords>\n\nThe event you must describe (without naming it) is: $TARGET_EVENT$\n",
+      "detective_initial_prompt": "You are playing a historical deduction game as the DETECTIVE.\n\nA Narrator will describe a historical event, discovery, or milestone to you over several rounds. Each round you receive a new sentence of description that builds on what came before. Your job is to figure out which specific event is being described.\n\nAfter EACH new sentence, respond briefly. Keep your entire response under $MAX_DETECTIVE_WORDS$ words. Use this exact format (both sections are required):\n\nANALYSIS: <2–3 short sentences: what does the growing description suggest? What type of event is this? What are the key features you are noticing?>\n\nGUESS: <your best guess for the name of the event being described — be specific, e.g. \"The French Revolution\" not just \"a revolution\">\n\nRules:\n- You may refine your GUESS each round as more information arrives.\n- Your GUESS should name the specific event, not just a broad category.\n- You have up to 10 rounds total.\n- Be concise — quality of reasoning matters more than length.\n\nThe first sentence from the Narrator is coming now.\n"
+    },
+    {
+      "name": "discoveries_hard",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "target_event": "1773 Phipps expedition towards the North Pole",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The 1773 Phipps expedition towards the North Pole was a Royal Navy expedition suggested by the Royal Society and especially its vice president Daines Barrington, who believed in an ice-free Open Polar Sea. Two bomb vessels, HMS Racehorse and HMS Carcass, were modified for greater protection against ice and sailed towards the North Pole in the summer of 1773 under the commands of Constantine Phipps and Skeffington Lutwidge. The ships became stuck in ice near Svalbard. The report of the journey, published by Phipps in 1774, contained the first scientific descriptions of the polar bear, ivory gull, and naked sea butterfly.",
+          "forbidden_keywords": [
+            "expedition",
+            "hms",
+            "north",
+            "phipps",
+            "pole",
+            "the north pole",
+            "towards"
+          ],
+          "acceptable_answers": [
+            "1773 phipps expedition towards the north pole",
+            "phipps expedition towards the north pole",
+            "the 1773 phipps expedition towards the north pole"
+          ]
+        },
+        {
+          "game_id": 1,
+          "target_event": "Mørkefjord expedition",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The Mørkefjord expedition of 1938–1939 was sent out by Alf Trolle, Ebbe Munck, and Eigil Knuth in order to continue the work of the Denmark Expedition. It was an exploratory expedition to Northeast Greenland led by Eigil Knuth and had been planned to last from 1938 to 1939. It was affected by the outbreak of World War II.",
+          "forbidden_keywords": [
+            "eigil knuth",
+            "expedition"
+          ],
+          "acceptable_answers": [
+            "danish northeast greenland expedition",
+            "mørkefjord expedition",
+            "the mørkefjord expedition"
+          ]
+        },
+        {
+          "game_id": 2,
+          "target_event": "Rondon Commission",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The Rondon Commission was one of the expeditionary groups established by the Brazilian government in 1907 under President Afonso Pena. Officially named the Commission for Strategic Telegraph Lines from Mato Grosso to Amazonas, the Rondon Commission was established to build a telegraph network connecting the central-western region to the Amazon. Led by then-Major Cândido Mariano da Silva Rondon, the commission played a key role in the territorial integration of Brazil and the expansion of national communications infrastructure. In addition to its technical mission, the commission carried out significant scientific work in geography, ethnography, botany, zoology, astronomy, and geology. The commission contacted dozens of Indigenous groups along the mapped routes, producing a large volume of ethnographic and iconographic material.",
+          "forbidden_keywords": [
+            "commission",
+            "rondon",
+            "the rondon commission"
+          ],
+          "acceptable_answers": [
+            "rondon commission",
+            "the rondon commission"
+          ]
+        },
+        {
+          "game_id": 3,
+          "target_event": "Ostracon of Prince Sethherkhepshef",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The Ostracon of Prince Sethherkhepshef is a painted limestone figured-ostracon of the son of Ramesses III. It is a standing, figured profile of Prince Sethherkhepshef in an adoration pose, with outstretched arms, a sceptre in his left hand, and right hand, palm-forward. Behind Sethherkhepshef in a standard layout of figures and writing, is a vertical column of hieroglyphs reading \"king's son of his body, his beloved\" with his name (Seth-her-kepesh) appearing at the end.",
+          "forbidden_keywords": [
+            "ostracon",
+            "prince",
+            "sethherkhepshef"
+          ],
+          "acceptable_answers": [
+            "ostracon of prince sethherkhepshef",
+            "the ostracon of prince sethherkhepshef"
+          ]
+        },
+        {
+          "game_id": 4,
+          "target_event": "First Dutch Expedition to the East Indies",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The First Dutch Expedition to the East Indies was an expedition that took place from 1595 to 1597 to the region that is now Indonesia. It was instrumental in opening up the East Indies spice trade to the merchants that eventually formed the Dutch East India Company, and marked the end of the Portuguese Empire's dominance in the region.",
+          "forbidden_keywords": [
+            "dutch",
+            "east",
+            "expedition",
+            "indies"
+          ],
+          "acceptable_answers": [
+            "eerst scheepvart",
+            "eerste schipvaart",
+            "first dutch expedition to east indies",
+            "first dutch expedition to indonesia",
+            "first dutch expedition to indonesia (1595-1597)",
+            "first dutch expedition to nusantara",
+            "first dutch expedition to the east indies",
+            "the first dutch expedition to the east indies"
+          ]
+        },
+        {
+          "game_id": 5,
+          "target_event": "Humana and Leyva expedition",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "Antonio Gutiérrez de Umaña and Francisco Leyva de Bonilla, Spanish colonists, made an unauthorized expedition to the Great Plains of North America in 1594 or 1595. A native, Jusepe Gutiérrez, was the only survivor and the source of fragmentary information about the expedition. The route Umaña and Leyva followed can not be determined with certitude, but it probably included traveling to what is today the U.S. states of Texas, Oklahoma, and Kansas.",
+          "forbidden_keywords": [
+            "expedition",
+            "humana",
+            "leyva"
+          ],
+          "acceptable_answers": [
+            "antonio gutierrez de umana",
+            "antonio gutierrez de umana and francisco leyba de bonilla",
+            "humana and leyva expedition",
+            "the humana and leyva expedition",
+            "umana and leyba",
+            "umana and leyba expedition"
+          ]
+        },
+        {
+          "game_id": 6,
+          "target_event": "Chamuscado and Rodríguez Expedition",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The Chamuscado and Rodríguez Expedition visited the land on what became present day New Mexico in 1581–1582. The expedition was led by Francisco Sánchez, called \"El Chamuscado,\" and Fray Agustín Rodríguez, the first Spaniards known to have visited the Pueblo Indians since Francisco Vásquez de Coronado 40 years earlier.",
+          "forbidden_keywords": [
+            "chamuscado",
+            "expedition"
+          ],
+          "acceptable_answers": [
+            "chamuscado and rodríguez expedition",
+            "the chamuscado and rodríguez expedition"
+          ]
+        },
+        {
+          "game_id": 7,
+          "target_event": "1934 Nanga Parbat climbing disaster",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The 1934 Nanga Parbat climbing disaster resulted in the loss of 10 lives on Nanga Parbat, the world's ninth-highest mountain and one of the 14 eight-thousanders. The disaster, which happened during the 1934 climbing season, included nine climbers who died in what was, at the time, the single deadliest mountaineering accident in history.",
+          "forbidden_keywords": [
+            "climbing",
+            "disaster",
+            "nanga",
+            "nanga parbat",
+            "parbat"
+          ],
+          "acceptable_answers": [
+            "1934 nanga parbat climbing disaster",
+            "nanga parbat climbing disaster",
+            "the 1934 nanga parbat climbing disaster"
+          ]
+        },
+        {
+          "game_id": 8,
+          "target_event": "Discovery of the Americas",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The human history of the Americas is thought to begin with people migrating to these areas from Asia during the height of an ice age. These groups are generally believed to have been isolated from the people of the \"Old World\" until the coming of Europeans in 1492 with the voyages of Christopher Columbus.",
+          "forbidden_keywords": [
+            "americas"
+          ],
+          "acceptable_answers": [
+            "discovery of the americas",
+            "the americas",
+            "the discovery of the americas"
+          ]
+        },
+        {
+          "game_id": 9,
+          "target_event": "Emin Pasha Relief Expedition",
+          "event_category": "discoveries",
+          "difficulty": "hard",
+          "event_summary": "The Emin Pasha Relief Expedition of 1887 to 1889 was one of the last major European expeditions into the interior of Africa in the nineteenth century. Led by Henry Morton Stanley, its goal was ostensibly the relief of Emin Pasha, the besieged Egyptian governor of Equatoria, who was threatened by Mahdist forces.",
+          "forbidden_keywords": [
+            "emin",
+            "expedition",
+            "pasha",
+            "relief"
+          ],
+          "acceptable_answers": [
+            "emin pasha relief expedition",
+            "the emin pasha relief expedition"
+          ]
+        }
+      ],
+      "max_turns": 10,
+      "max_detective_words": 100,
+      "narrator_initial_prompt": "You are playing a historical deduction game as the NARRATOR.\n\nYou have been given the name of a historical event, discovery, or milestone. Your goal is to help the DETECTIVE figure out which event you are describing — but you must describe it indirectly, without ever naming it.\n\nRules:\n1. Each round, write exactly ONE sentence describing the event. Add NEW information each round — do not repeat what you wrote before.\n2. You must NEVER use any of the following forbidden keywords (these would make the event too easy to identify): $FORBIDDEN_KEYWORDS$\n3. You must NEVER state the event name directly or any close variant of it.\n4. You may freely describe causes, consequences, the broader context, the sequence of events, and the significance — but only using general, non-identifying language.\n\nFormat your response EXACTLY as follows (required):\nPARAGRAPH: <exactly one sentence describing the event without forbidden keywords>\n\nThe event you must describe (without naming it) is: $TARGET_EVENT$\n",
+      "detective_initial_prompt": "You are playing a historical deduction game as the DETECTIVE.\n\nA Narrator will describe a historical event, discovery, or milestone to you over several rounds. Each round you receive a new sentence of description that builds on what came before. Your job is to figure out which specific event is being described.\n\nAfter EACH new sentence, respond briefly. Keep your entire response under $MAX_DETECTIVE_WORDS$ words. Use this exact format (both sections are required):\n\nANALYSIS: <2–3 short sentences: what does the growing description suggest? What type of event is this? What are the key features you are noticing?>\n\nGUESS: <your best guess for the name of the event being described — be specific, e.g. \"The French Revolution\" not just \"a revolution\">\n\nRules:\n- You may refine your GUESS each round as more information arrives.\n- Your GUESS should name the specific event, not just a broad category.\n- You have up to 10 rounds total.\n- Be concise — quality of reasoning matters more than length.\n\nThe first sentence from the Narrator is coming now.\n"
+    },
+    {
+      "name": "political_easy",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "target_event": "Nurse Licensure Compact",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "The Nurse Licensure Compact (NLC) is an agreement that allows for the mutual recognition (reciprocity) of nursing licenses between member U.S. states. Enacted into law by the participating states, the NLC allows a nurse who is a legal resident of and possesses a nursing license in a compact state to practice in any of the other compact states without obtaining additional licensure in the remote states. It applies to both registered and practical nurses and is also referred to as a multistate license.",
+          "forbidden_keywords": [
+            "compact",
+            "licensure",
+            "nlc",
+            "nurse"
+          ],
+          "acceptable_answers": [
+            "nurse licensure compact",
+            "the nurse licensure compact",
+            "user:xadnder/nurse licensure compact"
+          ]
+        },
+        {
+          "game_id": 1,
+          "target_event": "Forum for the Progress and Integration of South America",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "The Forum for the Progress and Integration of South America is an initiative by Sebastián Piñera and Iván Duque, for the creation of an integration body to replace the Union of South American Nations.",
+          "forbidden_keywords": [
+            "america",
+            "forum",
+            "integration",
+            "progress",
+            "south"
+          ],
+          "acceptable_answers": [
+            "forum for the progress and development of latin america",
+            "forum for the progress and development of south america",
+            "forum for the progress and integration of south america",
+            "fpdsa",
+            "fpisa",
+            "prosul",
+            "prosur",
+            "the forum for the progress and integration of south america"
+          ]
+        },
+        {
+          "game_id": 2,
+          "target_event": "Treaty of Rome",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "The Treaty of Rome, or EEC Treaty, brought about the creation of the European Economic Community (EEC), the best known of the European Communities (EC). The treaty was signed on 25 March 1957 by Belgium, France, Italy, Luxembourg, the Netherlands and West Germany, and it came into force on 1 January 1958. Originally the \"Treaty establishing the European Economic Community\", and now continuing under the name \"Treaty on the Functioning of the European Union\", it remains one of the two most important treaties in what is now the European Union (EU).",
+          "forbidden_keywords": [
+            "rome",
+            "the european economic community",
+            "treaty"
+          ],
+          "acceptable_answers": [
+            "60th anniversary of the treaty of rome",
+            "ec treaty",
+            "eec treaty",
+            "establishment of the european union",
+            "european community treaty",
+            "formation of the eu",
+            "formation of the european union",
+            "foundation of the eu",
+            "foundation of the european union",
+            "rome treaty",
+            "rome's treaty",
+            "teec",
+            "tfeu 2007",
+            "tfue treaty",
+            "the treaty of rome",
+            "treaties of rome",
+            "treaties of rome 1957",
+            "treaty establishing the european atomic energy community",
+            "treaty establishing the european community",
+            "treaty establishing the european economic community",
+            "treaty establishing the european economic community 1957",
+            "treaty instituting the european community",
+            "treaty of rome",
+            "treaty of rome (1957)",
+            "treaty of rome 1957",
+            "treaty of rome, 1957",
+            "treaty of the european community",
+            "treaty on european community",
+            "treaty on the functioning of the union"
+          ]
+        },
+        {
+          "game_id": 3,
+          "target_event": "Royal Mail Case",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "The Royal Mail Case or R v Kylsant & Otrs was a noted English criminal case in 1931. The director of the Royal Mail Steam Packet Company, Lord Kylsant, had falsified a trading prospectus with the aid of the company accountant to make it look as if the company was profitable and to entice potential investors. Following an independent audit instigated by HM Treasury, Kylsant and Harold John Morland, the company auditor, were arrested and charged with falsifying both the trading prospectus and company records and accounts. Although they were acquitted of falsifying records and accounts, Kylsant was found guilty of falsifying the trading prospectus and sentenced to twelve months in prison. The company was then liquidated, and reconstituted as The Royal Mail Lines Ltd with the backing of the British government.",
+          "forbidden_keywords": [
+            "case",
+            "kylsant",
+            "mail",
+            "royal"
+          ],
+          "acceptable_answers": [
+            "r v kylsant",
+            "r v kylsant & otrs",
+            "royal mail case",
+            "the royal mail case"
+          ]
+        },
+        {
+          "game_id": 4,
+          "target_event": "Dachau trials",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "The Dachau trials, also known as the Dachau Military Tribunal, handled the prosecution of almost every war criminal captured in the U.S. military zones in Allied-occupied Germany and in Allied-occupied Austria, and the prosecutions of military personnel and civilian persons who committed war crimes against the American military and American citizens. The war-crime trials were held within the compound of the former Dachau concentration camp by military tribunals authorized by the Judge Advocate General of the U.S. Third Army.",
+          "forbidden_keywords": [
+            "allied",
+            "american",
+            "dachau",
+            "trials"
+          ],
+          "acceptable_answers": [
+            "dachau international military tribunal",
+            "dachau military tribunal",
+            "dachau trial",
+            "dachau trials",
+            "dachau war crimes trials",
+            "the dachau trials"
+          ]
+        },
+        {
+          "game_id": 5,
+          "target_event": "Wolf v. Colorado",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "Wolf v. Colorado, 338 U.S. 25 (1949), was a United States Supreme Court case in which the Court held 6-3 that, while the Fourth Amendment was applicable to the states, the exclusionary rule was not a necessary ingredient of the Fourth Amendment's right against warrantless and unreasonable searches and seizures. In Weeks v. United States, 232 U.S. 383 (1914), the Court held that as a matter of judicial implication the exclusionary rule was enforceable in federal courts but not derived from the explicit requirements of the Fourth Amendment. The Wolf Court decided not to incorporate the exclusionary rule as part of the Fourteenth Amendment in large part because the states which had rejected the Weeks Doctrine had not left the right to privacy without other means of protection. However, because most of the states' rules proved to be ineffective in deterrence, the Court overruled Wolf in Mapp v. Ohio, 367 U.S. 643 (1961). That landmark case made history as the exclusionary rule enforceable against the states through the Due Process clause of the Fourteenth Amendment to the same extent that it applied against the federal government.",
+          "forbidden_keywords": [
+            "colorado",
+            "court",
+            "wolf"
+          ],
+          "acceptable_answers": [
+            "338 u.s. 25",
+            "the wolf v. colorado",
+            "wolf v colorado",
+            "wolf v. colorado",
+            "wolf v. people of the state of colorado"
+          ]
+        },
+        {
+          "game_id": 6,
+          "target_event": "Media censorship and disinformation during the Gezi Park protests",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "The 2013 Gezi Park protests in Turkey saw massive amounts of censorship and disinformation by the mainstream media, especially by those supporting Prime Minister Recep Tayyip Erdoğan and his Justice and Development Party (AKP). A poll done by Istanbul Bilgi University in the first week of the protests showed that 84% of the demonstrators cited the lack of media coverage as a reason to join the protests, higher than the 56% of protesters who referred to the destruction of Gezi Park.",
+          "forbidden_keywords": [
+            "censorship",
+            "disinformation",
+            "during",
+            "gezi",
+            "media",
+            "park",
+            "protests"
+          ],
+          "acceptable_answers": [
+            "media censorship and disinformation during 2013 protests in turkey",
+            "media censorship and disinformation during the 2013 protests in turkey",
+            "media censorship and disinformation during the 2013-14 protests in turkey",
+            "media censorship and disinformation during the 2013–14 protests in turkey",
+            "media censorship and disinformation during the gezi park protests",
+            "media censorship and disinformation during the gezi park protests in turkey",
+            "media censorship during 2013 protests in turkey",
+            "the media censorship and disinformation during the gezi park protests"
+          ]
+        },
+        {
+          "game_id": 7,
+          "target_event": "Hollingsworth v. Perry",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "Hollingsworth v. Perry was a series of United States federal court cases that reinstated same-sex marriage in the state of California. The case began in 2009 in the U.S. District Court for the Northern District of California, which found that banning same-sex marriage violates equal protection under the law. This decision overturned California ballot initiative Proposition 8, which had banned same-sex marriage. After the State of California refused to defend Proposition 8, the official sponsors of Proposition 8 intervened and appealed to the Supreme Court. The case was litigated during the governorships of both Arnold Schwarzenegger and Jerry Brown, and was thus known as Perry v. Schwarzenegger and Perry v. Brown, respectively. As Hollingsworth v. Perry, it eventually reached the United States Supreme Court, which held that, in line with prior precedent, the official sponsors of a ballot initiative measure did not have Article III standing to appeal an adverse federal court ruling when the state refused to do so. The effect of the ruling was that same-sex marriage in California resumed under the district court trial decision from 2010.",
+          "forbidden_keywords": [
+            "california",
+            "hollingsworth",
+            "perry"
+          ],
+          "acceptable_answers": [
+            "hollingsworth v perry",
+            "hollingsworth v. perry",
+            "kris perry",
+            "kristin perry",
+            "perry et al. v. schwarzenegger et al.",
+            "perry v brown",
+            "perry v schwarzenegger",
+            "perry v. brown",
+            "perry v. hollingsworth",
+            "perry v. schwarzenegger",
+            "perry versus schwarzenegger",
+            "perry vs. schwarzenegger",
+            "the hollingsworth v. perry"
+          ]
+        },
+        {
+          "game_id": 8,
+          "target_event": "Boworadet Rebellion",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "The Boworadet rebellion was a 1933 Thai rebellion led by royalist Prince Boworadet, as a result of the conflicts between the previous royalist regime and the succeeding constitutional regime led by Khana Ratsadon, following the Revolution of 1932. The Boworadet rebellion was eventually defeated by the Siamese Government.",
+          "forbidden_keywords": [
+            "boworadet",
+            "rebellion"
+          ],
+          "acceptable_answers": [
+            "boworadej rebellion",
+            "boworadet rebellion",
+            "the boworadet rebellion"
+          ]
+        },
+        {
+          "game_id": 9,
+          "target_event": "Thirty Years' Peace",
+          "event_category": "political",
+          "difficulty": "easy",
+          "event_summary": "The Thirty Years' Peace was a treaty signed between the ancient Greek city-states of Athens and Sparta in 446/445 BC. The treaty brought an end to the conflict commonly known as the First Peloponnesian War, which had been raging since c. 460 BC.",
+          "forbidden_keywords": [
+            "peace",
+            "thirty",
+            "years"
+          ],
+          "acceptable_answers": [
+            "the thirty years' peace",
+            "thirty years peace",
+            "thirty years' peace"
+          ]
+        }
+      ],
+      "max_turns": 10,
+      "max_detective_words": 100,
+      "narrator_initial_prompt": "You are playing a historical deduction game as the NARRATOR.\n\nYou have been given the name of a historical event, discovery, or milestone. Your goal is to help the DETECTIVE figure out which event you are describing — but you must describe it indirectly, without ever naming it.\n\nRules:\n1. Each round, write exactly ONE sentence describing the event. Add NEW information each round — do not repeat what you wrote before.\n2. You must NEVER use any of the following forbidden keywords (these would make the event too easy to identify): $FORBIDDEN_KEYWORDS$\n3. You must NEVER state the event name directly or any close variant of it.\n4. You may freely describe causes, consequences, the broader context, the sequence of events, and the significance — but only using general, non-identifying language.\n\nFormat your response EXACTLY as follows (required):\nPARAGRAPH: <exactly one sentence describing the event without forbidden keywords>\n\nThe event you must describe (without naming it) is: $TARGET_EVENT$\n",
+      "detective_initial_prompt": "You are playing a historical deduction game as the DETECTIVE.\n\nA Narrator will describe a historical event, discovery, or milestone to you over several rounds. Each round you receive a new sentence of description that builds on what came before. Your job is to figure out which specific event is being described.\n\nAfter EACH new sentence, respond briefly. Keep your entire response under $MAX_DETECTIVE_WORDS$ words. Use this exact format (both sections are required):\n\nANALYSIS: <2–3 short sentences: what does the growing description suggest? What type of event is this? What are the key features you are noticing?>\n\nGUESS: <your best guess for the name of the event being described — be specific, e.g. \"The French Revolution\" not just \"a revolution\">\n\nRules:\n- You may refine your GUESS each round as more information arrives.\n- Your GUESS should name the specific event, not just a broad category.\n- You have up to 10 rounds total.\n- Be concise — quality of reasoning matters more than length.\n\nThe first sentence from the Narrator is coming now.\n"
+    },
+    {
+      "name": "political_hard",
+      "game_instances": [
+        {
+          "game_id": 0,
+          "target_event": "Compact of Free Association",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "The Compacts of Free Association (COFA) are international agreements establishing and governing the relationships of free association between the United States and the three Pacific Island sovereign states of the Federated States of Micronesia (FSM), the Republic of the Marshall Islands (RMI), and the Republic of Palau. As a result, these countries are sometimes known as the Freely Associated States (FASs). All three agreements next expire in 2043.",
+          "forbidden_keywords": [
+            "association",
+            "compact",
+            "free"
+          ],
+          "acceptable_answers": [
+            "compact of free association",
+            "the compact of free association"
+          ]
+        },
+        {
+          "game_id": 1,
+          "target_event": "2025 DRC–Rwanda peace agreement",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "The Democratic Republic of the Congo–Rwanda peace agreement, officially the Washington Accords for Peace and Prosperity, is a peace treaty intended to end the conflict between the Democratic Republic of the Congo (DRC) and Rwanda, signed on June 27, 2025, in Washington, D.C., United States. The main points of the agreement call for the withdrawal of Rwandan troops from the eastern DRC and for the Congolese government to end its support for the Democratic Forces for the Liberation of Rwanda (FDLR) militia. It also aims to set up a regional economic integration framework between the two countries based on the critical minerals trade, which will involve the United States.",
+          "forbidden_keywords": [
+            "agreement",
+            "drc",
+            "peace",
+            "rwanda",
+            "the democratic republic of the congo"
+          ],
+          "acceptable_answers": [
+            "2025 drc–rwanda peace agreement",
+            "drc–rwanda peace agreement",
+            "the 2025 drc–rwanda peace agreement"
+          ]
+        },
+        {
+          "game_id": 2,
+          "target_event": "United Haulers Ass'n v. Oneida-Herkimer Solid Waste Management Authority",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "United Haulers Ass'n v. Oneida-Herkimer Solid Waste Management Authority, 550 U.S. 330 (2007), was a United States Supreme Court case about interstate commerce. Chief Justice John Roberts wrote the opinion of the Court, holding that New York county ordinances forcing private waste management companies to deliver waste to a public facility did not discriminate against interstate commerce. Justice Samuel Alito wrote a dissent.",
+          "forbidden_keywords": [
+            "ass",
+            "authority",
+            "haulers",
+            "herkimer",
+            "management",
+            "oneida",
+            "solid",
+            "united",
+            "waste"
+          ],
+          "acceptable_answers": [
+            "the united haulers ass'n v. oneida-herkimer solid waste management authority",
+            "united haulers ass'n v. oneida-herkimer solid waste management authority"
+          ]
+        },
+        {
+          "game_id": 3,
+          "target_event": "Treaty of Jaffa (1229)",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "The Treaty of Jaffa, sometimes the Treaty of Jaffa and Tall al-ʿAjūl, was an agreement signed on 18 February 1229 between Frederick II, Holy Roman emperor and king of Sicily, and al-Kāmil, Ayyubid sultan of Egypt. It brought an end to the Sixth Crusade, led by Frederick, by restoring the city of Jerusalem and a few other territories to the Kingdom of Jerusalem, whose king at the time was Frederick's infant son Conrad.",
+          "forbidden_keywords": [
+            "frederick",
+            "jaffa",
+            "treaty"
+          ],
+          "acceptable_answers": [
+            "the treaty of jaffa (1229)",
+            "treaty of jaffa",
+            "treaty of jaffa (1229)"
+          ]
+        },
+        {
+          "game_id": 4,
+          "target_event": "Convention on Environmental Impact Assessment in a Transboundary Context",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "The Convention on Environmental Impact Assessment in a Transboundary Context is a United Nations Economic Commission for Europe (UNECE) convention signed in Espoo, Finland, in 1991 that entered into force in 1997. The Convention sets out the obligations of Parties—that is States that have agreed to be bound by the Convention—to carry out an environmental impact assessment of certain activities at an early stage of planning. It also lays down the general obligation of States to notify and consult each other on all major projects under consideration that are likely to have a significant adverse environmental impact across boundaries.",
+          "forbidden_keywords": [
+            "assessment",
+            "context",
+            "convention",
+            "environmental",
+            "impact",
+            "states",
+            "transboundary"
+          ],
+          "acceptable_answers": [
+            "convention on environmental impact assessment in a transboundary context",
+            "the convention on environmental impact assessment in a transboundary context"
+          ]
+        },
+        {
+          "game_id": 5,
+          "target_event": "Bugojno Three case",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "The Battle of Bugojno was fought between forces of the Army of the Republic of Bosnia and Herzegovina (ARBiH) and the Croatian Defence Council (HVO) for control of the town and municipality of Bugojno in central Bosnia, from 18–28 July 1993. The area of Bugojno was under joint control of the ARBiH 307th Brigade and the HVO Eugen Kvaternik Brigade since the start of the Bosnian War. Violent incidents in Bugojno followed the escalation of the Croat-Bosniak War in adjacent municipalities throughout the 1st half of 1993. Bugojno was spared from fighting and the two local brigades were still formally allied by June 1993, at the time of an ARBiH offensive in central Bosnia.",
+          "forbidden_keywords": [
+            "bosnia",
+            "bugojno",
+            "case",
+            "three"
+          ],
+          "acceptable_answers": [
+            "bugojno three case",
+            "the bugojno three case"
+          ]
+        },
+        {
+          "game_id": 6,
+          "target_event": "Great Expulsion (Ukraine)",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "Great Expulsion was a campaign of mass forced resettlement organized by Cossack hetman Ivan Samoilovych with the support of Muscovite voivodes in Right-bank Ukraine. Initiated in order to weaken the support base of Samoilovych's rival, Right-bank hetman Petro Doroshenko, the campaign started in 1674 and reached its peak in 1678-1679, resulting in the devastation of the territories of Cherkasy, Kaniv and Korsun regiments and transfer of their populations to Left-bank Ukraine.",
+          "forbidden_keywords": [
+            "expulsion",
+            "great",
+            "ukraine"
+          ],
+          "acceptable_answers": [
+            "great expulsion (ukraine)",
+            "the great expulsion (ukraine)"
+          ]
+        },
+        {
+          "game_id": 7,
+          "target_event": "Treaty of London (1913)",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "The Treaty of London (1913) was signed on 30 May following the London Conference of 1912–1913. It dealt with the territorial adjustments arising out of the conclusion of the First Balkan War. The London Conference had ended on 23 January 1913, when the 1913 Ottoman coup d'état took place and Ottoman Grand Vizier Kâmil Pasha was forced to resign. Coup leader Enver Pasha withdrew the Ottoman Empire from the Conference, and the Treaty of London was signed without the presence of the Ottoman delegation.",
+          "forbidden_keywords": [
+            "london",
+            "ottoman",
+            "the london conference",
+            "treaty"
+          ],
+          "acceptable_answers": [
+            "the treaty of london (1913)",
+            "treaty of london",
+            "treaty of london (1913)"
+          ]
+        },
+        {
+          "game_id": 8,
+          "target_event": "Agreement on Defense Cooperation between Finland and the United States of America",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "The Defense Cooperation Agreement (DCA) is a bilateral treaty between Finland and the United States on military cooperation and their mutual obligations as NATO member states. The DCA entered into force on September 1, 2024.",
+          "forbidden_keywords": [
+            "agreement",
+            "america",
+            "between",
+            "cooperation",
+            "defense",
+            "finland",
+            "states",
+            "united"
+          ],
+          "acceptable_answers": [
+            "agreement on defense cooperation between finland and the united states of america",
+            "dca between finland and the united states of america",
+            "dca of finland",
+            "the agreement on defense cooperation between finland and the united states of america"
+          ]
+        },
+        {
+          "game_id": 9,
+          "target_event": "Sarawak Corridor of Renewable Energy",
+          "event_category": "political",
+          "difficulty": "hard",
+          "event_summary": "The Sarawak Corridor of Renewable Energy is an economic region and development corridor covering central Sarawak, a Malaysian State on the island of Borneo. SCORE was launched in 2008. It is one of the five regional development corridors launched throughout Malaysia during the Abdullah Badawi administration. SCORE is managed by the Regional Corridors Development Authority (\"RECODA\"), a state government agency created through an Ordinance of the State Legislative Assembly.",
+          "forbidden_keywords": [
+            "corridor",
+            "energy",
+            "renewable",
+            "sarawak"
+          ],
+          "acceptable_answers": [
+            "sarawak corridor of renewable energy",
+            "the sarawak corridor of renewable energy"
+          ]
+        }
+      ],
+      "max_turns": 10,
+      "max_detective_words": 100,
+      "narrator_initial_prompt": "You are playing a historical deduction game as the NARRATOR.\n\nYou have been given the name of a historical event, discovery, or milestone. Your goal is to help the DETECTIVE figure out which event you are describing — but you must describe it indirectly, without ever naming it.\n\nRules:\n1. Each round, write exactly ONE sentence describing the event. Add NEW information each round — do not repeat what you wrote before.\n2. You must NEVER use any of the following forbidden keywords (these would make the event too easy to identify): $FORBIDDEN_KEYWORDS$\n3. You must NEVER state the event name directly or any close variant of it.\n4. You may freely describe causes, consequences, the broader context, the sequence of events, and the significance — but only using general, non-identifying language.\n\nFormat your response EXACTLY as follows (required):\nPARAGRAPH: <exactly one sentence describing the event without forbidden keywords>\n\nThe event you must describe (without naming it) is: $TARGET_EVENT$\n",
+      "detective_initial_prompt": "You are playing a historical deduction game as the DETECTIVE.\n\nA Narrator will describe a historical event, discovery, or milestone to you over several rounds. Each round you receive a new sentence of description that builds on what came before. Your job is to figure out which specific event is being described.\n\nAfter EACH new sentence, respond briefly. Keep your entire response under $MAX_DETECTIVE_WORDS$ words. Use this exact format (both sections are required):\n\nANALYSIS: <2–3 short sentences: what does the growing description suggest? What type of event is this? What are the key features you are noticing?>\n\nGUESS: <your best guess for the name of the event being described — be specific, e.g. \"The French Revolution\" not just \"a revolution\">\n\nRules:\n- You may refine your GUESS each round as more information arrives.\n- Your GUESS should name the specific event, not just a broad category.\n- You have up to 10 rounds total.\n- Be concise — quality of reasoning matters more than length.\n\nThe first sentence from the Narrator is coming now.\n"
+    }
+  ]
+}

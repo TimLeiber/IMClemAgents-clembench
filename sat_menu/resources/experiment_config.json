@@ -1,0 +1,14 @@
+{
+  "num_attempts": 15,
+  "max_changes_per_turn": 2,
+  "representations": {
+    "cnf": {
+      "initial_prompt": "resources/initial_prompts/{lang}/cnf",
+      "feedback_prompt": "resources/feedback/{lang}/cnf"
+    },
+    "menu": {
+      "initial_prompt": "resources/initial_prompts/{lang}/menu",
+      "feedback_prompt": "resources/feedback/{lang}/menu"
+    }
+  }
+}

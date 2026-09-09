@@ -1,0 +1,54 @@
+{
+    "experiments": [
+        {
+            "name": "transport_nodes",
+            "game_instances": [
+                {
+                    "game_id": 3,
+                    "image_paths": [
+                        "geolocate/resources/images_final/location_015/view_00.jpg",
+                        "geolocate/resources/images_final/location_015/view_01.jpg",
+                        "geolocate/resources/images_final/location_015/view_02.jpg",
+                        "geolocate/resources/images_final/location_015/view_03.jpg"
+                    ],
+                    "target_latitude": 48.020592,
+                    "target_longitude": 17.330966,
+                    "target_country": "Slovakia",
+                    "target_country_code": "SK"
+                },
+                {
+                    "game_id": 4,
+                    "image_paths": [
+                        "geolocate/resources/images_final/location_016/view_00.jpg",
+                        "geolocate/resources/images_final/location_016/view_01.jpg",
+                        "geolocate/resources/images_final/location_016/view_02.jpg",
+                        "geolocate/resources/images_final/location_016/view_03.jpg"
+                    ],
+                    "target_latitude": 13.650448,
+                    "target_longitude": 100.681915,
+                    "target_country": "Thailand",
+                    "target_country_code": "TH"
+                },
+                {
+                    "game_id": 5,
+                    "image_paths": [
+                        "geolocate/resources/images_final/location_018/view_00.jpg",
+                        "geolocate/resources/images_final/location_018/view_01.jpg",
+                        "geolocate/resources/images_final/location_018/view_02.jpg",
+                        "geolocate/resources/images_final/location_018/view_03.jpg"
+                    ],
+                    "target_latitude": 40.540648,
+                    "target_longitude": -3.89207,
+                    "target_country": "Spain",
+                    "target_country_code": "ES"
+                }
+            ],
+            "lang": "en",
+            "views_per_location": 4,
+            "source": "KartaView",
+            "dataset_id": "final",
+            "experiment_name": "kartaview_evidence_4view",
+            "official_instance_count": 5
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+You are playing a visual geolocation game. The four supplied street-level views are consecutive frames from one short road segment, captured in order. They show the same scene; treat them as a single location.
+Estimate the latitude and longitude of the place where this photo sequence was taken, identify the country, and briefly explain the visual evidence behind your estimate.
+
+You win as soon as one of your predictions lands within 1 km of the location and names the correct country. Precision beyond that does not matter: aim for a well-supported estimate.
+
+You may make up to $MAX_ROUNDS$ predictions. Predictions are intended to be used iteratively. Make a plausible first prediction without waiting to resolve every uncertainty. After each non-final prediction, use the returned distance band, country correctness, and closer-or-farther feedback to refine your next prediction.
+
+Return exactly four lines in the order below and nothing else. Keep every value on one line. Do not use additional lines, Markdown, code fences, degree symbols, units, or combine both coordinates in one field.
+$EXPLANATION_LABEL$: <concise one-line explanation>
+$LATITUDE_LABEL$: <decimal latitude from -90.0 to 90.0>
+$LONGITUDE_LABEL$: <decimal longitude from -180.0 to 180.0>
+$COUNTRY_LABEL$: <country name>

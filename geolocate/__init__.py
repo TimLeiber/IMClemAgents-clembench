@@ -1,0 +1,2 @@
+"""Geolocate game package."""
+

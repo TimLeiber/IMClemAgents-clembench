@@ -1,0 +1,39 @@
+{
+  "en": {
+    "response_formats": {
+      "cnf": {
+        "explanation_label": "EXPLANATION",
+        "set_true_label": "SET TRUE",
+        "set_false_label": "SET FALSE",
+        "no_change": "NONE"
+      },
+      "menu": {
+        "explanation_label": "EXPLANATION",
+        "add_label": "ADD",
+        "remove_label": "REMOVE",
+        "no_change": "NONE"
+      }
+    },
+    "preference_labels": {
+      "likes": "Likes",
+      "dislikes": "Dislikes",
+      "none": "none"
+    },
+    "feedback": {
+      "cnf": {
+        "satisfied": "satisfied",
+        "unsatisfied": "not satisfied",
+        "no_selection": "No assignment was submitted."
+      },
+      "menu": {
+        "satisfied": "happy",
+        "unsatisfied": "unhappy",
+        "no_selection": "No menu was submitted."
+      }
+    },
+    "error_messages": {
+      "invalid_format": "Your response could not be processed. Follow the required response format.",
+      "invalid_assignment": "Your assignment does not satisfy all revealed constraints. Revise it and try again."
+    }
+  }
+}

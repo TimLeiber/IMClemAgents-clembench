@@ -1,0 +1,194 @@
+[
+  {
+    "model_name": "glm-5.3-flash",
+    "model_id": "z-ai/glm-5.3-flash",
+    "backend": "openrouter",
+    "release_date": "2026-08-26",
+    "open_weight": true,
+    "parameters": "320B total (18B active)",
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "context_size": 1310720,
+    "license": {
+      "name": "MIT"
+    },
+    "model_config": {
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "multimodality": {
+        "single_image": true,
+        "multiple_images": true,
+        "audio": false,
+        "video": true
+      },
+      "extra_body": {
+        "reasoning": {
+          "enabled": true,
+          "effort": "max"
+        }
+      }
+    }
+  },
+  {
+    "model_name": "gemma4-e4b-mlx",
+    "model_id": "gemma4:e4b-mlx",
+    "backend": "openai_compatible",
+    "open_weight": true,
+    "parameters": "8B total (4.5B effective)",
+    "languages": [
+      "en"
+    ],
+    "context_size": "128k",
+    "license": {
+      "name": "Apache-2.0"
+    },
+    "model_config": {
+      "input_modalities": [
+        "text",
+        "image",
+        "audio"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "multimodality": {
+        "single_image": true,
+        "multiple_images": true,
+        "audio": true,
+        "video": false
+      },
+      "extra_body": {
+        "reasoning": {
+          "enabled": true,
+          "effort": "high"
+        }
+      }
+    }
+  },
+  {
+    "model_name": "Qwen3.6-35B-A3B",
+    "model_id": "qwen/qwen3.6-35b-a3b",
+    "backend": "openrouter",
+    "release_date": "2026-04-28",
+    "open_weight": true,
+    "parameters": "35B",
+    "languages": [
+      "en",
+      "zh"
+    ],
+    "context_size": "262k",
+    "license": {},
+    "model_config": {
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "multimodality": {
+        "single_image": true,
+        "multiple_images": true,
+        "audio": false,
+        "video": true
+      },
+      "extra_body": {
+        "reasoning": {
+          "enabled": false
+        }
+      }
+    }
+  },
+  {
+    "model_name": "qwen3.8-2.4t-a95b",
+    "model_id": "qwen/qwen3.8-2.4t-a95b",
+    "backend": "openrouter",
+    "model_config": {
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "extra_body": {
+        "reasoning": {
+          "enabled": true,
+          "effort": "xhigh"
+        }
+      }
+    }
+  },
+  {
+    "model_name": "qwen3.8-27b-reasoning",
+    "model_id": "qwen/qwen3.8-27b",
+    "backend": "openrouter",
+    "model_config": {
+      "input_modalities": [
+        "text",
+        "image",
+        "video"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "multimodality": {
+        "single_image": true,
+        "multiple_images": true,
+        "audio": false,
+        "video": true
+      },
+      "extra_body": {
+        "reasoning": {
+          "enabled": true,
+          "effort": "xhigh"
+        }
+      }
+    }
+  },
+  {
+    "model_name": "nemotron-3.5-30B-A3-reasoning",
+    "model_id": "nvidia/nemotron-3.5-lightning",
+    "backend": "openrouter",
+    "model_config": {
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "extra_body": {
+        "reasoning": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  {
+    "model_name": "gpt-oss-120b",
+    "model_id": "openai/gpt-oss-120b",
+    "backend": "openrouter",
+    "model_config": {
+      "input_modalities": [
+        "text"
+      ],
+      "output_modalities": [
+        "text"
+      ],
+      "extra_body": {
+        "reasoning": {
+          "enabled": true,
+          "effort": "medium"
+        }
+      }
+    }
+  }
+]

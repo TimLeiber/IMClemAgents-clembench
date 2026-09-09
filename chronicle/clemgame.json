@@ -1,0 +1,11 @@
+{
+  "game_name": "chronicle",
+  "description": "A historical deduction game where one agent describes a famous event using circumlocution and the other identifies it.",
+  "main_game": "chronicle",
+  "players": 2,
+  "image": "none",
+  "languages": ["en"],
+  "benchmark": ["3.0"],
+  "regression": "small",
+  "roles": ["Narrator", "Detective"]
+}

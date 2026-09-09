@@ -1,0 +1,13 @@
+{
+  "glm-5.3-flash": {
+    "reasoning": {
+      "enabled": true,
+      "effort": "low"
+    }
+  },
+  "qwen3.8-27b-reasoning": {
+    "reasoning": {
+      "enabled": false
+    }
+  }
+}

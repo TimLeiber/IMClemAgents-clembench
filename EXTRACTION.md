@@ -16,6 +16,20 @@ Before publication: audit the external core dependency, curate historical helper
 scripts and model configurations, choose artifact distribution, review licenses
 and sensitive trace content. No remote repository was created.
 
+## Current dependency limitations
+
+Offline tests were verified with the project's modified local clemcore 3.7.2
+checkout, not an unmodified PyPI installation. The same version number alone
+does not establish compatibility. The core audit and standalone agent-package
+extraction are still pending. The replay script's optional native-trace fallback
+currently imports adapters from `clemcore.agents`; saved uniform events and
+table exports do not require rerunning a harness.
+
+Registry entries retain the current project configuration. Actual historical
+request settings must be checked in per-episode records. Counterfactual model
+overrides are documented separately and are not automatically loaded from the
+override JSON file by the replay script.
+
 ## Registry curation
 
 On 2026-09-09, model and agent entries were filtered against official result

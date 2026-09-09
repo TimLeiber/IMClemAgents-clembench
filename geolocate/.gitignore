@@ -1,0 +1,6 @@
+records/*
+__pycache__/
+*.pyc
+clembench.log
+resources/kartaview_candidates.json
+resources/raw_panoramas/

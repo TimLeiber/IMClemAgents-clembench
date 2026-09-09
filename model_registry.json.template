@@ -1,0 +1,7 @@
+[
+  {
+    "model_name": "example-model",
+    "model_id": "provider/model-id",
+    "backend": "openrouter"
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "game_name": "geolocate",
+  "description": "Single-player multimodal geolocation game using latitude and longitude predictions.",
+  "main_game": "geolocate",
+  "players": 1,
+  "image": "multi",
+  "languages": ["en"],
+  "benchmark": ["3.0"],
+  "regression": "small",
+  "roles": ["Locator"]
+}

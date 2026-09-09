@@ -1,0 +1,48 @@
+You are repairing a Boolean truth-value assignment.
+Your goal is to change the current assignment until every clause is satisfied.
+
+The variables are numbered from 1 to $NUM_VARIABLES$. A positive literal means
+that its variable is true; a negative literal means that its variable is false.
+Every clause must contain at least one true literal.
+
+Formula:
+$FORMULA$
+
+Variables currently set to true:
+$INITIAL_ASSIGNMENT$
+
+Every variable not listed is currently false. The assignment persists between
+turns. On each turn, change the truth values of at most
+$MAX_CHANGES_PER_TURN$ variables in total across both $SET_TRUE_LABEL$ and
+$SET_FALSE_LABEL$. Setting one variable true counts as one change; setting one
+variable false also counts as one change. You have $NUM_ATTEMPTS$ turns.
+After an unsuccessful update, you will receive the current assignment and the
+satisfaction status of every clause.
+
+Repeatedly revising an assignment is costly. When practical, settle on a
+satisfactory assignment without unnecessary revisions.
+
+FORMATTING RULES
+Respond with exactly these three labelled lines, replacing the text in angle
+brackets with your update:
+$SET_TRUE_LABEL$: <variable numbers to set true, or $NO_CHANGE$>
+$SET_FALSE_LABEL$: <variable numbers to set false, or $NO_CHANGE$>
+$EXPLANATION_LABEL$: <one brief sentence explaining why these changes help>
+
+- Keep each label and its value on one line. Do not insert line breaks within
+  any value, including $EXPLANATION_LABEL$.
+- You may change at most $MAX_CHANGES_PER_TURN$ variables per turn in total.
+- $SET_TRUE_LABEL$ and $SET_FALSE_LABEL$ share this limit; each variable
+  listed under either label counts as one change.
+- Therefore, with a limit of 2, you may set two variables true, set two
+  variables false, or set one variable true and one variable false.
+- You may not set two variables true and also set any variables false, or set
+  two variables false and also set any variables true.
+- $SET_TRUE_LABEL$ changes only the listed variables to true
+- $SET_FALSE_LABEL$ changes only the listed variables to false
+- List only variables whose values should change, not the complete assignment
+- Separate multiple variable numbers with commas
+- Use $NO_CHANGE$ when no variable is set to true or false
+- Do not list a variable under both $SET_TRUE_LABEL$ and $SET_FALSE_LABEL$
+- The total number of variables across $SET_TRUE_LABEL$ and $SET_FALSE_LABEL$
+  must not exceed $MAX_CHANGES_PER_TURN$

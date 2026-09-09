@@ -1,0 +1,435 @@
+{
+    "experiments": [
+        {
+            "name": "CNF_trap_10",
+            "game_instances": [
+                {
+                    "game_id": 2,
+                    "formula": [
+                        [
+                            -4,
+                            -2,
+                            -8
+                        ],
+                        [
+                            6,
+                            -2,
+                            9
+                        ],
+                        [
+                            -5,
+                            3,
+                            8
+                        ],
+                        [
+                            1,
+                            10,
+                            4
+                        ],
+                        [
+                            10,
+                            9,
+                            2
+                        ],
+                        [
+                            8,
+                            1,
+                            7
+                        ],
+                        [
+                            -3,
+                            7,
+                            -6
+                        ],
+                        [
+                            8,
+                            1,
+                            -3
+                        ],
+                        [
+                            -4,
+                            3,
+                            2
+                        ],
+                        [
+                            6,
+                            -4,
+                            3
+                        ],
+                        [
+                            1,
+                            3,
+                            7
+                        ],
+                        [
+                            2,
+                            4,
+                            10
+                        ],
+                        [
+                            2,
+                            -8,
+                            3
+                        ],
+                        [
+                            6,
+                            -3,
+                            -5
+                        ],
+                        [
+                            2,
+                            7,
+                            5
+                        ],
+                        [
+                            7,
+                            -8,
+                            -10
+                        ],
+                        [
+                            10,
+                            -1,
+                            7
+                        ],
+                        [
+                            2,
+                            3,
+                            8
+                        ],
+                        [
+                            6,
+                            -1,
+                            8
+                        ],
+                        [
+                            1,
+                            -10,
+                            -3
+                        ],
+                        [
+                            -1,
+                            -7,
+                            -4
+                        ],
+                        [
+                            -9,
+                            -10,
+                            -4
+                        ],
+                        [
+                            5,
+                            -10,
+                            -3
+                        ],
+                        [
+                            6,
+                            10,
+                            -1
+                        ],
+                        [
+                            10,
+                            1,
+                            -3
+                        ]
+                    ],
+                    "food_items": [
+                        "orange juice",
+                        "cranberry juice",
+                        "apple juice",
+                        "cow milk",
+                        "goat milk",
+                        "milkshake",
+                        "almond milk",
+                        "coconut milk",
+                        "hemp milk",
+                        "pea milk"
+                    ],
+                    "preferences": [
+                        {
+                            "name": "Milani Cole",
+                            "likes": [],
+                            "dislikes": [
+                                "cow milk",
+                                "cranberry juice",
+                                "coconut milk"
+                            ]
+                        },
+                        {
+                            "name": "Deacon Logan",
+                            "likes": [
+                                "milkshake",
+                                "hemp milk"
+                            ],
+                            "dislikes": [
+                                "cranberry juice"
+                            ]
+                        },
+                        {
+                            "name": "Gloria Ferguson",
+                            "likes": [
+                                "apple juice",
+                                "coconut milk"
+                            ],
+                            "dislikes": [
+                                "goat milk"
+                            ]
+                        },
+                        {
+                            "name": "Leland Holland",
+                            "likes": [
+                                "orange juice",
+                                "pea milk",
+                                "cow milk"
+                            ],
+                            "dislikes": []
+                        },
+                        {
+                            "name": "Alora Ramos",
+                            "likes": [
+                                "pea milk",
+                                "hemp milk",
+                                "cranberry juice"
+                            ],
+                            "dislikes": []
+                        },
+                        {
+                            "name": "Braylen Griffith",
+                            "likes": [
+                                "coconut milk",
+                                "orange juice",
+                                "almond milk"
+                            ],
+                            "dislikes": []
+                        },
+                        {
+                            "name": "Kylee Salas",
+                            "likes": [
+                                "almond milk"
+                            ],
+                            "dislikes": [
+                                "apple juice",
+                                "milkshake"
+                            ]
+                        },
+                        {
+                            "name": "Richard Hines",
+                            "likes": [
+                                "coconut milk",
+                                "orange juice"
+                            ],
+                            "dislikes": [
+                                "apple juice"
+                            ]
+                        },
+                        {
+                            "name": "Reagan Thompson",
+                            "likes": [
+                                "apple juice",
+                                "cranberry juice"
+                            ],
+                            "dislikes": [
+                                "cow milk"
+                            ]
+                        },
+                        {
+                            "name": "Paxton Quinn",
+                            "likes": [
+                                "milkshake",
+                                "apple juice"
+                            ],
+                            "dislikes": [
+                                "cow milk"
+                            ]
+                        },
+                        {
+                            "name": "Estelle Ayers",
+                            "likes": [
+                                "orange juice",
+                                "apple juice",
+                                "almond milk"
+                            ],
+                            "dislikes": []
+                        },
+                        {
+                            "name": "John Rivas",
+                            "likes": [
+                                "cranberry juice",
+                                "cow milk",
+                                "pea milk"
+                            ],
+                            "dislikes": []
+                        },
+                        {
+                            "name": "Wren Briggs",
+                            "likes": [
+                                "cranberry juice",
+                                "apple juice"
+                            ],
+                            "dislikes": [
+                                "coconut milk"
+                            ]
+                        },
+                        {
+                            "name": "Gregory Bowers",
+                            "likes": [
+                                "milkshake"
+                            ],
+                            "dislikes": [
+                                "apple juice",
+                                "goat milk"
+                            ]
+                        },
+                        {
+                            "name": "Alma Burgess",
+                            "likes": [
+                                "cranberry juice",
+                                "almond milk",
+                                "goat milk"
+                            ],
+                            "dislikes": []
+                        },
+                        {
+                            "name": "Zayden Everett",
+                            "likes": [
+                                "almond milk"
+                            ],
+                            "dislikes": [
+                                "coconut milk",
+                                "pea milk"
+                            ]
+                        },
+                        {
+                            "name": "Ivy Vo",
+                            "likes": [
+                                "pea milk",
+                                "almond milk"
+                            ],
+                            "dislikes": [
+                                "orange juice"
+                            ]
+                        },
+                        {
+                            "name": "Bradley Mora",
+                            "likes": [
+                                "cranberry juice",
+                                "apple juice",
+                                "coconut milk"
+                            ],
+                            "dislikes": []
+                        },
+                        {
+                            "name": "Clementine Bradley",
+                            "likes": [
+                                "milkshake",
+                                "coconut milk"
+                            ],
+                            "dislikes": [
+                                "orange juice"
+                            ]
+                        },
+                        {
+                            "name": "Salem Rivers",
+                            "likes": [
+                                "orange juice"
+                            ],
+                            "dislikes": [
+                                "pea milk",
+                                "apple juice"
+                            ]
+                        },
+                        {
+                            "name": "Zaniyah Ventura",
+                            "likes": [],
+                            "dislikes": [
+                                "orange juice",
+                                "almond milk",
+                                "cow milk"
+                            ]
+                        },
+                        {
+                            "name": "Kai Saunders",
+                            "likes": [],
+                            "dislikes": [
+                                "hemp milk",
+                                "pea milk",
+                                "cow milk"
+                            ]
+                        },
+                        {
+                            "name": "Alexia Bradshaw",
+                            "likes": [
+                                "goat milk"
+                            ],
+                            "dislikes": [
+                                "pea milk",
+                                "apple juice"
+                            ]
+                        },
+                        {
+                            "name": "Niko Blevins",
+                            "likes": [
+                                "milkshake",
+                                "pea milk"
+                            ],
+                            "dislikes": [
+                                "orange juice"
+                            ]
+                        },
+                        {
+                            "name": "Thea Pollard",
+                            "likes": [
+                                "pea milk",
+                                "orange juice"
+                            ],
+                            "dislikes": [
+                                "apple juice"
+                            ]
+                        }
+                    ],
+                    "initial_true_variables": [
+                        2,
+                        3,
+                        4,
+                        5,
+                        9
+                    ],
+                    "initial_menu": [
+                        "cranberry juice",
+                        "apple juice",
+                        "cow milk",
+                        "goat milk",
+                        "hemp milk"
+                    ],
+                    "optimal_edit_distance": 4,
+                    "satisfying_distance_counts": {
+                        "7": 14,
+                        "6": 15,
+                        "5": 7,
+                        "8": 6,
+                        "4": 2,
+                        "9": 1
+                    },
+                    "deceptive_plateau": {
+                        "initial_satisfaction": 21,
+                        "best_first_satisfaction": 23,
+                        "intermediate_satisfaction": 23,
+                        "plateau_satisfaction": 24,
+                        "plateau_distance": 4,
+                        "first_update_variables": [
+                            2,
+                            8
+                        ],
+                        "second_update_variables": [
+                            5,
+                            7
+                        ]
+                    }
+                }
+            ],
+            "framing": "CNF",
+            "difficulty": "trap",
+            "num_variables": 10,
+            "lang": "en"
+        }
+    ]
+}

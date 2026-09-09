@@ -1,0 +1,240 @@
+{
+  "dataset_id": "final",
+  "source": "OpenStreetMap Nominatim reverse geocoding",
+  "entries": {
+    "38.698310,-9.428411": {
+      "latitude": 38.69831,
+      "longitude": -9.428411,
+      "country": "Portugal",
+      "country_code": "PT"
+    },
+    "-23.524287,-46.414479": {
+      "latitude": -23.524287,
+      "longitude": -46.414479,
+      "country": "Brazil",
+      "country_code": "BR"
+    },
+    "56.965446,23.760673": {
+      "latitude": 56.965446,
+      "longitude": 23.760673,
+      "country": "Latvia",
+      "country_code": "LV"
+    },
+    "14.548236,121.190105": {
+      "latitude": 14.548236,
+      "longitude": 121.190105,
+      "country": "Philippines",
+      "country_code": "PH"
+    },
+    "38.701259,-9.424095": {
+      "latitude": 38.701259,
+      "longitude": -9.424095,
+      "country": "Portugal",
+      "country_code": "PT"
+    },
+    "41.673344,12.503665": {
+      "latitude": 41.673344,
+      "longitude": 12.503665,
+      "country": "Italy",
+      "country_code": "IT"
+    },
+    "14.376267,120.910597": {
+      "latitude": 14.376267,
+      "longitude": 120.910597,
+      "country": "Philippines",
+      "country_code": "PH"
+    },
+    "48.119369,16.613685": {
+      "latitude": 48.119369,
+      "longitude": 16.613685,
+      "country": "Austria",
+      "country_code": "AT"
+    },
+    "48.331777,16.061705": {
+      "latitude": 48.331777,
+      "longitude": 16.061705,
+      "country": "Austria",
+      "country_code": "AT"
+    },
+    "14.481432,121.226861": {
+      "latitude": 14.481432,
+      "longitude": 121.226861,
+      "country": "Philippines",
+      "country_code": "PH"
+    },
+    "40.613159,-3.704473": {
+      "latitude": 40.613159,
+      "longitude": -3.704473,
+      "country": "Spain",
+      "country_code": "ES"
+    },
+    "53.611749,-6.186761": {
+      "latitude": 53.611749,
+      "longitude": -6.186761,
+      "country": "Ireland",
+      "country_code": "IE"
+    },
+    "35.855421,139.844493": {
+      "latitude": 35.855421,
+      "longitude": 139.844493,
+      "country": "Japan",
+      "country_code": "JP"
+    },
+    "40.301714,-3.928719": {
+      "latitude": 40.301714,
+      "longitude": -3.928719,
+      "country": "Spain",
+      "country_code": "ES"
+    },
+    "48.020592,17.330966": {
+      "latitude": 48.020592,
+      "longitude": 17.330966,
+      "country": "Slovakia",
+      "country_code": "SK"
+    },
+    "13.650448,100.681915": {
+      "latitude": 13.650448,
+      "longitude": 100.681915,
+      "country": "Thailand",
+      "country_code": "TH"
+    },
+    "-33.785497,150.990992": {
+      "latitude": -33.785497,
+      "longitude": 150.990992,
+      "country": "Australia",
+      "country_code": "AU"
+    },
+    "51.272301,-0.151427": {
+      "latitude": 51.272301,
+      "longitude": -0.151427,
+      "country": "United Kingdom",
+      "country_code": "GB"
+    },
+    "19.240860,-99.147500": {
+      "latitude": 19.24086,
+      "longitude": -99.1475,
+      "country": "Mexico",
+      "country_code": "MX"
+    },
+    "50.195861,14.675601": {
+      "latitude": 50.195861,
+      "longitude": 14.675601,
+      "country": "Czechia",
+      "country_code": "CZ"
+    },
+    "53.406263,-6.684694": {
+      "latitude": 53.406263,
+      "longitude": -6.684694,
+      "country": "Ireland",
+      "country_code": "IE"
+    },
+    "40.288725,-3.994291": {
+      "latitude": 40.288725,
+      "longitude": -3.994291,
+      "country": "Spain",
+      "country_code": "ES"
+    },
+    "59.164516,17.796753": {
+      "latitude": 59.164516,
+      "longitude": 17.796753,
+      "country": "Sweden",
+      "country_code": "SE"
+    },
+    "19.592989,-99.031156": {
+      "latitude": 19.592989,
+      "longitude": -99.031156,
+      "country": "Mexico",
+      "country_code": "MX"
+    },
+    "50.879383,4.700734": {
+      "latitude": 50.879383,
+      "longitude": 4.700734,
+      "country": "Belgium",
+      "country_code": "BE"
+    },
+    "37.791807,23.879665": {
+      "latitude": 37.791807,
+      "longitude": 23.879665,
+      "country": "Greece",
+      "country_code": "GR"
+    },
+    "-12.225937,-76.971349": {
+      "latitude": -12.225937,
+      "longitude": -76.971349,
+      "country": "Peru",
+      "country_code": "PE"
+    },
+    "38.009475,23.972305": {
+      "latitude": 38.009475,
+      "longitude": 23.972305,
+      "country": "Greece",
+      "country_code": "GR"
+    },
+    "14.428722,120.894355": {
+      "latitude": 14.428722,
+      "longitude": 120.894355,
+      "country": "Philippines",
+      "country_code": "PH"
+    },
+    "59.106313,18.041637": {
+      "latitude": 59.106313,
+      "longitude": 18.041637,
+      "country": "Sweden",
+      "country_code": "SE"
+    },
+    "59.189528,17.649857": {
+      "latitude": 59.189528,
+      "longitude": 17.649857,
+      "country": "Sweden",
+      "country_code": "SE"
+    },
+    "48.013695,16.294896": {
+      "latitude": 48.013695,
+      "longitude": 16.294896,
+      "country": "Austria",
+      "country_code": "AT"
+    },
+    "48.000577,16.269090": {
+      "latitude": 48.000577,
+      "longitude": 16.26909,
+      "country": "Austria",
+      "country_code": "AT"
+    },
+    "45.911096,14.204717": {
+      "latitude": 45.911096,
+      "longitude": 14.204717,
+      "country": "Slovenia",
+      "country_code": "SI"
+    },
+    "40.888136,29.189209": {
+      "latitude": 40.888136,
+      "longitude": 29.189209,
+      "country": "Turkey",
+      "country_code": "TR"
+    },
+    "14.428744,120.894172": {
+      "latitude": 14.428744,
+      "longitude": 120.894172,
+      "country": "Philippines",
+      "country_code": "PH"
+    },
+    "40.540648,-3.892070": {
+      "latitude": 40.540648,
+      "longitude": -3.89207,
+      "country": "Spain",
+      "country_code": "ES"
+    },
+    "38.953619,-8.989720": {
+      "latitude": 38.953619,
+      "longitude": -8.98972,
+      "country": "Portugal",
+      "country_code": "PT"
+    },
+    "51.442743,0.215509": {
+      "latitude": 51.442743,
+      "longitude": 0.215509,
+      "country": "United Kingdom",
+      "country_code": "GB"
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+    "experiments": [
+        {
+            "name": "battles_hard",
+            "game_instances": [
+                {
+                    "game_id": 2,
+                    "target_event": "Siege of Perth (1339)",
+                    "event_category": "battles",
+                    "difficulty": "hard",
+                    "event_summary": "The siege of Perth was conducted from June to August 1339 as part of the Second War of Scottish Independence. The siege was conducted by forces loyal to David II of Scotland and commanded by Robert Stewart, the Guardian of Scotland. The defending forces were acting on behalf of Edward Balliol and were commanded by Thomas Ughtred.",
+                    "forbidden_keywords": [
+                        "perth",
+                        "scotland"
+                    ],
+                    "acceptable_answers": [
+                        "perth (1339)",
+                        "siege of perth",
+                        "siege of perth (1339)",
+                        "the siege of perth (1339)",
+                        "user:csjj104/sandbox/siege of perth"
+                    ]
+                },
+                {
+                    "game_id": 3,
+                    "target_event": "Battle of Madana",
+                    "event_category": "battles",
+                    "difficulty": "hard",
+                    "event_summary": "The Battle of Madana was a military confrontation that took place in June 1887 between the army of the Ethiopian Empire led by Tekle Haymanot of Gojjam and the Mahdist army led by Mohammad Wad Arbab. The Ethiopians were victorious and Wad Arbab was killed on the battlefield. The Ethiopians then followed up on their victory by capturing and sacking the town of Gallabat.",
+                    "forbidden_keywords": [
+                        "ethiopians",
+                        "madana"
+                    ],
+                    "acceptable_answers": [
+                        "battle of madana",
+                        "draft:battle of madana",
+                        "madana",
+                        "the battle of madana"
+                    ]
+                },
+                {
+                    "game_id": 4,
+                    "target_event": "Battle of Bint Jbeil (2026)",
+                    "event_category": "battles",
+                    "difficulty": "hard",
+                    "event_summary": "The Battle of Bint Jbeil is a battle in the 2026 Lebanon war, within the context of the wider 2026 Iran war. The battle began on 9 April 2026, coinciding with the second day of the Iran war ceasefire, as part of a broader Israeli offensive against Hezbollah that included the 8 April 2026 Lebanon attacks and other operations across southern Lebanon. The timing of the offensive was disputed. Iran, Pakistan, and Hezbollah stated that the ceasefire extended to Lebanon and characterized Israeli operations as violations of the agreement. In contrast, Israel and the United States maintained that the ceasefire did not apply to the Lebanese front, and therefore considered continued military operations against Hezbollah to be legitimate.",
+                    "forbidden_keywords": [
+                        "bint",
+                        "hezbollah",
+                        "iran",
+                        "israeli",
+                        "jbeil",
+                        "lebanon"
+                    ],
+                    "acceptable_answers": [
+                        "battle of bint jbeil",
+                        "battle of bint jbeil (2026)",
+                        "bint jbeil (2026)",
+                        "the battle of bint jbeil (2026)"
+                    ]
+                }
+            ],
+            "max_turns": 10,
+            "max_detective_words": 100,
+            "narrator_initial_prompt": "You are playing a historical deduction game as the NARRATOR.\n\nYou have been given the name of a historical event, discovery, or milestone. Your goal is to help the DETECTIVE figure out which event you are describing \u2014 but you must describe it indirectly, without ever naming it.\n\nRules:\n1. Each round, write exactly ONE sentence describing the event. Add NEW information each round \u2014 do not repeat what you wrote before.\n2. You must NEVER use any of the following forbidden keywords (these would make the event too easy to identify): $FORBIDDEN_KEYWORDS$\n3. You must NEVER state the event name directly or any close variant of it.\n4. You may freely describe causes, consequences, the broader context, the sequence of events, and the significance \u2014 but only using general, non-identifying language.\n\nFormat your response EXACTLY as follows (required):\nPARAGRAPH: <exactly one sentence describing the event without forbidden keywords>\n\nThe event you must describe (without naming it) is: $TARGET_EVENT$\n",
+            "detective_initial_prompt": "You are playing a historical deduction game as the DETECTIVE.\n\nA Narrator will describe a historical event, discovery, or milestone to you over several rounds. Each round you receive a new sentence of description that builds on what came before. Your job is to figure out which specific event is being described.\n\nAfter EACH new sentence, respond briefly. Keep your entire response under $MAX_DETECTIVE_WORDS$ words. Use this exact format (both sections are required):\n\nANALYSIS: <2\u20133 short sentences: what does the growing description suggest? What type of event is this? What are the key features you are noticing?>\n\nGUESS: <your best guess for the name of the event being described \u2014 be specific, e.g. \"The French Revolution\" not just \"a revolution\">\n\nRules:\n- You may refine your GUESS each round as more information arrives.\n- Your GUESS should name the specific event, not just a broad category.\n- You have up to 10 rounds total.\n- Be concise \u2014 quality of reasoning matters more than length.\n\nThe first sentence from the Narrator is coming now.\n"
+        }
+    ]
+}
