@@ -61,8 +61,6 @@ This will also install the `clem` CLI tool.
 
 The `clem` CLI command operates relative to the current working directory, that is, the directory it is called from.
 
-For the current extraction's dependency limitations, see [EXTRACTION.md](EXTRACTION.md).
-
 ## Model and agent configuration
 
 To add new custom models, populate the `model_registry.json` file with the required fields  (template is provided as *model_registry.json.template*).
