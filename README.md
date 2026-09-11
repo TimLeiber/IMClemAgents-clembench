@@ -7,6 +7,7 @@ SAT_MENU is included as a game and proof of concept, without results.
 
 - `chronicle/`, `wordle/`, `geolocate/`, `sat_menu/`: games, templates, utilities, generators and saved instances (`sat_menu/` was created but never used for agent benchmarking)
 - `project_interpretation/`: report analysis functions and plots
+- `post_processing/`: project-specific score, abort, tool-call and token-count helpers (not part of `clemagents`)
 - `model_registry.json`: seven models used in the retained experiments, including the Chronicle narrator
 - `agent_registry.json`: 24 model–harness configurations
 - `agent_registry.template.json`: one example for each of Codex, Claude Code, Hermes and OpenClaw
