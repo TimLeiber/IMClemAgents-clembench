@@ -95,12 +95,16 @@ directly instead of overwriting it with the copy command.
 
 ## Running a game with a harness
 
-The planned standalone runner command is `agentclem`. It is not installed by
-this games repository; the agents package extraction and CLI implementation
-are still pending. The interface below documents the intended command.
+The standalone runner command is `agentclem`, provided by
+[IMClemAgents](https://github.com/TimLeiber/IMClemAgents). With that repository
+checked out alongside this one, install it into your active environment:
 
-Once available, run from this repository's root with the agents package installed,
-Docker running, and the `clem-agent-sandbox:dev` image already built.
+```bash
+python -m pip install -e ../IMClemAgents
+```
+
+Run from this repository's root with the agents package installed,
+Docker running, and the `clemagents-sandbox:dev` image already built.
 Unlike scoring or transcription, a run calls the configured model API and may
 incur costs. Replace the placeholders below with your configuration values
 before executing the command:
@@ -186,11 +190,10 @@ reasoning HTML transcripts are comparatively small. Keep the source records
 for reproducibility; HTML views can be regenerated from them.
 
 Render recorded harness messages, reasoning, tool calls and tool results as
-`agent_loop.html`. This command currently requires the project's local clemcore
-agent package:
+`agent_loop.html` using the separately installed agents package:
 
 ```bash
-python -m clemcore.agents.transcribe_agent_loop -r results_chronicle
-python -m clemcore.agents.transcribe_agent_loop -r results_wordle
-python -m clemcore.agents.transcribe_agent_loop -r results_geolocate
+agentclem-transcribe -r results_chronicle
+agentclem-transcribe -r results_wordle
+agentclem-transcribe -r results_geolocate
 ```

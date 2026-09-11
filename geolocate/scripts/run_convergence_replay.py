@@ -331,7 +331,7 @@ def load_evidence(
     if not any(evidence_line(event, event_char_limit) for event in events):
         metadata_path = episode_dir / "agent_trace_meta.json"
         if metadata_path.exists() and (episode_dir / "agent_trace.log").exists():
-            from clemcore.agents.adapters import harness_class_for_agent
+            from clemagents.adapters import harness_class_for_agent
 
             metadata = load_json(metadata_path)
             adapter = harness_class_for_agent(metadata["agent"], REPOSITORY_ROOT / "agent_registry.json")

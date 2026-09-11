@@ -200,7 +200,7 @@ class TestConvergenceReplay(unittest.TestCase):
             adapter.parse_agent_trace.return_value = {"events": [
                 {"type": "reasoning", "content": "Evidence from the new harness"},
             ]}
-            with patch("clemcore.agents.adapters.harness_class_for_agent", return_value=adapter) as resolve:
+            with patch("clemagents.adapters.harness_class_for_agent", return_value=adapter) as resolve:
                 evidence, stats = load_evidence(root, 10000, 3000)
             self.assertIn("Evidence from the new harness", evidence)
             resolve.assert_called_once()

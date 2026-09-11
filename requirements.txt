@@ -1,4 +1,4 @@
-# extraction baseline; the current local clemcore checkout is still required
+# native game engine; install the separate clemagents package for harness runs
 clemcore==3.7.2
 numpy
 Pillow
