@@ -1,5 +1,70 @@
 [
   {
+    "agent_name": "codex-with-qwen3.8-27b-ollama",
+    "backend": "codex",
+    "agent_config": {"clem_model": "qwen3.8-27b-ollama", "sandbox": "full_access"}
+  },
+  {
+    "agent_name": "codex-with-gemma4-26b-a4b",
+    "backend": "codex",
+    "agent_config": {"clem_model": "gemma4-26b-a4b", "sandbox": "full_access"}
+  },
+  {
+    "agent_name": "claude-code-with-gemma4-26b-a4b",
+    "backend": "claude_code",
+    "agent_config": {"clem_model": "gemma4-26b-a4b", "permission_mode": "bypassPermissions"}
+  },
+  {
+    "agent_name": "hermes-with-gemma4-26b-a4b",
+    "backend": "hermes",
+    "agent_config": {"clem_model": "gemma4-26b-a4b", "provider": "openai-api", "max_turns": 1000, "yolo": true}
+  },
+  {
+    "agent_name": "openclaw-with-gemma4-26b-a4b",
+    "backend": "openclaw",
+    "agent_config": {"clem_model": "gemma4-26b-a4b", "debug": true, "verbose": true}
+  },
+  {
+    "agent_name": "hermes-with-qwen3.8-27b-fp8",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "Qwen3.8-27B-FP8",
+      "provider": "openai-api",
+      "verify_tls": false,
+      "max_turns": 1000,
+      "yolo": true
+    }
+  },
+  {
+    "agent_name": "codex-with-qwen3.8-27b-fp8",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "Qwen3.8-27B-FP8",
+      "sandbox": "full_access",
+      "verify_tls": false
+    }
+  },
+  {
+    "agent_name": "claude-code-with-qwen3.8-27b-fp8",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "Qwen3.8-27B-FP8",
+      "permission_mode": "bypassPermissions",
+      "reasoning_effort": "low",
+      "verify_tls": false
+    }
+  },
+  {
+    "agent_name": "openclaw-with-qwen3.8-27b-fp8",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "Qwen3.8-27B-FP8",
+      "verify_tls": false,
+      "debug": true,
+      "verbose": true
+    }
+  },
+  {
     "agent_name": "codex-with-glm-5.3-flash",
     "backend": "codex",
     "agent_config": {
@@ -24,8 +89,7 @@
       "clem_model": "glm-5.3-flash",
       "provider": "openrouter",
       "max_turns": 1000,
-      "yolo": true,
-      "reasoning_effort": "max"
+      "yolo": true
     }
   },
   {
