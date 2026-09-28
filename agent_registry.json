@@ -292,5 +292,43 @@
       "debug": true,
       "verbose": true
     }
+  },
+  {
+    "agent_name": "codex-prompt-probe",
+    "backend": "codex",
+    "agent_config": {
+      "clem_model": "glm-5.3-flash",
+      "sandbox": "full_access",
+      "trace_model_io": true
+    }
+  },
+  {
+    "agent_name": "claude-code-prompt-probe",
+    "backend": "claude_code",
+    "agent_config": {
+      "clem_model": "glm-5.3-flash",
+      "permission_mode": "bypassPermissions",
+      "trace_model_io": true
+    }
+  },
+  {
+    "agent_name": "hermes-prompt-probe",
+    "backend": "hermes",
+    "agent_config": {
+      "clem_model": "glm-5.3-flash",
+      "provider": "openrouter",
+      "yolo": true,
+      "trace_model_io": true
+    }
+  },
+  {
+    "agent_name": "openclaw-prompt-probe",
+    "backend": "openclaw",
+    "agent_config": {
+      "clem_model": "glm-5.3-flash",
+      "debug": true,
+      "verbose": true,
+      "trace_model_io": true
+    }
   }
 ]
