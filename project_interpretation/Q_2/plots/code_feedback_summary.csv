@@ -1,0 +1,11 @@
+harness,metric,episodes,episodes_with_event,event_count,mean_episode_percent
+hermes,diagnostics,29,1,1,3.5714285714285716
+hermes,repairs,29,1,1,3.5714285714285716
+hermes,background,29,0,0,0.0
+hermes,polls,29,0,0,0.0
+hermes,interruptions,29,1,1,3.5714285714285716
+openclaw,diagnostics,29,0,0,0.0
+openclaw,repairs,29,0,0,0.0
+openclaw,background,29,3,5,10.714285714285714
+openclaw,polls,29,3,8,10.714285714285714
+openclaw,interruptions,29,1,1,3.5714285714285716

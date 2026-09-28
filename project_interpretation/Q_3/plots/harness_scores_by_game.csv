@@ -1,0 +1,13 @@
+game,harness,mean_clemscore,models,episodes
+wordle,codex,30.11111111111111,6,90
+wordle,claude-code,39.333333333333336,6,90
+wordle,hermes,36.333333333333336,6,90
+wordle,openclaw,36.0,6,90
+chronicle,codex,30.21111111111111,6,90
+chronicle,claude-code,26.587962962962962,6,90
+chronicle,hermes,30.944444444444443,6,90
+chronicle,openclaw,24.539814814814815,6,90
+geolocate,codex,78.24742770063614,2,30
+geolocate,claude-code,89.16843438513432,2,30
+geolocate,hermes,81.96888578593928,2,30
+geolocate,openclaw,81.60305486683131,2,30

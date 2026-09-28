@@ -4,7 +4,8 @@ The comparison uses the simple arithmetic mean of the clemscores from
 Chronicle and Wordle. For the harness-supported bar, the best harness is
 selected independently on each game before those two winning scores are
 averaged. The two games may therefore contribute results from different
-harnesses.
+harnesses. Optionally include Geolocate, restricting the comparison to models
+evaluated on every selected game. Missing game results never count as zero.
 
 The implementation intentionally uses Pillow rather than matplotlib so that
 it runs in the existing clembench environment without another plotting
@@ -25,9 +26,11 @@ from PIL import Image, ImageDraw, ImageFont
 
 REPOSITORY_DIR = Path(__file__).resolve().parents[3]
 QUESTION_DIR = Path(__file__).resolve().parents[1]
+DEFAULT_RECOVERY_RESULTS = (REPOSITORY_DIR / "results_geolocate_convergence_replay" /
+                            "timeout_recovery_remaining_guesses_01" / "results.csv")
 
 DEFAULT_MODEL_ORDER = (
-    "gemma4-e4b-mlx",
+    "gemma4-e4b",
     "nemotron-3.5-30B-A3-reasoning",
     "gpt-oss-120b",
     "qwen3.8-27b-reasoning",
@@ -36,12 +39,12 @@ DEFAULT_MODEL_ORDER = (
 )
 
 DEFAULT_MODEL_LABELS = {
-    "gemma4-e4b-mlx": "Gemma 4 E4B",
+    "gemma4-e4b": "Gemma E4B",
     "nemotron-3.5-30B-A3-reasoning": "Nemotron 3.5\nLightning",
     "gpt-oss-120b": "GPT-OSS 120B",
     "qwen3.8-27b-reasoning": "Qwen 3.8 27B",
     "glm-5.3-flash": "GLM 5.3 Flash",
-    "qwen3.8-2.4t-a95b": "Qwen 3.8 Max\n2.4T-A95B",
+    "qwen3.8-2.4t-a95b": "Qwen 3.8\n2.4T-A95B",
 }
 
 DEFAULT_HARNESSES = ("codex", "claude-code", "hermes", "openclaw")
@@ -62,6 +65,7 @@ class ModelComparison:
     best_harness_mean: float
     best_wordle_harness: str
     best_chronicle_harness: str
+    best_geolocate_harness: str | None = None
 
 
 def _float_or_none(value: str | None) -> float | None:
@@ -91,6 +95,19 @@ def _load_clemscores(results_csv: Path) -> dict[str, float]:
         reader = csv.DictReader(file)
         if not reader.fieldnames:
             raise ValueError(f"No header found in {results_csv}")
+
+        # recovery tables include the full cohort and its unchanged vanilla reference
+        if "Recovered clemscore" in reader.fieldnames:
+            scores = {}
+            for row in reader:
+                config = row["Configuration"]
+                model = config.split("-with-", 1)[1]
+                vanilla = float(row["Vanilla clemscore"])
+                if model in scores and not math.isclose(scores[model], vanilla):
+                    raise ValueError(f"Inconsistent vanilla reference for {model}")
+                scores[model] = vanilla
+                scores[config] = float(row["Recovered clemscore"])
+            return scores
 
         name_column = reader.fieldnames[0]
         clemscore_column = next(
@@ -124,13 +141,22 @@ def build_comparison_data(
     *,
     model_order: Sequence[str] = DEFAULT_MODEL_ORDER,
     harnesses: Sequence[str] = DEFAULT_HARNESSES,
+    geolocate_results_csv: Path | None = None,
+    geolocate_only: bool = False,
 ) -> list[ModelComparison]:
-    """Calculate vanilla and per-game-best-harness means for the two games."""
+    """Average selected games equally, using the common vanilla model cohort."""
 
-    game_scores = {
+    if geolocate_only and geolocate_results_csv is None:
+        raise ValueError("Geolocate-only comparisons require a Geolocate results table")
+    game_scores = {} if geolocate_only else {
         "wordle": _load_clemscores(wordle_results_csv),
         "chronicle": _load_clemscores(chronicle_results_csv),
     }
+    if geolocate_results_csv is not None:
+        game_scores["geolocate"] = _load_clemscores(Path(geolocate_results_csv))
+        model_order = [model for model in model_order if model in game_scores["geolocate"]]
+    if not model_order:
+        raise ValueError("No models are shared by the selected game tables")
     comparisons: list[ModelComparison] = []
 
     for model in model_order:
@@ -142,7 +168,7 @@ def build_comparison_data(
                 f"Missing vanilla score for {model}: {', '.join(missing_vanilla)}"
             )
 
-        vanilla_mean = sum(scores[model] for scores in game_scores.values()) / 2
+        vanilla_mean = sum(scores[model] for scores in game_scores.values()) / len(game_scores)
         best_by_game: dict[str, tuple[str, float]] = {}
         for game, scores in game_scores.items():
             available = {
@@ -150,24 +176,24 @@ def build_comparison_data(
                 for harness in harnesses
                 if f"{harness}-with-{model}" in scores
             }
-            if not available:
-                raise ValueError(f"No harness scores found for {model} on {game}")
+            missing = [harness for harness in harnesses if harness not in available]
+            if missing:
+                raise ValueError(f"Missing harness scores for {model} on {game}: {', '.join(missing)}")
             best_harness = max(
                 available,
                 key=lambda harness: (available[harness], -harnesses.index(harness)),
             )
             best_by_game[game] = (best_harness, available[best_harness])
 
-        best_harness_mean = (
-            best_by_game["wordle"][1] + best_by_game["chronicle"][1]
-        ) / 2
+        best_harness_mean = sum(score for _, score in best_by_game.values()) / len(game_scores)
         comparisons.append(
             ModelComparison(
                 model=model,
                 vanilla_mean=vanilla_mean,
                 best_harness_mean=best_harness_mean,
-                best_wordle_harness=best_by_game["wordle"][0],
-                best_chronicle_harness=best_by_game["chronicle"][0],
+                best_wordle_harness=best_by_game.get("wordle", ("", 0))[0],
+                best_chronicle_harness=best_by_game.get("chronicle", ("", 0))[0],
+                best_geolocate_harness=best_by_game["geolocate"][0] if "geolocate" in best_by_game else None,
             )
         )
 
@@ -218,6 +244,8 @@ def plot_best_harness_vs_vanilla(
     model_labels: Mapping[str, str] = DEFAULT_MODEL_LABELS,
     harnesses: Sequence[str] = DEFAULT_HARNESSES,
     y_max: float = 100.0,
+    geolocate_results_csv: Path | str | None = None,
+    geolocate_only: bool = False,
 ) -> Path:
     """Write the grouped capability-threshold chart and return its path.
 
@@ -238,10 +266,12 @@ def plot_best_harness_vs_vanilla(
         chronicle_results_csv,
         model_order=model_order,
         harnesses=harnesses,
+        geolocate_results_csv=geolocate_results_csv,
+        geolocate_only=geolocate_only,
     )
 
-    width, height = 1900, 1080
-    left, right, top, bottom = 170, 70, 70, 260
+    width, height = (1100, 800) if geolocate_only else (1900, 1080)
+    left, right, top, bottom = 170, 70, 70, 170
     plot_left, plot_right = left, width - right
     plot_top, plot_bottom = top, height - bottom
     plot_width = plot_right - plot_left
@@ -262,7 +292,6 @@ def plot_best_harness_vs_vanilla(
     axis_font = _load_font(26)
     tick_font = _load_font(22)
     label_font = _load_font(24, bold=True)
-    small_font = _load_font(20)
     value_font = _load_font(22, bold=True)
 
     tick_step = 20 if y_max >= 80 else max(5, int(math.ceil(y_max / 5 / 5) * 5))
@@ -312,30 +341,15 @@ def plot_best_harness_vs_vanilla(
             font=label_font,
             fill=colors["text"],
         )
-        chronicle_harness = HARNESS_LABELS.get(
-            comparison.best_chronicle_harness,
-            comparison.best_chronicle_harness,
-        )
-        wordle_harness = HARNESS_LABELS.get(
-            comparison.best_wordle_harness,
-            comparison.best_wordle_harness,
-        )
-        _centered_multiline_text(
-            draw,
-            center_x,
-            plot_bottom + 92,
-            f"Chronicle: {chronicle_harness}\nWordle: {wordle_harness}",
-            font=small_font,
-            fill=colors["harness"],
-            spacing=3,
-        )
 
-    # Axis title, drawn vertically to preserve room for categorical labels.
+    # center the vertical axis label within the plotting area
     y_title = Image.new("RGBA", (plot_height, 50), (255, 255, 255, 0))
     y_draw = ImageDraw.Draw(y_title)
+    y_text = "Clemscore" if geolocate_only else "Average clemscore"
+    y_text_width = y_draw.textlength(y_text, font=axis_font)
     y_draw.text(
-        (0, 4),
-        "Average clemscore",
+        ((plot_height - y_text_width) / 2, 4),
+        y_text,
         font=axis_font,
         fill=colors["text"],
     )
@@ -345,7 +359,7 @@ def plot_best_harness_vs_vanilla(
     legend_y = height - 66
     legend_items = (
         (colors["vanilla"], "Vanilla model"),
-        (colors["harness"], "Best available harness per game"),
+        (colors["harness"], "Best harness" if geolocate_only else "Best available harness per game"),
     )
     legend_widths = []
     for _, text in legend_items:
@@ -372,6 +386,10 @@ def plot_best_harness_vs_vanilla(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--geolocate-results", type=Path, nargs="?", const=DEFAULT_RECOVERY_RESULTS,
+                        help="include Geolocate; defaults to remaining-guesses recovery when no path is supplied")
+    parser.add_argument("--geolocate-only", action="store_true",
+                        help="plot only Geolocate, using remaining-guesses recovery unless another table is supplied")
     parser.add_argument(
         "--wordle-results",
         type=Path,
@@ -388,10 +406,14 @@ def main() -> None:
         default=QUESTION_DIR / "plots" / "best_harness_vs_vanilla.png",
     )
     args = parser.parse_args()
+    if args.geolocate_only and args.geolocate_results is None:
+        args.geolocate_results = DEFAULT_RECOVERY_RESULTS
     output = plot_best_harness_vs_vanilla(
         wordle_results_csv=args.wordle_results,
         chronicle_results_csv=args.chronicle_results,
         output_path=args.output,
+        geolocate_results_csv=args.geolocate_results,
+        geolocate_only=args.geolocate_only,
     )
     print(output)
 

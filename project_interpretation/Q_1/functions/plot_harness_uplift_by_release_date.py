@@ -2,7 +2,8 @@
 
 Harness uplift is the difference between the best harness-supported score and
 the vanilla score. The best harness is selected independently for Chronicle
-and Wordle before the two game scores are averaged.
+and Wordle before the game scores are averaged. Optionally include Geolocate
+using only models evaluated on all three games.
 
 Release dates use one continuous, proportional calendar axis. The regression
 therefore represents elapsed time without categorical spacing or axis breaks.
@@ -20,6 +21,7 @@ from PIL import Image, ImageDraw
 
 from plot_best_harness_vs_vanilla import (
     DEFAULT_MODEL_LABELS,
+    DEFAULT_RECOVERY_RESULTS,
     REPOSITORY_DIR,
     QUESTION_DIR,
     _load_font,
@@ -31,7 +33,7 @@ from plot_best_harness_vs_vanilla import (
 # family release date used by the Google/Hugging Face release materials.
 # Dates are deliberately stored as ISO YYYY-MM-DD strings for easy auditing.
 MODEL_RELEASE_DATES = {
-    "gemma4-e4b-mlx": "2026-04-03",
+    "gemma4-e4b": "2026-04-03",
     "nemotron-3.5-30B-A3-reasoning": "2026-08-11",
     "gpt-oss-120b": "2025-08-05",
     "qwen3.8-27b-reasoning": "2026-08-14",
@@ -40,13 +42,27 @@ MODEL_RELEASE_DATES = {
 }
 
 RELEASE_DATE_SOURCES = {
-    "gemma4-e4b-mlx": "https://huggingface.co/blog/gemma4",
+    "gemma4-e4b": "https://huggingface.co/blog/gemma4",
     "nemotron-3.5-30B-A3-reasoning": "https://openrouter.ai/nvidia/nemotron-3.5-lightning",
     "gpt-oss-120b": "https://openrouter.ai/openai/gpt-oss-120b",
     "qwen3.8-27b-reasoning": "https://openrouter.ai/qwen/qwen3.8-27b",
     "glm-5.3-flash": "https://openrouter.ai/z-ai/glm-5.3-flash",
     "qwen3.8-2.4t-a95b": "https://openrouter.ai/qwen/qwen3.8-2.4t-a95b-20260812",
 }
+
+
+# month-only releases are positioned at mid-month rather than implying an exact day
+HARNESS_RELEASE_DATES = {"Claude Code": "2025-02-24", "Codex CLI": "2025-04-16",
+                         "OpenClaw (as Clawdbot)": "2025-11", "Hermes": "2026-02"}
+HARNESS_RELEASE_SOURCES = {
+    "Claude Code": "https://www.anthropic.com/news/claude-3-7-sonnet",
+    "Codex CLI": "https://openai.com/index/introducing-o3-and-o4-mini/",
+    "OpenClaw (as Clawdbot)": "https://openclaw.ai/blog/introducing-openclaw",
+    "Hermes": "https://openreview.net/pdf/f78c7628291a3b4253b1a75bfb09030d96107c34"}
+
+
+def _harness_release_date(value: str) -> date:
+    return date.fromisoformat(value + "-15" if len(value) == 7 else value)
 
 
 @dataclass(frozen=True)
@@ -61,6 +77,7 @@ def build_uplift_data(
     chronicle_results_csv: Path,
     *,
     release_dates: Mapping[str, str] = MODEL_RELEASE_DATES,
+    geolocate_results_csv: Path | None = None,
 ) -> list[UpliftObservation]:
     """Build chronologically ordered observations from the two eval tables."""
 
@@ -68,6 +85,7 @@ def build_uplift_data(
         wordle_results_csv,
         chronicle_results_csv,
         model_order=tuple(release_dates),
+        geolocate_results_csv=geolocate_results_csv,
     )
     observations = [
         UpliftObservation(
@@ -78,23 +96,6 @@ def build_uplift_data(
         for comparison in comparisons
     ]
     return sorted(observations, key=lambda observation: observation.release_date)
-
-
-def _persistent_positive_crossover(
-    observations: list[UpliftObservation],
-) -> tuple[int, int] | None:
-    """Return indices bracketing the first persistent negative-to-positive shift."""
-
-    for right_index in range(1, len(observations)):
-        before = observations[:right_index]
-        after = observations[right_index:]
-        if (
-            any(observation.uplift < 0 for observation in before)
-            and observations[right_index - 1].uplift < 0
-            and all(observation.uplift >= 0 for observation in after)
-        ):
-            return right_index - 1, right_index
-    return None
 
 
 def _least_squares_release_date(
@@ -138,6 +139,7 @@ def plot_harness_uplift_by_release_date(
     chronicle_results_csv: Path | str = REPOSITORY_DIR / "results_chronicle" / "results.csv",
     output_path: Path | str = QUESTION_DIR / "plots" / "harness_uplift_by_release_date.png",
     release_dates: Mapping[str, str] = MODEL_RELEASE_DATES,
+    geolocate_results_csv: Path | str | None = None,
 ) -> Path:
     """Write the RQ1 release-date/uplift plot and return its output path."""
 
@@ -146,6 +148,7 @@ def plot_harness_uplift_by_release_date(
         Path(wordle_results_csv),
         Path(chronicle_results_csv),
         release_dates=release_dates,
+        geolocate_results_csv=geolocate_results_csv,
     )
     if len(observations) < 2:
         raise ValueError("At least two model observations are required")
@@ -165,7 +168,7 @@ def plot_harness_uplift_by_release_date(
         "axis": "#677287",
         "positive": "#2C6EBA",
         "negative": "#E28E2C",
-        "cutoff": "#8C3E73",
+        "release": "#A0A7B3",
         "regression": "#268477",
     }
     image = Image.new("RGB", (width, height), colors["background"])
@@ -186,7 +189,10 @@ def plot_harness_uplift_by_release_date(
         return plot_bottom - ((value - y_min) / (y_max - y_min)) * plot_height
 
     ordinals = [observation.release_date.toordinal() for observation in observations]
-    first_ordinal, last_ordinal = ordinals[0], ordinals[-1]
+    model_first, model_last = ordinals[0], ordinals[-1]
+    harness_ordinals = [_harness_release_date(value).toordinal() for value in HARNESS_RELEASE_DATES.values()]
+    first_ordinal = min(model_first, *harness_ordinals) - 20
+    last_ordinal = max(model_last, *harness_ordinals) + 20
 
     def x_position(ordinal: float) -> float:
         fraction = (ordinal - first_ordinal) / (last_ordinal - first_ordinal)
@@ -219,78 +225,37 @@ def plot_harness_uplift_by_release_date(
         )
         for observation in observations
     ]
-    intercept, slope, r_squared = _least_squares_release_date(observations)
+    intercept, slope, _ = _least_squares_release_date(observations)
     def regression_y(ordinal: int) -> float:
-        return y_position(intercept + slope * (ordinal - first_ordinal))
+        return y_position(intercept + slope * (ordinal - model_first))
 
     draw.line(
         (
-            plot_left,
-            regression_y(first_ordinal),
-            plot_right,
-            regression_y(last_ordinal),
+            x_position(model_first),
+            regression_y(model_first),
+            x_position(model_last),
+            regression_y(model_last),
         ),
         fill=colors["regression"],
         width=6,
     )
-    regression_label = f"Least-squares trend over calendar date  (R² = {r_squared:.2f})"
-    regression_box = draw.textbbox((0, 0), regression_label, font=annotation_font)
-    draw.rectangle(
-        (
-            plot_left + 14,
-            plot_top + 8,
-            plot_left + 30 + regression_box[2] - regression_box[0],
-            plot_top + 40,
-        ),
-        fill=colors["background"],
-    )
-    draw.text(
-        (plot_left + 22, plot_top + 10),
-        regression_label,
-        font=annotation_font,
-        fill=colors["regression"],
-    )
 
-    crossover = _persistent_positive_crossover(observations)
-    if crossover is not None:
-        left_index, right_index = crossover
-        cutoff_ordinal = (
-            observations[left_index].release_date.toordinal()
-            + observations[right_index].release_date.toordinal()
-        ) / 2
-        cutoff_x = x_position(cutoff_ordinal)
-        dash_length, dash_gap = 18, 12
-        y = plot_top
-        while y < plot_bottom:
-            draw.line(
-                (cutoff_x, y, cutoff_x, min(y + dash_length, plot_bottom)),
-                fill=colors["cutoff"],
-                width=4,
-            )
-            y += dash_length + dash_gap
-        label = "Observed harness-leverage cutoff"
-        box = draw.textbbox((0, 0), label, font=annotation_font)
-        label_width = box[2] - box[0]
-        label_x = cutoff_x - label_width - 28
-        draw.rectangle(
-            (label_x - 8, plot_top + 8, cutoff_x - 12, plot_top + 40),
-            fill=colors["background"],
-        )
-        draw.text(
-            (label_x, plot_top + 10),
-            label,
-            font=annotation_font,
-            fill=colors["cutoff"],
-        )
+    for name, release in HARNESS_RELEASE_DATES.items():
+        x = x_position(_harness_release_date(release).toordinal())
+        draw.line((x, plot_top + 70, x, plot_bottom), fill=colors["release"], width=1)
+        label = f"{name}\n{release}" + (" (approx.)" if len(release) == 7 else "")
+        draw.multiline_text((x + 7, plot_top + 75), label, font=date_font, fill=colors["muted"], spacing=5)
 
     label_offsets = {
         "gpt-oss-120b": (16, -58),
-        "gemma4-e4b-mlx": (20, -10),
+        "gemma4-e4b": (20, -10),
         "nemotron-3.5-30B-A3-reasoning": (-315, -58),
         "qwen3.8-2.4t-a95b": (-325, -68),
         "qwen3.8-27b-reasoning": (20, -54),
         "glm-5.3-flash": (-170, -58),
     }
+    if len(observations) == 2:
+        label_offsets = {observations[0].model: (-300, -65), observations[1].model: (-260, 50)}
 
     for index, (observation, (x, y)) in enumerate(zip(observations, coordinates)):
         color = colors["positive"] if observation.uplift >= 0 else colors["negative"]
@@ -318,6 +283,8 @@ def plot_harness_uplift_by_release_date(
 
     # Calendar ticks on the continuous date axis.
     calendar_ticks = [
+        date(2025, 3, 1),
+        date(2025, 6, 1),
         date(2025, 8, 5),
         date(2025, 10, 1),
         date(2025, 12, 1),
@@ -375,6 +342,8 @@ def plot_harness_uplift_by_release_date(
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--geolocate-results", type=Path, nargs="?", const=DEFAULT_RECOVERY_RESULTS,
+                        help="include Geolocate; defaults to remaining-guesses recovery when no path is supplied")
     parser.add_argument(
         "--wordle-results",
         type=Path,
@@ -395,6 +364,7 @@ def main() -> None:
         wordle_results_csv=args.wordle_results,
         chronicle_results_csv=args.chronicle_results,
         output_path=args.output,
+        geolocate_results_csv=args.geolocate_results,
     )
     print(output)
 

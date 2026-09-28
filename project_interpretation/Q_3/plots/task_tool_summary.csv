@@ -1,0 +1,13 @@
+game,harness,episodes,captured,episodes_with_relevant_tools,relevant_calls,observed_percent
+wordle,codex,90,90,42,1445,46.666666666666664
+wordle,claude-code,90,90,30,308,33.333333333333336
+wordle,hermes,90,90,52,612,57.77777777777778
+wordle,openclaw,90,89,24,156,26.666666666666668
+chronicle,codex,90,90,33,291,36.666666666666664
+chronicle,claude-code,90,90,30,180,33.333333333333336
+chronicle,hermes,90,90,42,418,46.666666666666664
+chronicle,openclaw,90,90,28,177,31.11111111111111
+geolocate,codex,30,30,29,1000,96.66666666666667
+geolocate,claude-code,30,30,30,692,100.0
+geolocate,hermes,30,30,30,1026,100.0
+geolocate,openclaw,30,30,30,960,100.0
